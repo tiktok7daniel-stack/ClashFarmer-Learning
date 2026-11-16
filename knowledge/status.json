@@ -194,6 +194,31 @@
    "done": true,
    "rule": "reward_chest",
    "note_ar": "صندوق المكافأة مكتوب عليه Tap! — البوت بيخبط عليه بسرعة لحد ما يتفتح"
+  },
+  "captures/20261116_053431_main/006": {
+   "done": true,
+   "rule": "builder_menu",
+   "note_ar": "قايمة البنّاء (بنّاء واحد فاضي من 5) — فيها Wall x146 بـ 3 مليون وWall بـ 2 مليون"
+  },
+  "captures/20261116_053431_main/007": {
+   "done": true,
+   "rule": "wall_selected",
+   "note_ar": "شريط السور: Upgrade بالدهب وUpgrade بالإكسير (2 مليون كل واحد) — البوت بيقرا سعر كل زرار ويدوس اللي فلوسه تكفي، وعمره ما يدوس الأزرق (Wall Rings) ولا Upgrade More"
+  },
+  "captures/20261116_053431_main/008": {
+   "done": true,
+   "rule": "wall_selected",
+   "note_ar": "نفس شريط السور — اتعلّم"
+  },
+  "main_20261116_100928": {
+   "done": true,
+   "rule": "unable_to_attack",
+   "note_ar": "«Unable to attack Village! Try again later» — البوت بقى يدوس Return Home اللي تحت على الشمال ويكمّل"
+  },
+  "main_20261116_122014": {
+   "done": true,
+   "rule": "shop_offers",
+   "note_ar": "زرار Free! فتح المحل ومفيش هدية مجانية — البوت بيقفله من الـ X الأحمر، وعمره ما يدوس على أي سعر"
   }
  }
 }

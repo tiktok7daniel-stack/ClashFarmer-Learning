@@ -266,5 +266,67 @@
   },
   "note": "the grey Upgrade (hammer, price above it) is the normal upgrade; the blue one with a number uses a magic Hammer item: never",
   "source": "inbox/20261116/main_20261116_043118.jpg"
+ },
+ "wall_selected": {
+  "title_ar": "سور متعلّم عليه",
+  "how_to_open": [
+   [
+    "Build",
+    0.93,
+    0.94
+   ],
+   [
+    "a Wall row in the builder menu"
+   ]
+  ],
+  "buttons": {
+   "info": [
+    0.257,
+    0.74
+   ],
+   "select_row": [
+    0.366,
+    0.74
+   ],
+   "upgrade_more_NEVER": [
+    0.474,
+    0.74
+   ],
+   "upgrade_gold": [
+    0.257,
+    0.875
+   ],
+   "upgrade_elixir": [
+    0.366,
+    0.875
+   ],
+   "wall_rings_BLUE_NEVER": [
+    0.474,
+    0.875
+   ]
+  },
+  "note": "each Upgrade shows its price on the button (above the word); the blue one uses Wall Rings (magic item)",
+  "source": "captures/20261116_053431_main/007.jpg"
+ },
+ "shop_offers": {
+  "title_ar": "المحل — العروض",
+  "buttons": {
+   "close_x": [
+    0.961,
+    0.075
+   ]
+  },
+  "never_tap": "any price (€) / Gold Pass / bundles",
+  "source": "inbox/stuck/main_20261116_122014.jpg"
+ },
+ "unable_to_attack": {
+  "title_ar": "مش قادر يهاجم",
+  "buttons": {
+   "return_home": [
+    0.065,
+    0.885
+   ]
+  },
+  "source": "inbox/stuck/main_20261116_100928.jpg"
  }
 }
