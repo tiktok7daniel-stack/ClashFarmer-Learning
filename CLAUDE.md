@@ -13,3 +13,15 @@ Your job: teach the bot. Follow `LEARNING.md` exactly:
 6. Commit as "learn: N screens" and push to `main`. The bot fetches the rules by itself and rebuilds README.md.
 
 Write user-facing text (`note_ar`, `title_ar`) in Egyptian Arabic.
+
+## Capture sessions (`captures/<session>_<account>/`)
+
+The user can also play while the bot photographs every new screen ("capture mode"), review the pictures and
+send them here in one commit. Each session folder has `NNN.jpg` + `NNN.json` (OCR words, `tap` = where the user
+tapped before that screen, as fractions of the screen) and a `README.md` table.
+When the user says in the chat that they sent a capture:
+- go through every picture in order (the taps show the path the user took through the game)
+- add rules to `knowledge/screens.json` for screens the bot must be able to handle (popups, menus, buttons on the way)
+- for army screens, write the composition to `knowledge/armies.json` (`{"<name or session/NNN>": {"troops": {...}, "spells": {...}, "heroes": [...]}}`)
+- mark each picture in `knowledge/status.json` with key `captures/<session folder>/<NNN>` and an Egyptian-Arabic `note_ar`
+- reply to the user in Arabic with what was learned from each picture
