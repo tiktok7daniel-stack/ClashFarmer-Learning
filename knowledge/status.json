@@ -54,6 +54,31 @@
    "done": true,
    "rule": "village_home",
    "note_ar": "قريتك الرئيسية — البوت بقى يعرفها"
+  },
+  "main_20261116_042508": {
+   "done": true,
+   "rule": "village_home",
+   "note_ar": "قريتك الرئيسية — البوت بقى يعرفها"
+  },
+  "main_20261116_043118": {
+   "done": true,
+   "rule": "village_building_selected",
+   "note_ar": "قريتك وقايمة مبنى التاون هول مفتوحة — البوت هيقفل القايمة ويكمّل"
+  },
+  "main_20261116_043425": {
+   "done": true,
+   "rule": "village_home",
+   "note_ar": "قريتك — كان بيدوس Collect غلط، دلوقتي بيعرف إنها القرية"
+  },
+  "main_20261116_043506": {
+   "done": true,
+   "rule": "village_home",
+   "note_ar": "قريتك — نفس الشاشة، مش هيدوس عليها تاني"
+  },
+  "main_20261116_043744": {
+   "done": true,
+   "rule": "village_home",
+   "note_ar": "قريتك — نفس الشاشة، مش هيدوس عليها تاني"
   }
  }
 }

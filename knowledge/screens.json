@@ -2,6 +2,31 @@
  "version": 1,
  "screens": [
   {
+   "id": "village_building_selected",
+   "title": "Village with a building's menu open",
+   "title_ar": "القرية ومبنى متعلّم عليه (قايمة Info / Upgrade مفتوحة)",
+   "match_all": [
+    "info",
+    "upgrade",
+    "level"
+   ],
+   "match_any": [
+    "battle",
+    "build",
+    "inventory"
+   ],
+   "actions": [
+    {
+     "type": "close"
+    },
+    {
+     "type": "wait",
+     "s": 1
+    }
+   ],
+   "source": "inbox/20261116/main_20261116_043118.jpg"
+  },
+  {
    "id": "village_home",
    "title": "Home village",
    "title_ar": "القرية الرئيسية",
