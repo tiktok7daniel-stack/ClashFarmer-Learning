@@ -79,6 +79,101 @@
    "done": true,
    "rule": "village_home",
    "note_ar": "قريتك — نفس الشاشة، مش هيدوس عليها تاني"
+  },
+  "captures/20261116_051848_main/001": {
+   "done": true,
+   "rule": "battle_result_claim",
+   "note_ar": "نتيجة هجمة: فوز 66% ونجمة (561,331 ذهب و573,685 إكسير) — اللعبة بقت فيها «Claim Reward» بدل Return Home، والبوت بقى بيدوس عليها"
+  },
+  "captures/20261116_051848_main/002": {
+   "done": true,
+   "rule": "reward_chest",
+   "note_ar": "صندوق Common مقفول بـ 4 أقفال — البوت بيدوس في نصه لحد ما يتفتح"
+  },
+  "captures/20261116_051848_main/003": {
+   "done": true,
+   "rule": "reward_chest",
+   "note_ar": "الصندوق بعد أول دوسة (فاضل 3)"
+  },
+  "captures/20261116_051848_main/004": {
+   "done": true,
+   "rule": "reward_chest",
+   "note_ar": "الصندوق بعد دوستين (فاضل 2)"
+  },
+  "captures/20261116_051848_main/005": {
+   "done": true,
+   "rule": "reward_chest",
+   "note_ar": "الصندوق بعد 3 دوسات (فاضل 1)"
+  },
+  "captures/20261116_051848_main/007": {
+   "done": true,
+   "rule": "reward_item_continue",
+   "note_ar": "الجايزة: Power Pancakes راحت المخزن المؤقت — البوت بيدوس Continue ويرجع القرية"
+  },
+  "captures/20261116_051848_main/008": {
+   "done": true,
+   "rule": "village_home",
+   "note_ar": "قريتك (5 بنّائين فاضيين) — البوت بيعرفها"
+  },
+  "captures/20261116_051848_main/010": {
+   "done": true,
+   "rule": "builder_menu",
+   "note_ar": "قايمة البنّاء مفتوحة على اليمين: «المباني والأبطال» بأسعارها ووقتها، وتحت تابات البنّائين 5/5 والمساعد 1/2 والحداد"
+  },
+  "captures/20261116_051848_main/012": {
+   "done": true,
+   "rule": "builder_menu",
+   "note_ar": "قايمة البنّاء: باراك الظلام 12M، الباراك 11M، الورشة 8.5M، Wall x179 بـ 3M، وفيه Air Bomb و Bomb و Wall x4 جداد"
+  },
+  "captures/20261116_051848_main/013": {
+   "done": true,
+   "rule": "builder_menu",
+   "note_ar": "قايمة البنّاء (تكملة): أفخاخ ومدافع وقنابل بأسعارها"
+  },
+  "captures/20261116_051848_main/015": {
+   "done": true,
+   "rule": "builder_menu",
+   "note_ar": "قايمة البنّاء (تكملة): Eagle Artillery و Scattershot و Inferno و X-Bow وغيرهم"
+  },
+  "captures/20261116_051848_main/016": {
+   "done": true,
+   "rule": "builder_menu",
+   "note_ar": "قايمة البنّاء (تكملة): أبراج الرماة والمدافع و Town Hall بـ 13M"
+  },
+  "captures/20261116_051848_main/017": {
+   "done": true,
+   "rule": "army_screen",
+   "note_ar": "شاشة الجيش «My Army»: الأبطال الأربعة، 280/300 جيش، 11/11 تعاويذ، Battle Blimp، والكاستل 45/45 فيه قوات — وزرار Attack! تحت على اليمين"
+  },
+  "captures/20261116_051848_main/018": {
+   "done": true,
+   "rule": "army_screen",
+   "note_ar": "«Saved Recipes»: جيوشك المحفوظة meteor_golems و Army 2 و Army 3 — جنب كل واحد Use و Edit و Share. البوت بقى بيدوس Use على الجيش اللي تختاره"
+  },
+  "captures/20261116_051848_main/019": {
+   "done": true,
+   "rule": "army_screen",
+   "note_ar": "«Saved Recipes» (تكملة): Army 3 و Army 4"
+  },
+  "captures/20261116_051848_main/020": {
+   "done": true,
+   "rule": "season_pass",
+   "note_ar": "باس الموسم «Clash of Titans»: فيه جوايز مجانية Claim! (صندوق و 450,000 ذهب و 450,000 إكسير) — والعرض المدفوع €3.49 البوت عمره ما يدوس عليه"
+  },
+  "captures/20261116_051848_main/021": {
+   "done": true,
+   "rule": "season_pass",
+   "note_ar": "باس الموسم (تكملة): جوايز Claim! مجانية"
+  },
+  "captures/20261116_051848_main/022": {
+   "done": true,
+   "rule": "builder_base_village",
+   "note_ar": "القرية الليلية: Battle و Build و Shop، والبنّائين 2/2"
+  },
+  "captures/20261116_051848_main/023": {
+   "done": true,
+   "rule": "builder_menu",
+   "note_ar": "قايمة البنّاء في القرية الليلية: Gold Mine و Giant Cannon و Gold Storage و Army Camp..."
   }
  }
 }

@@ -1,0 +1,188 @@
+{
+ "village_home": {
+  "title_ar": "القرية الرئيسية",
+  "source": "captures/20261116_051848_main/008.jpg",
+  "buttons": {
+   "battle": [
+    0.06,
+    0.94
+   ],
+   "build (builder menu)": [
+    0.93,
+    0.94
+   ],
+   "free builders counter": [
+    0.91,
+    0.76
+   ],
+   "shop / free gems": [
+    0.95,
+    0.54
+   ],
+   "chat / clan": [
+    0.035,
+    0.5
+   ],
+   "trophies / leagues": [
+    0.035,
+    0.27
+   ],
+   "profile": [
+    0.05,
+    0.08
+   ],
+   "inventory / items": [
+    0.85,
+    0.94
+   ]
+  }
+ },
+ "builder_menu": {
+  "title_ar": "قايمة البنّاء (Buildings & Heroes)",
+  "how_to_open": [
+   "village_home.build"
+  ],
+  "source": "captures/20261116_051848_main/010.jpg",
+  "area": [
+   0.73,
+   0.0,
+   1.0,
+   0.93
+  ],
+  "close": [
+   0.982,
+   0.03
+  ],
+  "tabs": {
+   "builders": [
+    0.76,
+    0.95
+   ],
+   "builder apprentice": [
+    0.84,
+    0.95
+   ],
+   "blacksmith / forge": [
+    0.92,
+    0.95
+   ],
+   "other": [
+    0.98,
+    0.95
+   ]
+  },
+  "rows": "name + time + cost per row; 'New' = not built yet; scroll up for more"
+ },
+ "army_screen": {
+  "title_ar": "شاشة الجيش",
+  "how_to_open": [
+   "village_home.battle"
+  ],
+  "source": "captures/20261116_051848_main/017.jpg",
+  "tabs": {
+   "my army": [
+    0.2,
+    0.1
+   ],
+   "saved recipes": [
+    0.5,
+    0.1
+   ],
+   "cookbook": [
+    0.78,
+    0.1
+   ]
+  },
+  "buttons": {
+   "attack!": [
+    0.88,
+    0.89
+   ],
+   "boost army": [
+    0.73,
+    0.19
+   ],
+   "boost heroes": [
+    0.86,
+    0.19
+   ],
+   "close": [
+    0.965,
+    0.09
+   ]
+  }
+ },
+ "saved_recipes": {
+  "title_ar": "الجيوش المحفوظة",
+  "how_to_open": [
+   "village_home.battle",
+   "army_screen.saved recipes"
+  ],
+  "source": "captures/20261116_051848_main/018.jpg",
+  "rows": "recipe name on the left; on the right of the same row: Use (top), Edit, Share",
+  "use_x": 0.96
+ },
+ "battle_result": {
+  "title_ar": "نتيجة الهجمة",
+  "source": "captures/20261116_051848_main/001.jpg",
+  "buttons": {
+   "claim reward": [
+    0.5,
+    0.857
+   ]
+  }
+ },
+ "reward_chest": {
+  "title_ar": "صندوق المكافأة",
+  "source": "captures/20261116_051848_main/002.jpg",
+  "buttons": {
+   "chest (tap until open)": [
+    0.5,
+    0.55
+   ]
+  }
+ },
+ "reward_item": {
+  "title_ar": "الجايزة",
+  "source": "captures/20261116_051848_main/007.jpg",
+  "buttons": {
+   "continue": [
+    0.5,
+    0.875
+   ]
+  }
+ },
+ "season_pass": {
+  "title_ar": "باس الموسم",
+  "source": "captures/20261116_051848_main/020.jpg",
+  "buttons": {
+   "close": [
+    0.982,
+    0.06
+   ]
+  },
+  "never_tap": "the paid offer on the left (€ price)"
+ },
+ "builder_base_village": {
+  "title_ar": "القرية الليلية",
+  "source": "captures/20261116_051848_main/022.jpg",
+  "buttons": {
+   "battle": [
+    0.06,
+    0.94
+   ],
+   "build": [
+    0.93,
+    0.94
+   ],
+   "shop": [
+    0.94,
+    0.52
+   ],
+   "free builders": [
+    0.91,
+    0.76
+   ]
+  }
+ }
+}

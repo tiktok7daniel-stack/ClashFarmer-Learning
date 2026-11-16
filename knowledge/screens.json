@@ -2,6 +2,187 @@
  "version": 1,
  "screens": [
   {
+   "id": "battle_result_claim",
+   "title": "Battle results (Claim Reward)",
+   "title_ar": "نتيجة الهجمة (استلم المكافأة)",
+   "match_any": [
+    "claim reward",
+    "victory",
+    "defeat"
+   ],
+   "match_all": [
+    "bonus"
+   ],
+   "actions": [
+    {
+     "type": "tap_word",
+     "word": "claim",
+     "x": 0.5,
+     "y": 0.857
+    },
+    {
+     "type": "wait",
+     "s": 2
+    }
+   ],
+   "source": "captures/20261116_051848_main/001.jpg"
+  },
+  {
+   "id": "reward_chest",
+   "title": "Reward chest (tap until it opens)",
+   "title_ar": "صندوق المكافأة (يدوس عليه لحد ما يتفتح)",
+   "match_any": [
+    "common",
+    "rare",
+    "epic",
+    "legendary",
+    "mythic"
+   ],
+   "actions": [
+    {
+     "type": "tap",
+     "x": 0.5,
+     "y": 0.55
+    },
+    {
+     "type": "wait",
+     "s": 0.7
+    },
+    {
+     "type": "tap",
+     "x": 0.5,
+     "y": 0.55
+    },
+    {
+     "type": "wait",
+     "s": 0.7
+    },
+    {
+     "type": "tap",
+     "x": 0.5,
+     "y": 0.55
+    },
+    {
+     "type": "wait",
+     "s": 0.7
+    },
+    {
+     "type": "tap",
+     "x": 0.5,
+     "y": 0.55
+    },
+    {
+     "type": "wait",
+     "s": 1
+    }
+   ],
+   "source": "captures/20261116_051848_main/002.jpg"
+  },
+  {
+   "id": "reward_item_continue",
+   "title": "Reward item (Continue)",
+   "title_ar": "الجايزة اللي في الصندوق (Continue)",
+   "match_all": [
+    "continue"
+   ],
+   "match_any": [
+    "storage",
+    "delivered",
+    "item"
+   ],
+   "actions": [
+    {
+     "type": "tap_word",
+     "word": "continue",
+     "x": 0.5,
+     "y": 0.875
+    },
+    {
+     "type": "wait",
+     "s": 1.5
+    }
+   ],
+   "source": "captures/20261116_051848_main/007.jpg"
+  },
+  {
+   "id": "builder_menu",
+   "title": "Builder menu (Buildings & Heroes)",
+   "title_ar": "قايمة البنّاء (المباني والأبطال)",
+   "match_all": [
+    "buildings",
+    "heroes"
+   ],
+   "match_any": [
+    "upgrades",
+    "other"
+   ],
+   "no_action": true,
+   "actions": [],
+   "source": "captures/20261116_051848_main/010.jpg"
+  },
+  {
+   "id": "army_screen",
+   "title": "Army screen (My Army / Saved Recipes / Cookbook)",
+   "title_ar": "شاشة الجيش",
+   "match_any": [
+    "saved recipes",
+    "cookbook"
+   ],
+   "match_all": [
+    "army"
+   ],
+   "actions": [
+    {
+     "type": "tap",
+     "x": 0.965,
+     "y": 0.09
+    },
+    {
+     "type": "wait",
+     "s": 1
+    }
+   ],
+   "source": "captures/20261116_051848_main/017.jpg"
+  },
+  {
+   "id": "season_pass",
+   "title": "Season pass (Clash of Titans Season)",
+   "title_ar": "شاشة باس الموسم",
+   "match_any": [
+    "season",
+    "pass rewards",
+    "hoggy bank"
+   ],
+   "match_all": [
+    "perks"
+   ],
+   "actions": [
+    {
+     "type": "tap",
+     "x": 0.982,
+     "y": 0.06
+    },
+    {
+     "type": "wait",
+     "s": 1
+    }
+   ],
+   "source": "captures/20261116_051848_main/020.jpg"
+  },
+  {
+   "id": "builder_base_village",
+   "title": "Builder base village",
+   "title_ar": "القرية الليلية",
+   "match_all": [
+    "battle",
+    "build",
+    "shop"
+   ],
+   "no_action": true,
+   "actions": [],
+   "source": "captures/20261116_051848_main/022.jpg"
+  },
+  {
    "id": "village_building_selected",
    "title": "Village with a building's menu open",
    "title_ar": "القرية ومبنى متعلّم عليه (قايمة Info / Upgrade مفتوحة)",
