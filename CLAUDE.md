@@ -40,3 +40,8 @@ what the screen is or what goes wrong there — follow it. The user is walking t
 build `knowledge/map.json` = every screen / menu / button with where it is (x/y fractions) and how to reach it
 (`{"screen_id": {"title_ar", "how_to_open": [taps...], "buttons": {"name": [x, y]}, "source": "captures/..."}}`),
 then propose new bot features based on it.
+
+### Fingerprints (recognising screens by how they look)
+Every rule in `knowledge/screens.json` carries `fingerprints`: the dhash (capture_session.dhash, two ints as strings)
+of every picture marked with that rule. The bot uses them when it can't read the words on a screen (distance <= 26).
+After marking new pictures, recompute the fingerprints for all rules (pictures from status.json -> their rule).
