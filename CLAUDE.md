@@ -52,3 +52,10 @@ then propose new bot features based on it.
 Every rule in `knowledge/screens.json` carries `fingerprints`: the dhash (capture_session.dhash, two ints as strings)
 of every picture marked with that rule. The bot uses them when it can't read the words on a screen (distance <= 26).
 After marking new pictures, recompute the fingerprints for all rules (pictures from status.json -> their rule).
+
+### Screen model (the bot's brain)
+`knowledge/model.json` = features of every labelled picture; the bot recognises screens by look in ~1 ms with it
+(and also teaches itself while it plays). After marking new pictures, rebuild it from the bot's repo:
+`python scripts/build_screen_model.py <this repo>` — it prints the leave-one-out accuracy (fix wrong labels it
+reveals) and also writes the bot's shipped copy `assets/screen_model.json` (commit that in the bot repo too).
+

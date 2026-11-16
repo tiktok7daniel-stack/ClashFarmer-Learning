@@ -177,8 +177,8 @@
   },
   "captures/20261116_053431_main/001": {
    "done": true,
-   "rule": "reward_item_continue",
-   "note_ar": "جايزة «2x Battle Bake» راحت المخزن المؤقت — البوت بقى يعرف الشاشة دي من شكلها ويدوس Continue"
+   "rule": "battle_result_claim",
+   "note_ar": "شاشة النتيجة (Victory) وتحتها Claim Reward — كانت متعلّمة غلط على إنها Continue واتصلّحت؛ البوت بيدوس Claim على طول"
   },
   "captures/20261116_053431_main/002": {
    "done": true,
