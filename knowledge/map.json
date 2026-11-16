@@ -34,15 +34,23 @@
    "inventory / items": [
     0.85,
     0.94
+   ],
+   "builders_counter": [
+    0.89,
+    0.765
    ]
   }
  },
  "builder_menu": {
   "title_ar": "قايمة البنّاء (Buildings & Heroes)",
   "how_to_open": [
-   "village_home.build"
+   [
+    "Build",
+    0.93,
+    0.94
+   ]
   ],
-  "source": "captures/20261116_051848_main/010.jpg",
+  "source": "captures/20261116_051848_main/010-016",
   "area": [
    0.73,
    0.0,
@@ -71,7 +79,49 @@
     0.95
    ]
   },
-  "rows": "name + time + cost per row; 'New' = not built yet; scroll up for more"
+  "rows": {
+   "area": [
+    0.735,
+    0.06,
+    1.0,
+    0.885
+   ],
+   "name_x": 0.78,
+   "price_x": [
+    0.845,
+    0.979
+   ],
+   "icon_x": 0.987,
+   "row_height": 0.079,
+   "price_white": "can pay",
+   "price_red": "not enough",
+   "icon_yellow": "gold",
+   "icon_pink": "elixir",
+   "icon_black": "dark elixir",
+   "New": "new building to place (skipped)"
+  },
+  "buttons": {
+   "close": [
+    0.982,
+    0.03
+   ],
+   "tab_builders": [
+    0.766,
+    0.94
+   ],
+   "tab_goblin": [
+    0.83,
+    0.94
+   ],
+   "tab_blacksmith": [
+    0.898,
+    0.94
+   ],
+   "tab_pets": [
+    0.966,
+    0.94
+   ]
+  }
  },
  "army_screen": {
   "title_ar": "شاشة الجيش",
@@ -184,5 +234,37 @@
     0.76
    ]
   }
+ },
+ "building_selected": {
+  "title_ar": "مبنى متعلّم عليه (البار اللي تحت)",
+  "how_to_open": [
+   [
+    "tap a builder-menu row"
+   ]
+  ],
+  "buttons": {
+   "info": [
+    0.228,
+    0.79
+   ],
+   "upgrade_grey": [
+    0.337,
+    0.79
+   ],
+   "upgrade_blue_MAGIC_HAMMER_NEVER": [
+    0.445,
+    0.79
+   ],
+   "inventory": [
+    0.554,
+    0.79
+   ],
+   "change_scenery": [
+    0.664,
+    0.79
+   ]
+  },
+  "note": "the grey Upgrade (hammer, price above it) is the normal upgrade; the blue one with a number uses a magic Hammer item: never",
+  "source": "inbox/20261116/main_20261116_043118.jpg"
  }
 }
