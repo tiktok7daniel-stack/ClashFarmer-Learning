@@ -187,8 +187,13 @@
   },
   "captures/20261116_053431_main/003": {
    "done": true,
-   "rule": "battle_result_claim",
-   "note_ar": "شاشة النتيجة (Victory) وتحتها Claim Reward — البوت بيدوس عليها على طول وبعدين يفتح الصندوق ويكمّل"
+   "rule": "reward_item_continue",
+   "note_ar": "الجايزة اللي طلعت من الصندوق (Clan Castle Slice) وتحتها Continue — البوت بيدوس Continue على طول"
+  },
+  "captures/20261116_053431_main/004": {
+   "done": true,
+   "rule": "reward_chest",
+   "note_ar": "صندوق المكافأة مكتوب عليه Tap! — البوت بيخبط عليه بسرعة لحد ما يتفتح"
   }
  }
 }
