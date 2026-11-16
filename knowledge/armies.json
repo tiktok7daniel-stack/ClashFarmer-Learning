@@ -1,0 +1,35 @@
+{
+ "meteor_golems": {
+  "source": "inbox/20261115/main_20261115_152032.jpg",
+  "troops": {
+   "electro_dragon": {
+    "count": 9,
+    "level": 4
+   },
+   "balloon": {
+    "count": 2,
+    "level": 10
+   }
+  },
+  "spells": {
+   "lightning": {
+    "count": 11,
+    "level": 9
+   }
+  },
+  "siege": {
+   "battle_blimp": {
+    "count": 1,
+    "level": 4
+   }
+  },
+  "heroes": {
+   "barbarian_king": 62,
+   "archer_queen": "61 (busy / upgrading)",
+   "grand_warden": "33 (busy / upgrading)",
+   "royal_champion": 22
+  },
+  "housing": "280/300 troops, 11/11 spells, 1/3 siege, clan castle 0/45 empty",
+  "plan_ar": "إلكترو دراجون 9 + بالونتين، و11 برق علشان تكسر الدفاعات الجوية قبل ما الدراجون يدخلوا، والبليمب يوصّل الملك/البطلة جوه. ملاحظة: الكاستل فاضي و20 مكان جيش فاضيين."
+ }
+}

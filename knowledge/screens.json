@@ -1,4 +1,108 @@
 {
  "version": 1,
- "screens": []
+ "screens": [
+  {
+   "id": "village_home",
+   "title": "Home village",
+   "title_ar": "القرية الرئيسية",
+   "match_all": [
+    "battle",
+    "build"
+   ],
+   "match_any": [
+    "scenery",
+    "free",
+    "train",
+    "collect",
+    "full"
+   ],
+   "no_action": true,
+   "actions": [],
+   "source": "inbox/20261115/main_20261115_152621.jpg"
+  },
+  {
+   "id": "battle_running",
+   "title": "A battle in progress",
+   "title_ar": "هجمة شغالة",
+   "match_all": [
+    "surrender"
+   ],
+   "match_any": [
+    "battle ends",
+    "overall damage",
+    "available lo"
+   ],
+   "no_action": true,
+   "actions": [],
+   "source": "inbox/20261115/main_20261115_151727.jpg"
+  },
+  {
+   "id": "battle_result",
+   "title": "Battle results (Return Home)",
+   "title_ar": "نتيجة الهجمة",
+   "match_all": [
+    "troops expended"
+   ],
+   "match_any": [
+    "victory",
+    "defeat",
+    "home",
+    "bonus"
+   ],
+   "actions": [
+    {
+     "type": "tap_word",
+     "word": "return",
+     "x": 0.5,
+     "y": 0.856
+    },
+    {
+     "type": "wait",
+     "s": 2
+    }
+   ],
+   "source": "inbox/20261115/main_20261115_165108.jpg"
+  },
+  {
+   "id": "army_recipe_editor",
+   "title": "Army recipe editor",
+   "title_ar": "شاشة تعديل تشكيلة الجيش",
+   "match_all": [
+    "editing recipe"
+   ],
+   "actions": [
+    {
+     "type": "tap",
+     "x": 0.965,
+     "y": 0.091
+    },
+    {
+     "type": "wait",
+     "s": 1
+    }
+   ],
+   "source": "inbox/20261115/main_20261115_152032.jpg"
+  },
+  {
+   "id": "emulator_home",
+   "title": "LDPlayer home screen (the game is closed)",
+   "title_ar": "شاشة LDPlayer الرئيسية (اللعبة مقفولة)",
+   "match_all": [
+    "search gam"
+   ],
+   "actions": [
+    {
+     "type": "tap_word",
+     "word": "clash of clans",
+     "x": 0.361,
+     "y": 0.235
+    },
+    {
+     "type": "wait",
+     "s": 8
+    }
+   ],
+   "source": "inbox/20261115/main_20261115_160435.jpg"
+  }
+ ]
 }

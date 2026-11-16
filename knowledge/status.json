@@ -1,3 +1,59 @@
 {
- "items": {}
+ "items": {
+  "main_20261115_151727": {
+   "done": true,
+   "rule": "battle_running",
+   "note_ar": "هجمة شغالة (إلكترو دراجون + برق) — دي مش شاشة غريبة، البوت هيسيبها تخلص من غير ما يدوس حاجة"
+  },
+  "main_20261115_151757": {
+   "done": true,
+   "rule": "battle_running",
+   "note_ar": "نفس الهجمة الشغالة — البوت هيستنى لحد ما تخلص"
+  },
+  "main_20261115_151815": {
+   "done": true,
+   "rule": "village_home",
+   "note_ar": "دي قريتك الرئيسية بالشكل الجديد للعبة (زرار Battle و Build) — البوت بقى يعرفها ومش هيدوس فيها على حاجة"
+  },
+  "main_20261115_152032": {
+   "done": true,
+   "rule": "army_recipe_editor",
+   "note_ar": "شاشة تعديل تشكيلة meteor_golems — البوت هيقفلها بالـ X اللي فوق على اليمين. التشكيلة اتحفظت في armies.json"
+  },
+  "main_20261115_152621": {
+   "done": true,
+   "rule": "village_home",
+   "note_ar": "قريتك الرئيسية (بنّائين 2/5 فاضيين) — البوت بقى يعرفها من زرار Battle و Build وشريط الجواهر"
+  },
+  "main_20261115_160435": {
+   "done": true,
+   "rule": "emulator_home",
+   "note_ar": "اللعبة كانت مقفولة وظاهر سطح مكتب LDPlayer — البوت هيدوس على أيقونة Clash of Clans ويستنى تفتح"
+  },
+  "main_20261115_165108": {
+   "done": true,
+   "rule": "battle_result",
+   "note_ar": "نتيجة هجمة: فوز 55% ونجمة — البوت هيدوس Return Home ويرجع القرية"
+  },
+  "main_20261115_165147": {
+   "done": true,
+   "rule": "battle_result",
+   "note_ar": "نفس شاشة النتيجة — البوت هيدوس Return Home"
+  },
+  "main_20261115_171357": {
+   "done": true,
+   "rule": "emulator_home",
+   "note_ar": "سطح مكتب LDPlayer تاني (اللعبة مقفولة) — البوت هيفتح Clash of Clans"
+  },
+  "main_20261116_042331": {
+   "done": true,
+   "rule": "village_home",
+   "note_ar": "قريتك (بنّائين 5/5 فاضيين والمخازن مليانة) — كان بيدوس Collect غلط، دلوقتي بيعرف إنها القرية ومش هيدوس"
+  },
+  "main_20261116_042415": {
+   "done": true,
+   "rule": "village_home",
+   "note_ar": "قريتك الرئيسية — البوت بقى يعرفها"
+  }
+ }
 }
