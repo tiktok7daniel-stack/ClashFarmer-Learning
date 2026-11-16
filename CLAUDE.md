@@ -14,6 +14,13 @@ Your job: teach the bot. Follow `LEARNING.md` exactly:
 
 Write user-facing text (`note_ar`, `title_ar`) in Egyptian Arabic.
 
+## Screens the bot got stuck on (`inbox/stuck/`)
+
+When the bot stays on the same unknown screen for 20 s (or sees it 3 times, or its watchdog fires) it uploads it
+once to `inbox/stuck/<account>_<time>.jpg/.json` (the `.json` has the phase it was in and the words it read).
+These come first: they are what blocks the bot right now. Write a rule with safe actions that gets it out of
+that screen (back to the village or on with the task) and mark it like any inbox picture (key = file name).
+
 ## Capture sessions (`captures/<session>_<account>/`)
 
 The user can also play while the bot photographs every new screen ("capture mode"), review the pictures and
