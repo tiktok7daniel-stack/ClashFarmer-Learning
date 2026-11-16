@@ -1,0 +1,12 @@
+{
+ "t": 1794852568.7236245,
+ "account": "main",
+ "phase": "to_home",
+ "words": [
+  "Return",
+  "Home"
+ ],
+ "kind": "stuck",
+ "note": "the bot got stuck on this screen (auto)",
+ "bot_version": "5.15.7"
+}
