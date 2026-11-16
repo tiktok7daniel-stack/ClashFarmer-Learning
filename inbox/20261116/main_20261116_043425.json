@@ -1,0 +1,25 @@
+{
+ "t": 1794832465.7101805,
+ "shot": "20261116_043425.jpg",
+ "full": "full_20261116_043425.png",
+ "words": [
+  "'141",
+  "1473 360",
+  "ThewalkiNg dead",
+  "2146 333",
+  "503 000",
+  "70",
+  "Colllect",
+  "Ih 47M",
+  "Freel",
+  "575",
+  "1/2",
+  "Battle",
+  "Build"
+ ],
+ "phase": "start_game",
+ "action": "tap:Colllect",
+ "account": "main",
+ "bot_version": "5.6.2",
+ "kind": "screen"
+}
