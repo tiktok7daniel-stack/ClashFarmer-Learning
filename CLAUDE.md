@@ -72,3 +72,17 @@ After marking new pictures, recompute the fingerprints for all rules (pictures f
 `python scripts/build_screen_model.py <this repo>` — it prints the leave-one-out accuracy (fix wrong labels it
 reveals) and also writes the bot's shipped copy `assets/screen_model.json` (commit that in the bot repo too).
 
+## Battle pictures (`inbox/battles/`) — training the bot's eyes
+
+Every base the bot attacks is photographed once (zoomed out) and sent with what the vision model found (`.json`:
+`objects` = [name, conf, x1, y1, x2, y2] fractions). To correct one, write YOLO labels to
+`knowledge/battle_labels/<file name>.txt` (`class cx cy w h`, classes in CoC_Bot `assets/models/coc_vision.json`).
+Retrain from the bot's repo: `python scripts/train_vision.py <dataset> --pseudo <this repo>` (corrected pictures as
+they are, the rest labelled by the current model when it is sure) — ship the new ONNX only if its test mAP is higher.
+
+## Daily automatic learning
+
+A scheduled task runs this every night: everything in `inbox/` not yet in status.json (stuck first, then unknown,
+then the rest), rules + status + fingerprints, `scripts/build_screen_model.py` (both brains), commit and push here
+and the rebuilt `assets/screen_model.json` / `assets/screen_cnn.json` / `assets/screen_map.json` to the bot's branch.
+`knowledge/map.json` also drives the bot's navigator: keep button names and `how_to_open` exact.
