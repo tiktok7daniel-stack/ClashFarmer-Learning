@@ -1,0 +1,7 @@
+{
+ "t": 1794759137.0682542,
+ "type": "error",
+ "message": "ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine",
+ "account": "main",
+ "bot_version": "5.20.5"
+}
