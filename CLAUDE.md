@@ -86,3 +86,10 @@ A scheduled task runs this every night: everything in `inbox/` not yet in status
 then the rest), rules + status + fingerprints, `scripts/build_screen_model.py` (both brains), commit and push here
 and the rebuilt `assets/screen_model.json` / `assets/screen_cnn.json` / `assets/screen_map.json` to the bot's branch.
 `knowledge/map.json` also drives the bot's navigator: keep button names and `how_to_open` exact.
+
+## The program's errors (`inbox/errors/`)
+
+Every ERROR the bot logs is sent here: `<account>_<time>_<n>.json` (message, where, phase, full `trace`, bot_version)
++ the screenshot taken at that moment (`.jpg`) when there is one. The same error is sent once a day. These are bugs
+in the bot's code: fix them in CoC_Bot (branch ccr-d344ab20-onpy71), mark them in status.json (key = file name,
+`rule: "bug_fixed"` or `"no_fix_needed"`, note_ar = what it was and what changed).
