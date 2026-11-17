@@ -1,0 +1,12 @@
+{
+ "t": 1794865909.4729862,
+ "type": "error",
+ "level": "ERROR",
+ "message": "Deploying the remaining cards failed",
+ "detail": "IndexError: index 3 is out of bounds for axis 0 with size 3",
+ "where": "attacker.py:472 detect_troop_positions <- attacker.py:805 deploy_leftovers <- attacker.py:1000 complete_normal_attack",
+ "phase": "home_attack",
+ "shot": "20261116_135149.jpg",
+ "account": "main",
+ "bot_version": "5.21.1"
+}
