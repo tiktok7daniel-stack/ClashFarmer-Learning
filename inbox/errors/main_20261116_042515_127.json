@@ -1,0 +1,12 @@
+{
+ "t": 1794831915.4504454,
+ "type": "error",
+ "level": "ERROR",
+ "message": "Upgrader.get_home_builders: Failed to get home builders",
+ "detail": "",
+ "where": "upgrader.py:133 get_home_builders",
+ "phase": "commands",
+ "shot": "20261116_042515.jpg",
+ "account": "main",
+ "bot_version": "5.21.1"
+}
