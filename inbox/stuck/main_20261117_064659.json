@@ -1,0 +1,10 @@
+{
+ "t": 1794926819.304786,
+ "account": "main",
+ "phase": "free_gift",
+ "words": [],
+ "kind": "stuck",
+ "why": "screen",
+ "note": "the bot got stuck on this screen (auto)",
+ "bot_version": "5.21.0"
+}
