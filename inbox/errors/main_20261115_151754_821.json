@@ -1,0 +1,12 @@
+{
+ "t": 1794784674.3428688,
+ "type": "error",
+ "level": "ERROR",
+ "message": "Not in home base. Aborting home attack.",
+ "detail": "",
+ "where": "attacker.py:772 run_home_base",
+ "phase": "home_attack",
+ "shot": "20261115_151754.jpg",
+ "account": "main",
+ "bot_version": "5.21.1"
+}
