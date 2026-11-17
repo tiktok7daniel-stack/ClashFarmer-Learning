@@ -628,6 +628,35 @@
      "16954728008924160"
     ]
    ]
+  },
+  {
+   "id": "loading_screen",
+   "title": "Game loading screen — just wait",
+   "title_ar": "شاشة تحميل اللعبة — البوت بيستنى لحد ما تخلص",
+   "match_all": [
+    "loading"
+   ],
+   "match_any": [
+    "clash",
+    "clans",
+    "barbarian",
+    "giants",
+    "tip"
+   ],
+   "no_action": true,
+   "actions": [
+    {
+     "type": "wait",
+     "s": 3
+    }
+   ],
+   "source": "inbox/unknown/main_20261117_042412.jpg",
+   "fingerprints": [
+    [
+     "263783570382090668454106521613328251169",
+     "1476965691016640512"
+    ]
+   ]
   }
  ]
 }
