@@ -1,0 +1,11 @@
+{
+ "t": 1794762542.8693235,
+ "type": "error",
+ "level": "ERROR",
+ "message": "start_coc:",
+ "detail": "RuntimeError: Action 'shell' failed, and auto-reconnection timed out.",
+ "where": "utils.py:1586 _execute <- utils.py:1597 wrapper <- utils.py:684 start_coc",
+ "phase": "start_game",
+ "account": "main",
+ "bot_version": "5.20.5"
+}
