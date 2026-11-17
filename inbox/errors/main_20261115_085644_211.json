@@ -1,0 +1,12 @@
+{
+ "t": 1794761804.524665,
+ "type": "error",
+ "level": "ERROR",
+ "message": "Upgrader.home_lab_available: Failed to get home lab availability",
+ "detail": "",
+ "where": "upgrader.py:225 home_lab_available",
+ "phase": "home_upgrades",
+ "shot": "20261115_085644.jpg",
+ "account": "main",
+ "bot_version": "5.20.5"
+}
