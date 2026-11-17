@@ -1,0 +1,11 @@
+{
+ "t": 1794761614.971763,
+ "type": "error",
+ "level": "ERROR",
+ "message": "Failed to connect to ADB. Retrying...",
+ "detail": "",
+ "where": "utils.py:1741 connect",
+ "phase": "start_game",
+ "account": "main",
+ "bot_version": "5.20.5"
+}
