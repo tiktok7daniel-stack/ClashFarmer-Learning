@@ -1,0 +1,12 @@
+{
+ "t": 1794835885.7027438,
+ "type": "error",
+ "level": "ERROR",
+ "message": "read_resources:",
+ "detail": "RuntimeError: In ChooseQuantizationParams, min should be less than or equal to max",
+ "where": "_ops.py:1350 __call__ <- rnn.py:565 forward_impl <- rnn.py:606 forward_tensor",
+ "phase": "read_resources",
+ "shot": "20261116_053125.jpg",
+ "account": "main",
+ "bot_version": "5.21.1"
+}
