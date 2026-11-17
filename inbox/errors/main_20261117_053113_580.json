@@ -1,0 +1,13 @@
+{
+ "t": 1794922273.5474632,
+ "type": "error",
+ "level": "ERROR",
+ "message": "Deploying the remaining cards failed",
+ "detail": "IndexError: index 3 is out of bounds for axis 0 with size 3",
+ "where": "attacker.py:472 detect_troop_positions <- attacker.py:877 deploy_leftovers <- attacker.py:1139 complete_normal_attack",
+ "phase": "home_attack",
+ "trace": "Traceback (most recent call last):\n  File \"C:\\Users\\tikto\\OneDrive\\Desktop\\src\\attacker.py\", line 1139, in complete_normal_attack\n    try: self.deploy_leftovers(play)     # new heroes / troops the recording didn't know about\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\tikto\\OneDrive\\Desktop\\src\\attacker.py\", line 877, in deploy_leftovers\n    centers, _b, types, _c, _g = self.detect_troop_positions(frame, return_boundaries=True, return_types=True, return_counts=True)\n                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\tikto\\OneDrive\\Desktop\\src\\attacker.py\", line 472, in detect_troop_positions\n    while dists_discrete[remove_left] != dist_categories[2]: remove_left += 1\n          ~~~~~~~~~~~~~~^^^^^^^^^^^^^\nIndexError: index 3 is out of bounds for axis 0 with size 3\n",
+ "shot": "20261117_053113.jpg",
+ "account": "main",
+ "bot_version": "5.21.1"
+}
