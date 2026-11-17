@@ -160,8 +160,11 @@
     "heroes"
    ],
    "match_any": [
-    "upgrades",
-    "other"
+    "available",
+    "change scenery",
+    "new",
+    "other",
+    "upgrades"
    ],
    "no_action": true,
    "actions": [],
@@ -554,7 +557,8 @@
    "title_ar": "سور متعلّم عليه (شريط الترقية تحت)",
    "match_any": [
     "select row",
-    "upgrade more"
+    "upgrade more",
+    "select"
    ],
    "actions": [
     {
@@ -574,6 +578,12 @@
      "226823563678570587576969168278914920801",
      "1475870172659150880"
     ]
+   ],
+   "match_all": [
+    "wall (level",
+    "info",
+    "upgrade",
+    "select"
    ]
   }
  ]
