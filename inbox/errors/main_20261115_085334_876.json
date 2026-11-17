@@ -1,0 +1,12 @@
+{
+ "t": 1794761614.9571152,
+ "type": "error",
+ "level": "ERROR",
+ "message": "ADB device setup failed: device offline",
+ "detail": "",
+ "where": "utils.py:1654 connect_once",
+ "phase": "start_game",
+ "shot": "20261115_085334.jpg",
+ "account": "main",
+ "bot_version": "5.20.5"
+}
