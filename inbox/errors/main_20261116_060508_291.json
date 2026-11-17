@@ -1,0 +1,12 @@
+{
+ "t": 1794837908.8637552,
+ "type": "error",
+ "level": "ERROR",
+ "message": "Failed to open the attack (no Find a Match / Attack! button)",
+ "detail": "",
+ "where": "attacker.py:241 start_normal_attack",
+ "phase": "home_attack",
+ "shot": "20261116_060508.jpg",
+ "account": "main",
+ "bot_version": "5.21.1"
+}
