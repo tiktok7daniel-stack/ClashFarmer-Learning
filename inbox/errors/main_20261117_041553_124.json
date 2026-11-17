@@ -1,0 +1,12 @@
+{
+ "t": 1794917753.0204246,
+ "type": "error",
+ "level": "ERROR",
+ "message": "start_coc:",
+ "detail": "Exception: Failed to start CoC",
+ "where": "utils.py:1065 start_coc",
+ "phase": "home_attack",
+ "shot": "20261117_041553.jpg",
+ "account": "main",
+ "bot_version": "5.21.1"
+}
