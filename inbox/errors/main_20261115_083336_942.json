@@ -1,0 +1,12 @@
+{
+ "t": 1794760416.1679864,
+ "type": "error",
+ "level": "ERROR",
+ "message": "ADB device setup failed: minitouch did not work. see https://github.com/williamfzc/pyminitouch/issues/11",
+ "detail": "",
+ "where": "utils.py:1646 connect_once",
+ "phase": "start_game",
+ "shot": "20261115_083336.jpg",
+ "account": "main",
+ "bot_version": "5.20.5"
+}
