@@ -1,0 +1,28 @@
+{
+ "t": 1794908777.067206,
+ "account": "main",
+ "phase": "start_game",
+ "words": [
+  "Change Scenery",
+  "774 662",
+  "Thewalking dead",
+  "000 000",
+  "Top-Up [ Clash of Clans _",
+  "via",
+  "LDPlayer",
+  "494 300",
+  "Up to 20%0FF",
+  "150",
+  "0 Timcd",
+  "None",
+  "Freel",
+  "2/5",
+  "Up",
+  "Baftle",
+  "Build",
+  "Top"
+ ],
+ "kind": "stuck",
+ "note": "the bot got stuck on this screen (auto)",
+ "bot_version": "5.18.4"
+}
