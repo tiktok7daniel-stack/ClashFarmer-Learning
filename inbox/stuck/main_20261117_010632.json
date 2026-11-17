@@ -1,0 +1,9 @@
+{
+ "t": 1794906392.3625758,
+ "account": "main",
+ "phase": "upgrade_window",
+ "words": [],
+ "kind": "stuck",
+ "note": "the bot got stuck on this screen (auto)",
+ "bot_version": "5.18.4"
+}
