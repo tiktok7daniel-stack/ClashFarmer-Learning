@@ -1,0 +1,11 @@
+{
+ "t": 1794761619.389432,
+ "type": "error",
+ "level": "ERROR",
+ "message": "ADB device setup failed: Command '['C:\\\\Program Files\\\\BlueStacks_nxt\\\\HD-Adb.exe', '-s', '127.0.0.1:5555', 'shell', 'ls', '/data/local/tmp']' returned non-zero exit status 1.",
+ "detail": "",
+ "where": "utils.py:1654 connect_once",
+ "phase": "start_game",
+ "account": "main",
+ "bot_version": "5.20.5"
+}
