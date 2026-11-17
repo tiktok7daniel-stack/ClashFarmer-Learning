@@ -1,0 +1,12 @@
+{
+ "t": 1794762305.6891918,
+ "type": "error",
+ "level": "ERROR",
+ "message": "Failed to connect to ADB.",
+ "detail": "",
+ "where": "utils.py:1803 connect",
+ "phase": "start_game",
+ "shot": "20261115_090505.jpg",
+ "account": "main",
+ "bot_version": "5.20.5"
+}
