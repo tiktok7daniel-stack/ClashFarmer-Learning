@@ -25,6 +25,15 @@ Stuck pictures with phase `upgrade_window` are the window after "Upgrade" in the
 did not recognise: tell what button confirms the upgrade (never gems / magic items) and add it to
 `knowledge/map.json` -> `upgrade_window`; the bot code (`src/builder_menu.py` in CoC_Bot) may need the change too.
 
+## Screens the bot did not understand (`inbox/unknown/`)
+
+Automatic learning: the bot sends every unknown screen at once (when it stays still for a moment, max 60 a day) to
+`inbox/unknown/<account>_<time>.jpg/.json` and carries on. `why` in the `.json` says what it was:
+- `screen`: a game screen -> a rule in `knowledge/screens.json` like any inbox picture.
+- `vision`: a battle base the YOLO model hardly recognised -> label its buildings (YOLO format) for the next
+  training of `assets/models/coc_vision.onnx` (`scripts/train_vision.py` in CoC_Bot) and note it in status.json.
+Mark them in `knowledge/status.json` like any inbox picture (key = file name).
+
 ## Capture sessions (`captures/<session>_<account>/`)
 
 The user can also play while the bot photographs every new screen ("capture mode"), review the pictures and
