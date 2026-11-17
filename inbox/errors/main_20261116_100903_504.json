@@ -1,0 +1,12 @@
+{
+ "t": 1794852543.8900008,
+ "type": "error",
+ "level": "ERROR",
+ "message": "Failed to search for attack",
+ "detail": "",
+ "where": "attacker.py:274 start_normal_attack",
+ "phase": "home_attack",
+ "shot": "20261116_100903.jpg",
+ "account": "main",
+ "bot_version": "5.21.1"
+}
