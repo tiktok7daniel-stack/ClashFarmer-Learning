@@ -1,0 +1,18 @@
+{
+ "t": 1794918252.2592585,
+ "account": "main",
+ "phase": "start_game",
+ "words": [
+  "CLASH",
+  "CLANS",
+  "of",
+  "Loading",
+  "The Barbarian King is the strongest of them all. His",
+  "consumption of Dark Élixir Has Made Him grow bigger than",
+  "Giants."
+ ],
+ "kind": "unknown",
+ "why": "screen",
+ "note": "the bot didn't understand this screen and carried on (auto)",
+ "bot_version": "5.20.2"
+}
