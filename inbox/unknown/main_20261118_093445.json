@@ -1,0 +1,10 @@
+{
+ "t": 1795023285.4855962,
+ "account": "main",
+ "phase": "navigate:village_home",
+ "words": [],
+ "kind": "unknown",
+ "why": "screen",
+ "note": "the bot didn't understand this screen and carried on (auto)",
+ "bot_version": "5.24.2"
+}
