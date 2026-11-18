@@ -657,6 +657,32 @@
      "1476965691016640512"
     ]
    ]
+  },
+  {
+   "id": "rate_game_dialog",
+   "title": "Rate Clash of Clans (Google Play) — Never",
+   "title_ar": "طلب تقييم اللعبة على جوجل بلاي — البوت بيدوس NEVER (مش بيقيّم حاجة ومش هيظهر تاني)",
+   "match_all": [
+    "rate clash of clans"
+   ],
+   "match_any": [
+    "later",
+    "never",
+    "review"
+   ],
+   "actions": [
+    {
+     "type": "tap_word",
+     "word": "never",
+     "x": 0.62,
+     "y": 0.571
+    },
+    {
+     "type": "wait",
+     "s": 1
+    }
+   ],
+   "source": "inbox/stuck/N2_20261118_065148.jpg"
   }
  ]
 }
