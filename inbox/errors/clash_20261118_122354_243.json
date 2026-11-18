@@ -1,0 +1,31 @@
+{
+ "t": 1795033434.875079,
+ "type": "error",
+ "level": "ERROR",
+ "message": "Pre-flight problem: Clash Royale is not installed",
+ "detail": "",
+ "where": "utils.py:3505 preflight",
+ "phase": "",
+ "shot": "20261118_122354.jpg",
+ "log_tail": [
+  "12:23:38 INFO Clash Royale mode: the bot plays Clash Royale battles",
+  "12:23:38 INFO Pre-flight check: starting",
+  "12:23:38 INFO Text reader ready: PaddleOCR PP-OCRv6 medium on the graphics card (DirectML) (0.4s)",
+  "12:23:39 INFO device SM-N9860 online",
+  "12:23:39 INFO searching a usable port ...",
+  "12:23:41 INFO device 127.0.0.1:5559 bind to port 20848",
+  "12:23:41 INFO minitouch already existed in 127.0.0.1:5559",
+  "12:23:41 DEBU forward command: C:\\LDPlayer\\LDPlayer9\\adb.exe -s 127.0.0.1:5559 forward tcp:20848 localabstract:minitouch",
+  "12:23:41 DEBU output: b'20848\\r\\n'",
+  "12:23:41 INFO start minitouch: C:\\LDPlayer\\LDPlayer9\\adb.exe -s 127.0.0.1:5559 shell /data/local/tmp/minitouch",
+  "12:23:42 INFO minitouch running on port: 20848, pid: 5826",
+  "12:23:42 INFO max_contact: 10; max_x: 1279; max_y: 719; max_pressure: 2",
+  "12:23:43 INFO Connected to ADB.",
+  "12:23:43 INFO Pre-flight: emulator connected ✓",
+  "12:23:43 INFO Pre-flight: display 720x1280 240 DPI ✓",
+  "12:23:54 INFO Live screen on: the emulator streams its screen (720x1280), every look is instant",
+  "12:23:54 INFO Pre-flight: touch ready ✓"
+ ],
+ "account": "clash",
+ "bot_version": "5.29.2"
+}
