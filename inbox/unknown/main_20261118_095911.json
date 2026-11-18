@@ -1,0 +1,10 @@
+{
+ "t": 1795024751.7926245,
+ "account": "main",
+ "phase": "battle_base",
+ "words": [],
+ "kind": "unknown",
+ "why": "vision",
+ "note": "the bot didn't understand this vision and carried on (auto)",
+ "bot_version": "5.26.1"
+}
