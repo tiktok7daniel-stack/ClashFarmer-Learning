@@ -1,0 +1,33 @@
+{
+ "t": 1795039287.8805268,
+ "type": "error",
+ "level": "ERROR",
+ "message": "Pre-flight: the bot waits until this is fixed (checks again every 20 seconds)",
+ "detail": "",
+ "where": "utils.py:3506 preflight",
+ "phase": "",
+ "log_tail": [
+  "14:01:09 INFO Clash Royale mode: the bot plays Clash Royale battles",
+  "14:01:09 INFO Pre-flight check: starting",
+  "14:01:10 INFO device BVL-AN00 online",
+  "14:01:10 INFO searching a usable port ...",
+  "14:01:12 INFO device 127.0.0.1:5557 bind to port 20829",
+  "14:01:12 INFO minitouch already existed in 127.0.0.1:5557",
+  "14:01:12 DEBU forward command: C:\\LDPlayer\\LDPlayer9\\adb.exe -s 127.0.0.1:5557 forward tcp:20829 localabstract:minitouch",
+  "14:01:12 DEBU output: b'20829\\r\\n'",
+  "14:01:12 INFO start minitouch: C:\\LDPlayer\\LDPlayer9\\adb.exe -s 127.0.0.1:5557 shell /data/local/tmp/minitouch",
+  "14:01:13 INFO minitouch running on port: 20829, pid: 3325",
+  "14:01:13 INFO max_contact: 10; max_x: 1919; max_y: 1079; max_pressure: 2",
+  "14:01:13 INFO Connected to ADB.",
+  "14:01:13 INFO Pre-flight: emulator connected ✓",
+  "14:01:14 WARN Pre-flight: display is 1920x1080 240 DPI, needs 720x1280 240 DPI",
+  "14:01:14 INFO Pre-flight: display changed from 1920x1080 240 DPI to 720x1280 240 DPI",
+  "14:01:14 INFO Pre-flight: display 720x1280 240 DPI ✓",
+  "14:01:27 INFO Live screen on: the emulator streams its screen (720x1280), every look is instant",
+  "14:01:27 INFO Pre-flight: touch ready ✓",
+  "14:01:27 ERRO Pre-flight problem: Clash Royale is not installed",
+  "14:01:27 ERRO Pre-flight problem: screenshots are 1920x1080 (720x1280 needed)"
+ ],
+ "account": "N2",
+ "bot_version": "5.32.0"
+}
