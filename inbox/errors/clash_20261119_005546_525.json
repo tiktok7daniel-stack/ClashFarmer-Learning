@@ -1,0 +1,18 @@
+{
+ "t": 1795078546.0650141,
+ "type": "error",
+ "level": "ERROR",
+ "message": "Failed to connect to ADB.",
+ "detail": "",
+ "where": "utils.py:2535 connect",
+ "phase": "",
+ "shot": "20261119_005546.jpg",
+ "log_tail": [
+  "00:53:44 INFO Clash Royale mode: the bot plays Clash Royale battles",
+  "00:53:44 INFO Pre-flight check: starting",
+  "00:55:11 DEBU ADB device setup failed: closed",
+  "00:55:11 INFO Waiting for the emulator to finish starting..."
+ ],
+ "account": "clash",
+ "bot_version": "5.36.1"
+}
