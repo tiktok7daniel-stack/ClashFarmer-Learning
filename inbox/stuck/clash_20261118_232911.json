@@ -1,0 +1,12 @@
+{
+ "t": 1795073351.160864,
+ "account": "clash",
+ "phase": "royale",
+ "words": [
+  "7"
+ ],
+ "kind": "stuck",
+ "why": "screen",
+ "note": "the bot got stuck on this screen (auto)",
+ "bot_version": "5.32.2"
+}
