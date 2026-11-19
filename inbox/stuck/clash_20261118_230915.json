@@ -1,0 +1,15 @@
+{
+ "t": 1795072156.059979,
+ "account": "clash",
+ "phase": "royale",
+ "words": [
+  "trainer eari",
+  "royal trainers",
+  "280",
+  "you are under attack!"
+ ],
+ "kind": "stuck",
+ "why": "screen",
+ "note": "the bot got stuck on this screen (auto)",
+ "bot_version": "5.32.1"
+}
