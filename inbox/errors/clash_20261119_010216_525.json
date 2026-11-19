@@ -1,0 +1,27 @@
+{
+ "t": 1795078936.7572398,
+ "type": "error",
+ "level": "ERROR",
+ "message": "Failed to connect to ADB.",
+ "detail": "",
+ "where": "utils.py:2535 connect",
+ "phase": "",
+ "shot": "20261119_010216.jpg",
+ "log_tail": [
+  "00:53:44 INFO Clash Royale mode: the bot plays Clash Royale battles",
+  "00:53:44 INFO Pre-flight check: starting",
+  "00:55:11 DEBU ADB device setup failed: closed",
+  "00:55:11 INFO Waiting for the emulator to finish starting...",
+  "00:55:46 ERRO Failed to connect to ADB.",
+  "00:57:48 INFO Pre-flight: emulator connected ✓",
+  "00:57:50 INFO Waiting for the emulator to finish starting...",
+  "00:58:50 ERRO Failed to connect to ADB.",
+  "00:58:52 INFO Waiting for the emulator to finish starting...",
+  "00:59:52 ERRO Failed to connect to ADB.",
+  "00:59:52 ERRO Pre-flight problem: RuntimeError: Device is not connected and auto-reconnect failed.",
+  "00:59:52 ERRO Pre-flight: the bot waits until this is fixed (checks again every 20 seconds)",
+  "01:00:14 INFO Waiting for the emulator to finish starting..."
+ ],
+ "account": "clash",
+ "bot_version": "5.36.1"
+}
