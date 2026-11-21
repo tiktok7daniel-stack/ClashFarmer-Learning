@@ -93,3 +93,12 @@ Every ERROR the bot logs is sent here: `<account>_<time>_<n>.json` (message, whe
 + the screenshot taken at that moment (`.jpg`) when there is one. The same error is sent once a day. These are bugs
 in the bot's code: fix them in CoC_Bot (branch ccr-d344ab20-onpy71), mark them in status.json (key = file name,
 `rule: "bug_fixed"` or `"no_fix_needed"`, note_ar = what it was and what changed).
+
+## Clash Royale card pages (`inbox/royale_cards/<account>_<time>/`)
+
+The bot opens every card's Info page (deck + collection) and sends `NNN_<card>[_evolution|_hero].jpg/.json`
+(`page` = what it read: name, level, rarity, type, form, cycles, ability; `words` = all OCR words) + `cards.json`.
+Check each page against the picture, fix what was read wrong, write the account's cards to
+`knowledge/royale_my_cards.json` (form, level, evo cycles, hero ability + cost), and for a card the bot does not
+know (no `name`) find out what it is and add it to CoC_Bot (`assets/royale/cards.json` + its picture in
+`assets/royale/cards/`). Mark the folder in status.json (key = folder name).
