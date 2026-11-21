@@ -75,5 +75,25 @@
       "note_ar": "اللوج لفل 13"
     }
   },
-  "source": "user screenshots 104-112"
+  "source": "user screenshots 104-112",
+  "deck_2v2": {
+    "cards": [
+      "witch",
+      "bowler",
+      "cannon",
+      "arrows",
+      "spear_goblins",
+      "goblin_barrel",
+      "valkyrie",
+      "the_log"
+    ],
+    "slots": {
+      "witch": "evolution",
+      "bowler": "hero",
+      "cannon": "evolution"
+    },
+    "level_shown": 11,
+    "note_ar": "الديك اللي صاحب الحساب بيلعب بيه في 2v2: ويتش متطورة، بولر هيرو، كانون متطور، أروز، سبير جوبلنز، جوبلن باريل، فالكيري، لوج (كلهم لفل 11 في الحدث)",
+    "source": "user screenshot 119"
+  }
 }
