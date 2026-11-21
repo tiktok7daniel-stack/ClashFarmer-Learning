@@ -1,0 +1,22 @@
+{
+ "capture": 39.2,
+ "look": 77.8,
+ "decide": 15.7,
+ "engine": 2.0,
+ "tap": 2.5,
+ "loop": 136.0,
+ "moments": 286,
+ "worst_loop_ms": 9969,
+ "plays": 5,
+ "screen_by": "live",
+ "big_model_ms": 78,
+ "engine_on": true,
+ "version": "5.73.0",
+ "seconds": 53,
+ "full_elixir_s": 0,
+ "engine_dropped": 0,
+ "engine_why": {
+  "no card ready": 69,
+  "thought": 20
+ }
+}
