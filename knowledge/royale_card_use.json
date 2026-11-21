@@ -1,0 +1,635 @@
+{
+ "note_ar": "إزاي كل كارت بيتلعب ومكانه فين — البوت بيراجع كل حركة على الجدول ده قبل ما يلعبها (royale/card_use.py في CoC_Bot). الكروت بتاعتك (own) مكتوبة بالتفصيل.",
+ "kinds_ar": {
+  "spell_utility": "سبيل مساعد (فريز/ريج/كلون/تورنادو): مع هجمة أو دفاع، مش لوحده",
+  "cycle_spirit": "سبيرت رخيص: على السرب أو مع الهجمة",
+  "win_bridge": "كارت هجوم سريع: عند البريدج",
+  "win_tank": "تانك هجوم: من الضهر أو عند البريدج",
+  "win_spell": "بيترمي على برج الخصم",
+  "siege": "X-Bow / Mortar: قدام النهر في نصك",
+  "building_defense": "مبنى دفاع: في النص يشد العدو",
+  "building_spawn": "مبنى بيطلع جيش: في الضهر",
+  "support_ranged": "دعم من بعيد: ورا التانك أو ورا البرج",
+  "support_splash": "دعم سبلاش: ورا/جنب التانك، في الدفاع على السرب",
+  "mini_tank_splash": "ميني تانك: على العدو في الدفاع، قدام الدعم في الهجوم",
+  "mini_tank": "ميني تانك / قاتل تانكات: على العدو في الدفاع",
+  "swarm_air": "سرب جوي: على اللي ما بيضربش جو",
+  "swarm_ranged": "سرب بيضرب من بعيد: ورا البرج",
+  "swarm_ground": "سرب أرضي: على التانك اللي ما عندوش سبلاش",
+  "spell_small": "سبيل صغير: على الأسراب بس",
+  "spell_big": "سبيل كبير: على أكتر من كارت أو يخلّص برج",
+  "troop": "كارت عادي"
+ },
+ "cards": {
+  "archer_queen": {
+   "kind": "support_ranged",
+   "note_ar": "دعم من بعيد: ورا التانك أو ورا البرج",
+   "own": false
+  },
+  "archers": {
+   "kind": "support_ranged",
+   "note_ar": "دعم من بعيد: ورا التانك أو ورا البرج",
+   "own": false
+  },
+  "arrows": {
+   "kind": "spell_small",
+   "note_ar": "الأسهم: على سرب أعداء ضعاف (هياكل، مينيونز، عفاريت، خفافيش) بس، مش على كارت تقيل ولا مكان فاضي.",
+   "own": true
+  },
+  "baby_dragon": {
+   "kind": "support_splash",
+   "note_ar": "دعم سبلاش: ورا/جنب التانك، في الدفاع على السرب",
+   "own": false
+  },
+  "balloon": {
+   "kind": "win_bridge",
+   "note_ar": "كارت هجوم سريع: عند البريدج",
+   "own": false
+  },
+  "bandit": {
+   "kind": "mini_tank",
+   "note_ar": "ميني تانك / قاتل تانكات: على العدو في الدفاع",
+   "own": false
+  },
+  "barbarian_barrel": {
+   "kind": "spell_small",
+   "note_ar": "سبيل صغير: على الأسراب بس",
+   "own": false
+  },
+  "barbarian_hut": {
+   "kind": "building_spawn",
+   "note_ar": "مبنى بيطلع جيش: في الضهر",
+   "own": false
+  },
+  "barbarians": {
+   "kind": "swarm_ground",
+   "note_ar": "سرب أرضي: على التانك اللي ما عندوش سبلاش",
+   "own": false
+  },
+  "bats": {
+   "kind": "swarm_air",
+   "note_ar": "الخفافيش: رخيصة وسريعة. في الدفاع على العدو اللي ما بيضربش جو (زي الميني بيكا والهوج)؛ في الهجوم ورا كارت الهجوم. بتموت من اللوج/الأسهم/الزاب.",
+   "own": true
+  },
+  "battle_healer": {
+   "kind": "mini_tank_splash",
+   "note_ar": "ميني تانك: على العدو في الدفاع، قدام الدعم في الهجوم",
+   "own": false
+  },
+  "battle_ram": {
+   "kind": "win_bridge",
+   "note_ar": "كارت هجوم سريع: عند البريدج",
+   "own": false
+  },
+  "berserker": {
+   "kind": "mini_tank",
+   "note_ar": "ميني تانك / قاتل تانكات: على العدو في الدفاع",
+   "own": false
+  },
+  "bomb_tower": {
+   "kind": "building_defense",
+   "note_ar": "مبنى دفاع: في النص يشد العدو",
+   "own": false
+  },
+  "bomber": {
+   "kind": "support_splash",
+   "note_ar": "دعم سبلاش: ورا/جنب التانك، في الدفاع على السرب",
+   "own": false
+  },
+  "boss_bandit": {
+   "kind": "mini_tank",
+   "note_ar": "ميني تانك / قاتل تانكات: على العدو في الدفاع",
+   "own": false
+  },
+  "bowler": {
+   "kind": "support_splash",
+   "note_ar": "البولر: تقيل وبيرمي كور بتزق الأعداء. ممتاز في الدفاع قدام الأسراب والأرضي؛ في الهجوم بيمشي ورا أو جنب كارت الهجوم.",
+   "own": true
+  },
+  "cannon": {
+   "kind": "building_defense",
+   "note_ar": "الكانون: مبنى دفاع. بيتحط في النص (قدام الكينج بشوية) عشان يشد الهوج والجاينت بعيد عن البرج؛ ما بيتحطش من غير سبب ولا في الضهر.",
+   "own": true
+  },
+  "cannon_cart": {
+   "kind": "support_ranged",
+   "note_ar": "دعم من بعيد: ورا التانك أو ورا البرج",
+   "own": false
+  },
+  "clone": {
+   "kind": "spell_utility",
+   "note_ar": "سبيل مساعد (فريز/ريج/كلون/تورنادو): مع هجمة أو دفاع، مش لوحده",
+   "own": false
+  },
+  "dark_prince": {
+   "kind": "mini_tank_splash",
+   "note_ar": "ميني تانك: على العدو في الدفاع، قدام الدعم في الهجوم",
+   "own": false
+  },
+  "dart_goblin": {
+   "kind": "support_ranged",
+   "note_ar": "دعم من بعيد: ورا التانك أو ورا البرج",
+   "own": false
+  },
+  "earthquake": {
+   "kind": "spell_big",
+   "note_ar": "سبيل كبير: على أكتر من كارت أو يخلّص برج",
+   "own": false
+  },
+  "electro_dragon": {
+   "kind": "support_ranged",
+   "note_ar": "دعم من بعيد: ورا التانك أو ورا البرج",
+   "own": false
+  },
+  "electro_giant": {
+   "kind": "win_tank",
+   "note_ar": "تانك هجوم: من الضهر أو عند البريدج",
+   "own": false
+  },
+  "electro_spirit": {
+   "kind": "cycle_spirit",
+   "note_ar": "سبيرت رخيص: على السرب أو مع الهجمة",
+   "own": false
+  },
+  "electro_wizard": {
+   "kind": "support_ranged",
+   "note_ar": "دعم من بعيد: ورا التانك أو ورا البرج",
+   "own": false
+  },
+  "elite_barbarians": {
+   "kind": "mini_tank",
+   "note_ar": "ميني تانك / قاتل تانكات: على العدو في الدفاع",
+   "own": false
+  },
+  "elixir_collector": {
+   "kind": "building_spawn",
+   "note_ar": "مبنى بيطلع جيش: في الضهر",
+   "own": false
+  },
+  "elixir_golem": {
+   "kind": "win_tank",
+   "note_ar": "تانك هجوم: من الضهر أو عند البريدج",
+   "own": false
+  },
+  "executioner": {
+   "kind": "support_splash",
+   "note_ar": "دعم سبلاش: ورا/جنب التانك، في الدفاع على السرب",
+   "own": false
+  },
+  "fire_spirit": {
+   "kind": "cycle_spirit",
+   "note_ar": "سبيرت رخيص: على السرب أو مع الهجمة",
+   "own": false
+  },
+  "fireball": {
+   "kind": "spell_big",
+   "note_ar": "سبيل كبير: على أكتر من كارت أو يخلّص برج",
+   "own": false
+  },
+  "firecracker": {
+   "kind": "support_splash",
+   "note_ar": "دعم سبلاش: ورا/جنب التانك، في الدفاع على السرب",
+   "own": false
+  },
+  "fisherman": {
+   "kind": "mini_tank",
+   "note_ar": "ميني تانك / قاتل تانكات: على العدو في الدفاع",
+   "own": false
+  },
+  "flying_machine": {
+   "kind": "support_ranged",
+   "note_ar": "دعم من بعيد: ورا التانك أو ورا البرج",
+   "own": false
+  },
+  "freeze": {
+   "kind": "spell_utility",
+   "note_ar": "سبيل مساعد (فريز/ريج/كلون/تورنادو): مع هجمة أو دفاع، مش لوحده",
+   "own": false
+  },
+  "furnace": {
+   "kind": "building_defense",
+   "note_ar": "مبنى دفاع: في النص يشد العدو",
+   "own": false
+  },
+  "giant": {
+   "kind": "win_tank",
+   "note_ar": "تانك هجوم: من الضهر أو عند البريدج",
+   "own": false
+  },
+  "giant_skeleton": {
+   "kind": "mini_tank",
+   "note_ar": "ميني تانك / قاتل تانكات: على العدو في الدفاع",
+   "own": false
+  },
+  "giant_snowball": {
+   "kind": "spell_small",
+   "note_ar": "سبيل صغير: على الأسراب بس",
+   "own": false
+  },
+  "goblin_barrel": {
+   "kind": "win_spell",
+   "note_ar": "برميل العفاريت: بيترمي على برج الخصم على طول. أحسن وقت بعد ما الخصم يصرف اللوج/الأسهم.",
+   "own": true
+  },
+  "goblin_cage": {
+   "kind": "building_spawn",
+   "note_ar": "مبنى بيطلع جيش: في الضهر",
+   "own": false
+  },
+  "goblin_curse": {
+   "kind": "spell_utility",
+   "note_ar": "سبيل مساعد (فريز/ريج/كلون/تورنادو): مع هجمة أو دفاع، مش لوحده",
+   "own": false
+  },
+  "goblin_demolisher": {
+   "kind": "support_splash",
+   "note_ar": "دعم سبلاش: ورا/جنب التانك، في الدفاع على السرب",
+   "own": false
+  },
+  "goblin_drill": {
+   "kind": "win_spell",
+   "note_ar": "بيترمي على برج الخصم",
+   "own": false
+  },
+  "goblin_gang": {
+   "kind": "swarm_ground",
+   "note_ar": "سرب أرضي: على التانك اللي ما عندوش سبلاش",
+   "own": false
+  },
+  "goblin_giant": {
+   "kind": "win_tank",
+   "note_ar": "تانك هجوم: من الضهر أو عند البريدج",
+   "own": false
+  },
+  "goblin_hut": {
+   "kind": "building_spawn",
+   "note_ar": "مبنى بيطلع جيش: في الضهر",
+   "own": false
+  },
+  "goblin_machine": {
+   "kind": "mini_tank",
+   "note_ar": "ميني تانك / قاتل تانكات: على العدو في الدفاع",
+   "own": false
+  },
+  "goblins": {
+   "kind": "swarm_ground",
+   "note_ar": "سرب أرضي: على التانك اللي ما عندوش سبلاش",
+   "own": false
+  },
+  "goblinstein": {
+   "kind": "win_tank",
+   "note_ar": "تانك هجوم: من الضهر أو عند البريدج",
+   "own": false
+  },
+  "golden_knight": {
+   "kind": "mini_tank",
+   "note_ar": "ميني تانك / قاتل تانكات: على العدو في الدفاع",
+   "own": false
+  },
+  "golem": {
+   "kind": "win_tank",
+   "note_ar": "تانك هجوم: من الضهر أو عند البريدج",
+   "own": false
+  },
+  "graveyard": {
+   "kind": "win_spell",
+   "note_ar": "بيترمي على برج الخصم",
+   "own": false
+  },
+  "guards": {
+   "kind": "swarm_ground",
+   "note_ar": "سرب أرضي: على التانك اللي ما عندوش سبلاش",
+   "own": false
+  },
+  "heal_spirit": {
+   "kind": "spell_utility",
+   "note_ar": "سبيل مساعد (فريز/ريج/كلون/تورنادو): مع هجمة أو دفاع، مش لوحده",
+   "own": false
+  },
+  "hog_rider": {
+   "kind": "win_bridge",
+   "note_ar": "الهوج: كارت الهجوم. بيتحط عند البريدج (أول النهر) في الحارة اللي البرج فيها أضعف، وأحسن وقت بعد ما الخصم يصرف الكانون/المبنى بتاعه أو وقت ما معاه إكسير قليل.",
+   "own": true
+  },
+  "hunter": {
+   "kind": "support_splash",
+   "note_ar": "دعم سبلاش: ورا/جنب التانك، في الدفاع على السرب",
+   "own": false
+  },
+  "ice_golem": {
+   "kind": "mini_tank",
+   "note_ar": "ميني تانك / قاتل تانكات: على العدو في الدفاع",
+   "own": false
+  },
+  "ice_spirit": {
+   "kind": "cycle_spirit",
+   "note_ar": "سبيرت رخيص: على السرب أو مع الهجمة",
+   "own": false
+  },
+  "ice_wizard": {
+   "kind": "support_ranged",
+   "note_ar": "دعم من بعيد: ورا التانك أو ورا البرج",
+   "own": false
+  },
+  "inferno_dragon": {
+   "kind": "support_ranged",
+   "note_ar": "دعم من بعيد: ورا التانك أو ورا البرج",
+   "own": false
+  },
+  "inferno_tower": {
+   "kind": "building_defense",
+   "note_ar": "مبنى دفاع: في النص يشد العدو",
+   "own": false
+  },
+  "knight": {
+   "kind": "mini_tank",
+   "note_ar": "ميني تانك / قاتل تانكات: على العدو في الدفاع",
+   "own": false
+  },
+  "lava_hound": {
+   "kind": "win_tank",
+   "note_ar": "تانك هجوم: من الضهر أو عند البريدج",
+   "own": false
+  },
+  "lightning": {
+   "kind": "spell_big",
+   "note_ar": "سبيل كبير: على أكتر من كارت أو يخلّص برج",
+   "own": false
+  },
+  "little_prince": {
+   "kind": "support_ranged",
+   "note_ar": "دعم من بعيد: ورا التانك أو ورا البرج",
+   "own": false
+  },
+  "lumberjack": {
+   "kind": "mini_tank",
+   "note_ar": "ميني تانك / قاتل تانكات: على العدو في الدفاع",
+   "own": false
+  },
+  "magic_archer": {
+   "kind": "support_splash",
+   "note_ar": "دعم سبلاش: ورا/جنب التانك، في الدفاع على السرب",
+   "own": false
+  },
+  "mega_knight": {
+   "kind": "mini_tank_splash",
+   "note_ar": "ميني تانك: على العدو في الدفاع، قدام الدعم في الهجوم",
+   "own": false
+  },
+  "mega_minion": {
+   "kind": "support_ranged",
+   "note_ar": "دعم من بعيد: ورا التانك أو ورا البرج",
+   "own": false
+  },
+  "mighty_miner": {
+   "kind": "mini_tank",
+   "note_ar": "ميني تانك / قاتل تانكات: على العدو في الدفاع",
+   "own": false
+  },
+  "miner": {
+   "kind": "win_spell",
+   "note_ar": "بيترمي على برج الخصم",
+   "own": false
+  },
+  "minion_horde": {
+   "kind": "swarm_air",
+   "note_ar": "سرب جوي: على اللي ما بيضربش جو",
+   "own": false
+  },
+  "minions": {
+   "kind": "swarm_air",
+   "note_ar": "سرب جوي: على اللي ما بيضربش جو",
+   "own": false
+  },
+  "minipekka": {
+   "kind": "mini_tank",
+   "note_ar": "ميني تانك / قاتل تانكات: على العدو في الدفاع",
+   "own": false
+  },
+  "mirror": {
+   "kind": "spell_utility",
+   "note_ar": "سبيل مساعد (فريز/ريج/كلون/تورنادو): مع هجمة أو دفاع، مش لوحده",
+   "own": false
+  },
+  "monk": {
+   "kind": "mini_tank",
+   "note_ar": "ميني تانك / قاتل تانكات: على العدو في الدفاع",
+   "own": false
+  },
+  "mortar": {
+   "kind": "siege",
+   "note_ar": "X-Bow / Mortar: قدام النهر في نصك",
+   "own": false
+  },
+  "mother_witch": {
+   "kind": "support_splash",
+   "note_ar": "دعم سبلاش: ورا/جنب التانك، في الدفاع على السرب",
+   "own": false
+  },
+  "musketeer": {
+   "kind": "support_ranged",
+   "note_ar": "المسكتير: بتضرب من بعيد (أرض وجو). في الدفاع ورا البرج أو في النص بعيد عن العدو؛ في الهجوم ورا الهوج أو ورا كارت تاني، عمرها ما تتحط لوحدها قدام.",
+   "own": true
+  },
+  "night_witch": {
+   "kind": "support_splash",
+   "note_ar": "دعم سبلاش: ورا/جنب التانك، في الدفاع على السرب",
+   "own": false
+  },
+  "pekka": {
+   "kind": "mini_tank",
+   "note_ar": "ميني تانك / قاتل تانكات: على العدو في الدفاع",
+   "own": false
+  },
+  "phoenix": {
+   "kind": "support_ranged",
+   "note_ar": "دعم من بعيد: ورا التانك أو ورا البرج",
+   "own": false
+  },
+  "poison": {
+   "kind": "spell_big",
+   "note_ar": "سبيل كبير: على أكتر من كارت أو يخلّص برج",
+   "own": false
+  },
+  "prince": {
+   "kind": "mini_tank",
+   "note_ar": "ميني تانك / قاتل تانكات: على العدو في الدفاع",
+   "own": false
+  },
+  "princess": {
+   "kind": "support_splash",
+   "note_ar": "دعم سبلاش: ورا/جنب التانك، في الدفاع على السرب",
+   "own": false
+  },
+  "rage": {
+   "kind": "spell_utility",
+   "note_ar": "سبيل مساعد (فريز/ريج/كلون/تورنادو): مع هجمة أو دفاع، مش لوحده",
+   "own": false
+  },
+  "ram_rider": {
+   "kind": "win_bridge",
+   "note_ar": "كارت هجوم سريع: عند البريدج",
+   "own": false
+  },
+  "rascals": {
+   "kind": "swarm_ground",
+   "note_ar": "سرب أرضي: على التانك اللي ما عندوش سبلاش",
+   "own": false
+  },
+  "rocket": {
+   "kind": "spell_big",
+   "note_ar": "سبيل كبير: على أكتر من كارت أو يخلّص برج",
+   "own": false
+  },
+  "ronin": {
+   "kind": "mini_tank",
+   "note_ar": "ميني تانك / قاتل تانكات: على العدو في الدفاع",
+   "own": false
+  },
+  "royal_delivery": {
+   "kind": "spell_small",
+   "note_ar": "سبيل صغير: على الأسراب بس",
+   "own": false
+  },
+  "royal_ghost": {
+   "kind": "mini_tank",
+   "note_ar": "ميني تانك / قاتل تانكات: على العدو في الدفاع",
+   "own": false
+  },
+  "royal_giant": {
+   "kind": "win_bridge",
+   "note_ar": "كارت هجوم سريع: عند البريدج",
+   "own": false
+  },
+  "royal_hogs": {
+   "kind": "win_bridge",
+   "note_ar": "كارت هجوم سريع: عند البريدج",
+   "own": false
+  },
+  "royal_recruits": {
+   "kind": "swarm_ground",
+   "note_ar": "سرب أرضي: على التانك اللي ما عندوش سبلاش",
+   "own": false
+  },
+  "rune_giant": {
+   "kind": "mini_tank",
+   "note_ar": "ميني تانك / قاتل تانكات: على العدو في الدفاع",
+   "own": false
+  },
+  "skeleton_army": {
+   "kind": "swarm_ground",
+   "note_ar": "سرب أرضي: على التانك اللي ما عندوش سبلاش",
+   "own": false
+  },
+  "skeleton_barrel": {
+   "kind": "win_bridge",
+   "note_ar": "كارت هجوم سريع: عند البريدج",
+   "own": false
+  },
+  "skeleton_dragons": {
+   "kind": "support_splash",
+   "note_ar": "دعم سبلاش: ورا/جنب التانك، في الدفاع على السرب",
+   "own": false
+  },
+  "skeleton_king": {
+   "kind": "mini_tank_splash",
+   "note_ar": "ميني تانك: على العدو في الدفاع، قدام الدعم في الهجوم",
+   "own": false
+  },
+  "skeletons": {
+   "kind": "swarm_ground",
+   "note_ar": "سرب أرضي: على التانك اللي ما عندوش سبلاش",
+   "own": false
+  },
+  "sparky": {
+   "kind": "support_splash",
+   "note_ar": "دعم سبلاش: ورا/جنب التانك، في الدفاع على السرب",
+   "own": false
+  },
+  "spear_goblins": {
+   "kind": "swarm_ranged",
+   "note_ar": "عفاريت الحربة: رخيصة وبتضرب من بعيد. دفاع ورا البرج أو مع البرميل/الهوج في الهجوم.",
+   "own": true
+  },
+  "spirit_empress": {
+   "kind": "support_ranged",
+   "note_ar": "دعم من بعيد: ورا التانك أو ورا البرج",
+   "own": false
+  },
+  "suspicious_bush": {
+   "kind": "win_bridge",
+   "note_ar": "كارت هجوم سريع: عند البريدج",
+   "own": false
+  },
+  "tesla": {
+   "kind": "building_defense",
+   "note_ar": "مبنى دفاع: في النص يشد العدو",
+   "own": false
+  },
+  "the_log": {
+   "kind": "spell_small",
+   "note_ar": "اللوج: بيترمي ورا الأعداء الأرضيين يتدحرج عليهم؛ لو مفيش حاجة والإكسير مليان يتدحرج على برجهم.",
+   "own": true
+  },
+  "three_musketeers": {
+   "kind": "swarm_ranged",
+   "note_ar": "سرب بيضرب من بعيد: ورا البرج",
+   "own": false
+  },
+  "tombstone": {
+   "kind": "building_spawn",
+   "note_ar": "مبنى بيطلع جيش: في الضهر",
+   "own": false
+  },
+  "tornado": {
+   "kind": "spell_utility",
+   "note_ar": "سبيل مساعد (فريز/ريج/كلون/تورنادو): مع هجمة أو دفاع، مش لوحده",
+   "own": false
+  },
+  "valkyrie": {
+   "kind": "mini_tank_splash",
+   "note_ar": "الفالكيري: بتلف وتضرب كل اللي حواليها. في الدفاع على العدو الأرضي/السرب مباشرة؛ في الهجوم قدام الدعم عشان تاخد الضرب.",
+   "own": true
+  },
+  "vines": {
+   "kind": "spell_utility",
+   "note_ar": "سبيل مساعد (فريز/ريج/كلون/تورنادو): مع هجمة أو دفاع، مش لوحده",
+   "own": false
+  },
+  "void": {
+   "kind": "spell_big",
+   "note_ar": "سبيل كبير: على أكتر من كارت أو يخلّص برج",
+   "own": false
+  },
+  "wall_breakers": {
+   "kind": "win_bridge",
+   "note_ar": "كارت هجوم سريع: عند البريدج",
+   "own": false
+  },
+  "witch": {
+   "kind": "support_ranged",
+   "note_ar": "الويتش: دعم من ورا. في الهجوم ورا كارت تقيل أو ورا البرج بتاعك عشان تبني هجمة؛ في الدفاع ورا البرج مش قدام العدو، والهياكل بتشتت الأعداء.",
+   "own": true
+  },
+  "wizard": {
+   "kind": "support_splash",
+   "note_ar": "دعم سبلاش: ورا/جنب التانك، في الدفاع على السرب",
+   "own": false
+  },
+  "x_bow": {
+   "kind": "siege",
+   "note_ar": "X-Bow / Mortar: قدام النهر في نصك",
+   "own": false
+  },
+  "zap": {
+   "kind": "spell_small",
+   "note_ar": "سبيل صغير: على الأسراب بس",
+   "own": false
+  },
+  "zappies": {
+   "kind": "swarm_ranged",
+   "note_ar": "سرب بيضرب من بعيد: ورا البرج",
+   "own": false
+  }
+ }
+}
