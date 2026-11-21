@@ -1,0 +1,263 @@
+{
+ "capture": 30.8,
+ "look": 75.4,
+ "decide": 5.8,
+ "engine": 1.1,
+ "tap": 2.7,
+ "loop": 114.3,
+ "moments": 1115,
+ "worst_loop_ms": 10281,
+ "plays": 21,
+ "screen_by": "live",
+ "big_model_ms": 78,
+ "engine_on": true,
+ "version": "5.86.0",
+ "seconds": 178,
+ "full_elixir_s": 0,
+ "engine_dropped": 0,
+ "ai": true,
+ "slow": [
+  {
+   "ms": 10281,
+   "capture": 9969,
+   "look": 187,
+   "decide": 110,
+   "engine": 15,
+   "t": 26
+  },
+  {
+   "ms": 8641,
+   "capture": 8516,
+   "look": 62,
+   "decide": 47,
+   "engine": 16,
+   "t": 85
+  },
+  {
+   "ms": 9750,
+   "capture": 9438,
+   "look": 125,
+   "decide": 109,
+   "engine": 78,
+   "t": 146
+  }
+ ],
+ "plays_list": [
+  {
+   "t": 0.3,
+   "card": "giant",
+   "tile": [
+    11,
+    1
+   ],
+   "why": "AI model: giant (51%, 61% play now) | engine: giant best at (11, 1) (-2.5 vs waiting, 6 sp",
+   "el": 7.0
+  },
+  {
+   "t": 1.9,
+   "card": "cannon",
+   "tile": [
+    7,
+    9
+   ],
+   "why": "engine: cannon at (6, 14) is +1.3 elixir vs waiting (9 moves thought through, 15 ms) | can",
+   "el": 3.0
+  },
+  {
+   "t": 9.8,
+   "card": "the_log",
+   "tile": [
+    7,
+    15
+   ],
+   "why": "engine: the_log at (7, 15) is +1.7 elixir vs waiting (3 moves thought through, 20 ms)",
+   "el": 2.0
+  },
+  {
+   "t": 26.2,
+   "card": "goblin_gang",
+   "tile": [
+    3,
+    13
+   ],
+   "why": "AI model: goblin_gang (100%, 85% play now)",
+   "el": 3.0
+  },
+  {
+   "t": 33.8,
+   "card": "cannon",
+   "tile": [
+    8,
+    10
+   ],
+   "why": "AI model: cannon (100%, 91% play now)",
+   "el": 3.0
+  },
+  {
+   "t": 49.8,
+   "card": "valkyrie",
+   "tile": [
+    6,
+    2
+   ],
+   "why": "engine: valkyrie at (8, 6) is +1.8 elixir vs waiting (15 moves thought through, 72 ms)",
+   "el": 4.0
+  },
+  {
+   "t": 61.7,
+   "card": "cannon",
+   "tile": [
+    10,
+    9
+   ],
+   "why": "AI model: cannon (100%, 95% play now) | cannon: in the middle to pull",
+   "el": 3.0
+  },
+  {
+   "t": 71.7,
+   "card": "the_log",
+   "tile": [
+    13,
+    15
+   ],
+   "why": "engine: the_log at (13, 15) is +1.3 elixir vs waiting (2 moves thought through, 14 ms)",
+   "el": 2.0
+  },
+  {
+   "t": 84.6,
+   "card": "goblin_gang",
+   "tile": [
+    10,
+    14
+   ],
+   "why": "engine: goblin_gang at (10, 14) is +2.6 elixir vs waiting (15 moves thought through, 29 ms",
+   "el": 3.0
+  },
+  {
+   "t": 93.8,
+   "card": "cannon",
+   "tile": [
+    9,
+    9
+   ],
+   "why": "AI model: cannon (100%, 89% play now)",
+   "el": 3.0
+  },
+  {
+   "t": 109.7,
+   "card": "valkyrie",
+   "tile": [
+    13,
+    8
+   ],
+   "why": "AI model: valkyrie (100%, 95% play now)",
+   "el": 4.0
+  },
+  {
+   "t": 117.8,
+   "card": "cannon",
+   "tile": [
+    7,
+    9
+   ],
+   "why": "AI model: cannon (100%, 95% play now)",
+   "el": 3.0
+  },
+  {
+   "t": 125.4,
+   "card": "the_log",
+   "tile": [
+    14,
+    13
+   ],
+   "why": "AI model: the_log (100%, 90% play now)",
+   "el": 3.0
+  },
+  {
+   "t": 127.7,
+   "card": "goblin_gang",
+   "tile": [
+    9,
+    9
+   ],
+   "why": "AI model: goblin_gang (100%, 90% play now) | engine: goblin_gang at (9, 9) is +0.5 elixir ",
+   "el": 3.0
+  },
+  {
+   "t": 133.8,
+   "card": "cannon",
+   "tile": [
+    9,
+    9
+   ],
+   "why": "AI model: cannon (100%, 85% play now)",
+   "el": 3.0
+  },
+  {
+   "t": 145.8,
+   "card": "valkyrie",
+   "tile": [
+    14,
+    14
+   ],
+   "why": "engine: valkyrie at (14, 14) is +1950.5 elixir vs waiting (18 moves thought through, 64 ms",
+   "el": 5.0
+  },
+  {
+   "t": 148.1,
+   "card": "cannon",
+   "tile": [
+    6,
+    9
+   ],
+   "why": "engine: cannon best at (3, 14) (-0.2 vs waiting, 7 spots, 42 ms) | cannon: in the middle t",
+   "el": 3.0
+  },
+  {
+   "t": 157.9,
+   "card": "witch",
+   "tile": [
+    7,
+    7
+   ],
+   "why": "AI model: witch (32%, 92% play now)",
+   "el": 5.0
+  },
+  {
+   "t": 163.9,
+   "card": "goblin_gang",
+   "tile": [
+    8,
+    9
+   ],
+   "why": "AI model: goblin_gang (29%, 93% play now)",
+   "el": 3.0
+  },
+  {
+   "t": 170.0,
+   "card": "cannon",
+   "tile": [
+    7,
+    9
+   ],
+   "why": "AI model: cannon (74%, 93% play now) | cannon: in the middle to pull",
+   "el": 3.0
+  },
+  {
+   "t": 173.8,
+   "card": "the_log",
+   "tile": [
+    3,
+    6
+   ],
+   "why": "AI model: the_log (100%, 93% play now)",
+   "el": 2.0
+  }
+ ],
+ "eyes_gpu": true,
+ "eyes_same_moment": false,
+ "engine_why": {
+  "thought": 58,
+  "no card ready": 262
+ }
+}
