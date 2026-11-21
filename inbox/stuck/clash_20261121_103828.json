@@ -1,0 +1,25 @@
+{
+ "t": 1795286308.1834028,
+ "account": "clash",
+ "phase": "royale",
+ "words": [
+  "overtime",
+  "1:00",
+  "5764",
+  "winner!",
+  "x3",
+  "1884",
+  "badolayn + ricardo",
+  "vs",
+  "themesiss",
+  "reward",
+  "x6",
+  "8/10",
+  "exit",
+  "play again"
+ ],
+ "kind": "stuck",
+ "why": "screen",
+ "note": "the bot got stuck on this screen (auto)",
+ "bot_version": "5.68.0"
+}
