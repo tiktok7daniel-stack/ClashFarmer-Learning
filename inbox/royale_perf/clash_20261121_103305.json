@@ -1,0 +1,15 @@
+{
+ "capture": 20.4,
+ "look": 40.5,
+ "decide": 2.7,
+ "engine": 0.1,
+ "tap": 1.1,
+ "loop": 65.0,
+ "moments": 1695,
+ "worst_loop_ms": 9625,
+ "plays": 13,
+ "screen_by": "live",
+ "big_model_ms": 63,
+ "engine_on": true,
+ "version": "5.68.0"
+}
