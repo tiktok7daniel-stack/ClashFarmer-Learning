@@ -1,0 +1,15 @@
+{
+  "note_ar": "كروت الديك بتاع الحساب الأساسي، من صور الكروت اللي بعتها صاحب الحساب (2026-11-21)",
+  "deck": ["witch", "bowler", "musketeer", "bats", "hog_rider", "cannon", "goblin_barrel", "the_log"],
+  "cards": {
+    "witch":     {"form": "evolution", "evo_cycles": 1, "level": 16, "cost": 5, "note_ar": "ويتش متطورة، بتتطور كل لفة (Cycles 1)، لفل 16 ماكس"},
+    "bowler":    {"form": "hero", "level": 14, "cost": 5, "ability": {"name": "Stone Swish", "cost": 2}, "note_ar": "بولر هيرو، القدرة Stone Swish بـ 2 إكسير"},
+    "musketeer": {"form": "evolution", "evo_cycles": 2, "level": 14, "cost": 4, "note_ar": "ماسكيتير متطورة، بتتطور كل لفتين (Cycles 2)"},
+    "bats":      {"form": "plain", "level": 14, "cost": 2, "rarity": "Common", "type": "Troop"},
+    "hog_rider": {"form": "plain", "level": 15, "cost": 4, "rarity": "Rare", "type": "Troop"},
+    "cannon":    {"form": "plain", "level": 15, "cost": 3},
+    "goblin_barrel": {"form": "plain", "level": 13, "cost": 3},
+    "the_log":   {"form": "plain", "level": 13, "cost": 2}
+  },
+  "source": "user screenshots 104-109"
+}
