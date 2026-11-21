@@ -1,0 +1,18 @@
+{
+ "t": 1795273024.7123497,
+ "account": "clash",
+ "phase": "royale",
+ "words": [
+  "1618",
+  "101592+",
+  "1194+",
+  "offers",
+  "unlock giant evolution!",
+  "*tap for more info",
+  "shop"
+ ],
+ "kind": "stuck",
+ "why": "screen",
+ "note": "the bot got stuck on this screen (auto)",
+ "bot_version": "5.55.0"
+}
