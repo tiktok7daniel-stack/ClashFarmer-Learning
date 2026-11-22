@@ -1,14 +1,14 @@
 {
  "account": "clash",
- "t": 1795383430.8159103,
- "time": "2026-11-22 13:37:10",
+ "t": 1795383518.822402,
+ "time": "2026-11-22 13:38:38",
  "final": false,
  "status": {
-  "stage": "train",
-  "t": 1795383430.806909,
+  "stage": "queued",
+  "t": 1795383518.8134022,
   "started": 1795372241.7070353,
   "error": "",
-  "note": "finetune (fine-tuned on real): 0.918",
+  "note": "graphics card failed (#1) — going on from the last round in 90 s",
   "hf_done": [
    "synthetic_arena/train-00000-of-00008.parquet",
    "synthetic_arena/train-00001-of-00008.parquet",
@@ -164,23 +164,19 @@
    }
   },
   "pid": 19144,
-  "alive": 1795383430.7407658,
-  "card_line": "graphics card busy 100% · memory 7879/8188 MB · 56°C",
-  "card_fails": []
+  "alive": 1795383513.7575378,
+  "card_line": "graphics card busy 100% · memory 7826/8188 MB · 57°C",
+  "card_fails": [
+   1795383518.7904024
+  ]
  },
  "card": {
   "busy": 100,
-  "mem_mb": 7879,
+  "mem_mb": 7826,
   "mem_total_mb": 8188,
   "temp_c": 56
  },
  "log": [
-  "13:16:52    on disk: rf_clash-royale-cylln: 2,360 training",
-  "13:16:52    on disk: rf_clash-royale-cylln-pb9jx: 1,743 training",
-  "13:16:52    on disk: rf_clash-royale-ut3g8: 9 training",
-  "13:16:52    on disk: rf_clash-royale-of3d3: 1 training",
-  "13:16:52 Data ready: 111,494 pictures on disk -> 60,000 chosen for this training, 2,094 for the test",
-  "13:16:52 step 1/3: the current eyes were tested before: mAP50 0.581",
   "13:16:53 step 2/3 — finetune, stage 1: all the data, up to 1.2 h (about 30 rounds), 800px, 13 at a time; tested every 4 rounds, the best round kept",
   "13:16:53 step 2/3 — finetune, stage 1: done before (not again)",
   "13:16:53 step 2/3 — finetune, stage 2: fine-tuning on the real pictures only (6,131), 5 rounds, small learning rate",
@@ -254,7 +250,13 @@
   "[13:36:09 working 0h19m] train (finetune (fine-tuned on real): 0.918) · graphics card busy 100% · memory 7879/8188 MB · 56°C",
   "[13:36:29 working 0h19m] train (finetune (fine-tuned on real): 0.918) · graphics card busy 87% · memory 7879/8188 MB · 61°C",
   "[13:36:50 working 0h20m] train (finetune (fine-tuned on real): 0.918) · graphics card busy 99% · memory 7879/8188 MB · 56°C",
-  "[13:37:10 working 0h20m] train (finetune (fine-tuned on real): 0.918) · graphics card busy 100% · memory 7879/8188 MB · 56°C"
+  "[13:37:10 working 0h20m] train (finetune (fine-tuned on real): 0.918) · graphics card busy 100% · memory 7879/8188 MB · 56°C",
+  "[13:37:33 working 0h20m] train (finetune (fine-tuned on real): 0.918) · graphics card busy 100% · memory 7879/8188 MB · 64°C",
+  "[13:37:53 working 0h21m] train (finetune (fine-tuned on real): 0.918) · graphics card busy 100% · memory 7826/8188 MB · 57°C",
+  "[13:38:13 working 0h21m] train (finetune (fine-tuned on real): 0.918) · graphics card busy 100% · memory 7826/8188 MB · 57°C",
+  "[13:38:33 working 0h21m] train (finetune (fine-tuned on real): 0.918) · graphics card busy 99% · memory 7826/8188 MB · 57°C",
+  "13:38:38 graphics-card error #1 (AcceleratorError: CUDA error: an illegal instruction was encountered",
+  "Search for `cudaErrorIllegalI) — the card cools 90 s, then a new process goes on from the last round (safe mode)"
  ],
  "bot_version": "6.9.7"
 }
