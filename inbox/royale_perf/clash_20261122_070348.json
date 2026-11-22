@@ -1,0 +1,257 @@
+{
+ "capture": 8.0,
+ "look": 81.1,
+ "decide": 5.8,
+ "engine": 0.9,
+ "tap": 3.7,
+ "loop": 96.7,
+ "moments": 1279,
+ "worst_loop_ms": 1890,
+ "plays": 22,
+ "screen_by": "live",
+ "big_model_ms": 79,
+ "engine_on": true,
+ "version": "5.98.0",
+ "seconds": 180,
+ "full_elixir_s": 0,
+ "engine_dropped": 1,
+ "ai": true,
+ "slow": [
+  {
+   "ms": 1890,
+   "capture": 15,
+   "look": 1875,
+   "decide": 0,
+   "engine": 0,
+   "t": 100
+  }
+ ],
+ "plays_list": [
+  {
+   "t": 1.2,
+   "card": "goblin_gang",
+   "tile": [
+    3,
+    14
+   ],
+   "why": "engine: goblin_gang best at (3, 14) (-1.2 vs waiting, 4 spots, 20 ms)",
+   "el": 7.0
+  },
+  {
+   "t": 2.0,
+   "card": "cannon",
+   "tile": [
+    9,
+    9
+   ],
+   "why": "AI model: cannon (44%, 83% play now) | engine: cannon at (9, 9) is +2.9 elixir vs waiting ",
+   "el": 7.0
+  },
+  {
+   "t": 3.6,
+   "card": "goblin_gang",
+   "tile": [
+    3,
+    13
+   ],
+   "why": "AI model: goblin_gang (28%, 88% play now)",
+   "el": 8.0
+  },
+  {
+   "t": 4.5,
+   "card": "witch",
+   "tile": [
+    8,
+    6
+   ],
+   "why": "AI model: witch (5%, 97% play now)",
+   "el": 5.0
+  },
+  {
+   "t": 8.4,
+   "card": "the_log",
+   "tile": [
+    4,
+    6
+   ],
+   "why": "AI model: the_log (100%, 85% play now)",
+   "el": 3.0
+  },
+  {
+   "t": 19.8,
+   "card": "valkyrie",
+   "tile": [
+    2,
+    9
+   ],
+   "why": "AI model: valkyrie (100%, 95% play now)",
+   "el": 4.0
+  },
+  {
+   "t": 35.5,
+   "card": "cannon",
+   "tile": [
+    6,
+    1
+   ],
+   "why": "engine: cannon at (9, 14) is +0.9 elixir vs waiting (15 moves thought through, 40 ms) | ca",
+   "el": 4.0
+  },
+  {
+   "t": 49.6,
+   "card": "goblin_gang",
+   "tile": [
+    4,
+    3
+   ],
+   "why": "AI model: goblin_gang (100%, 90% play now) | engine: goblin_gang at (4, 3) is +4.2 elixir ",
+   "el": 3.0
+  },
+  {
+   "t": 59.6,
+   "card": "cannon",
+   "tile": [
+    9,
+    6
+   ],
+   "why": "engine: cannon at (9, 6) is +2.1 elixir vs waiting (16 moves thought through, 17 ms)",
+   "el": 3.0
+  },
+  {
+   "t": 73.2,
+   "card": "the_log",
+   "tile": [
+    14,
+    13
+   ],
+   "why": "AI model: the_log (100%, 85% play now) | engine: the_log at (14, 13) is +1.2 elixir vs wai",
+   "el": 3.0
+  },
+  {
+   "t": 83.5,
+   "card": "valkyrie",
+   "tile": [
+    14,
+    13
+   ],
+   "why": "AI model: valkyrie (100%, 85% play now)",
+   "el": 4.0
+  },
+  {
+   "t": 101.0,
+   "card": "cannon",
+   "tile": [
+    9,
+    4
+   ],
+   "why": "AI model: cannon (100%, 91% play now)",
+   "el": 4.0
+  },
+  {
+   "t": 111.7,
+   "card": "cannon",
+   "tile": [
+    9,
+    4
+   ],
+   "why": "AI model: cannon (100%, 94% play now)",
+   "el": 3.0
+  },
+  {
+   "t": 119.9,
+   "card": "cannon",
+   "tile": [
+    8,
+    9
+   ],
+   "why": "engine: cannon at (8, 9) is +1.8 elixir vs waiting (17 moves thought through, 56 ms)",
+   "el": 3.0
+  },
+  {
+   "t": 123.9,
+   "card": "the_log",
+   "tile": [
+    14,
+    12
+   ],
+   "why": "AI model: the_log (100%, 91% play now)",
+   "el": 2.0
+  },
+  {
+   "t": 131.6,
+   "card": "valkyrie",
+   "tile": [
+    15,
+    13
+   ],
+   "why": "AI model: valkyrie (100%, 95% play now)",
+   "el": 4.0
+  },
+  {
+   "t": 140.4,
+   "card": "cannon",
+   "tile": [
+    9,
+    10
+   ],
+   "why": "AI model: cannon (100%, 96% play now)",
+   "el": 4.0
+  },
+  {
+   "t": 148.2,
+   "card": "valkyrie",
+   "tile": [
+    8,
+    14
+   ],
+   "why": "engine: valkyrie at (8, 14) is +8.7 elixir vs waiting (19 moves thought through, 60 ms)",
+   "el": 4.0
+  },
+  {
+   "t": 151.7,
+   "card": "cannon",
+   "tile": [
+    14,
+    9
+   ],
+   "why": "engine: cannon at (14, 9) is +1.4 elixir vs waiting (14 moves thought through, 48 ms)",
+   "el": 3.0
+  },
+  {
+   "t": 158.7,
+   "card": "the_log",
+   "tile": [
+    13,
+    9
+   ],
+   "why": "engine: the_log at (13, 9) is +1.3 elixir vs waiting (6 moves thought through, 22 ms)",
+   "el": 3.0
+  },
+  {
+   "t": 163.6,
+   "card": "valkyrie",
+   "tile": [
+    15,
+    10
+   ],
+   "why": "engine: valkyrie at (15, 13) is +3.7 elixir vs waiting (15 moves thought through, 23 ms)",
+   "el": 4.0
+  },
+  {
+   "t": 172.5,
+   "card": "cannon",
+   "tile": [
+    9,
+    10
+   ],
+   "why": "AI model: cannon (100%, 84% play now)",
+   "el": 4.0
+  }
+ ],
+ "eyes_gpu": true,
+ "eyes_same_moment": false,
+ "engine_why": {
+  "thought": 52,
+  "no card ready": 311
+ }
+}
