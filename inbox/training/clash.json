@@ -1,11 +1,11 @@
 {
  "account": "clash",
- "t": 1795386137.4570518,
- "time": "2026-11-22 14:22:17",
- "final": false,
+ "t": 1795386205.192078,
+ "time": "2026-11-22 14:23:25",
+ "final": true,
  "status": {
   "stage": "hand",
-  "t": 1795386137.4330373,
+  "t": 1795386200.3403676,
   "started": 1795372241.7070353,
   "error": "",
   "note": "hand cards: training (30 rounds)",
@@ -164,29 +164,18 @@
    }
   },
   "pid": 21704,
-  "alive": 1795386137.3678875,
-  "card_line": "graphics card busy 54% · memory 1530/8188 MB · 63°C",
+  "alive": 1795386200.265303,
+  "card_line": "graphics card busy 49% · memory 1530/8188 MB · 65°C",
   "card_fails": [],
   "new_map50": 0.9181
  },
  "card": {
-  "busy": 36,
+  "busy": 0,
   "mem_mb": 1530,
   "mem_total_mb": 8188,
-  "temp_c": 63
+  "temp_c": 61
  },
  "log": [
-  "[14:07:53 working 0h07m] hand (hand cards: training (30 rounds)) · graphics card busy 2% · memory 1530/8188 MB · 51°C",
-  "[14:08:14 working 0h07m] hand (hand cards: training (30 rounds)) · graphics card busy 0% · memory 1530/8188 MB · 48°C",
-  "[14:08:34 working 0h07m] hand (hand cards: training (30 rounds)) · graphics card busy 0% · memory 1530/8188 MB · 46°C",
-  "[14:08:54 working 0h08m] hand (hand cards: training (30 rounds)) · graphics card busy 21% · memory 1530/8188 MB · 45°C",
-  "[14:09:14 working 0h08m] hand (hand cards: training (30 rounds)) · graphics card busy 0% · memory 1531/8188 MB · 45°C",
-  "[14:09:34 working 0h08m] hand (hand cards: training (30 rounds)) · graphics card busy 11% · memory 1531/8188 MB · 44°C",
-  "[14:09:54 working 0h09m] hand (hand cards: training (30 rounds)) · graphics card busy 9% · memory 1531/8188 MB · 43°C",
-  "[14:10:14 working 0h09m] hand (hand cards: training (30 rounds)) · graphics card busy 24% · memory 1556/8188 MB · 43°C",
-  "[14:10:35 working 0h09m] hand (hand cards: training (30 rounds)) · graphics card busy 0% · memory 1556/8188 MB · 42°C",
-  "[14:10:55 working 0h10m] hand (hand cards: training (30 rounds)) · graphics card busy 2% · memory 1556/8188 MB · 43°C",
-  "[14:11:15 working 0h10m] hand (hand cards: training (30 rounds)) · graphics card busy 10% · memory 1558/8188 MB · 42°C",
   "[14:11:35 working 0h10m] hand (hand cards: training (30 rounds)) · graphics card busy 0% · memory 1571/8188 MB · 42°C",
   "14:11:49 going on from where it stopped — already done: data, base, finetune",
   "14:11:53 torchvision has no CUDA nms here: it runs on the processor (the rest on the card)",
@@ -255,7 +244,18 @@
   "[14:21:16 working 0h09m] hand (hand cards: training (30 rounds)) · graphics card busy 42% · memory 1530/8188 MB · 58°C",
   "[14:21:36 working 0h09m] hand (hand cards: training (30 rounds)) · graphics card busy 38% · memory 1530/8188 MB · 65°C",
   "[14:21:57 working 0h10m] hand (hand cards: training (30 rounds)) · graphics card busy 31% · memory 1530/8188 MB · 58°C",
-  "[14:22:17 working 0h10m] hand (hand cards: training (30 rounds)) · graphics card busy 54% · memory 1530/8188 MB · 63°C"
+  "[14:22:17 working 0h10m] hand (hand cards: training (30 rounds)) · graphics card busy 54% · memory 1530/8188 MB · 63°C",
+  "[14:22:39 working 0h10m] hand (hand cards: training (30 rounds)) · graphics card busy 51% · memory 1530/8188 MB · 65°C",
+  "[14:23:00 working 0h11m] hand (hand cards: training (30 rounds)) · graphics card busy 49% · memory 1530/8188 MB · 66°C",
+  "[14:23:20 working 0h11m] hand (hand cards: training (30 rounds)) · graphics card busy 47% · memory 1530/8188 MB · 64°C",
+  "14:23:23 hand cards: training stopped (AcceleratorError: CUDA error: an illegal instruction was encountered",
+  "Search for `cudaErrorIllegalInstruction' in https://docs.nvidia.com/c) — the best round reached so far is used",
+  "14:23:23 hand cards: testing in a fresh process (ModuleNotFoundError)",
+  "14:23:24 hand cards skipped: RuntimeError: the test failed: e\\__init__.py\", line 60, in <module>",
+  "    from onnxruntime.capi.onnxruntime_inference_collection import AdapterFormat  # noqa: F401",
+  "    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+  "ModuleNotFoundError: No module named 'onnxruntime.capi.onnxruntime_inference_collection'",
+  ""
  ],
  "bot_version": "6.9.10"
 }
