@@ -1,7 +1,7 @@
 {
- "t": 1795389177.696464,
- "time": "2026-11-22 15:12:57",
- "ok": true,
+ "t": 1795389988.695484,
+ "time": "2026-11-22 15:26:28",
+ "ok": false,
  "items": [
   {
    "name": "onnxruntime",
@@ -20,28 +20,28 @@
   {
    "name": "big_eyes",
    "state": "ok",
-   "value": "13 ms a picture on dml · accuracy 91.8%",
+   "value": "32 ms a picture on dml · accuracy 91.8%",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "small_eyes",
    "state": "ok",
-   "value": "5 ms a picture on dml",
+   "value": "4 ms a picture on dml",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "hand_model",
    "state": "ok",
-   "value": "accuracy 99.5% · 2 ms for 5 cards",
+   "value": "accuracy 99.5% · 3 ms for 5 cards",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "one_look",
    "state": "ok",
-   "value": "115 ms a moment (8.7 looks a second)",
+   "value": "87 ms a moment (11.4 looks a second)",
    "fix_ar": "",
    "detail": ""
   },
@@ -55,27 +55,27 @@
   {
    "name": "card",
    "state": "ok",
-   "value": "busy 66% · memory 3485/8188 MB · 70°C",
+   "value": "busy 12% · memory 1338/8188 MB · 44°C",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "stream",
-   "state": "ok",
-   "value": "32 pictures a second arriving (asked 120)",
-   "fix_ar": "",
+   "state": "bad",
+   "value": "0 pictures a second arriving (asked 120)",
+   "fix_ar": "صورة المحاكي بتوصل بطيء — اتأكد إن LDPlayer شغال ومش متصغّر",
    "detail": ""
   },
   {
    "name": "disk",
    "state": "ok",
-   "value": "423 GB free",
+   "value": "428 GB free",
    "fix_ar": "",
    "detail": ""
   }
  ],
- "big_ms": 13.28765000016574,
- "look_ms": 115.40991000001668,
- "summary_ar": "⚠ شغال، بس: TensorRT بيتجهّز في الخلفية (تحميل كبير) — مش لازم تعمل حاجة",
- "bot_version": "6.9.16"
+ "big_ms": 31.800962499801244,
+ "look_ms": 87.36413000005996,
+ "summary_ar": "❌ فيه مشكلة: صورة المحاكي بتوصل بطيء — اتأكد إن LDPlayer شغال ومش متصغّر",
+ "bot_version": "6.9.17"
 }
