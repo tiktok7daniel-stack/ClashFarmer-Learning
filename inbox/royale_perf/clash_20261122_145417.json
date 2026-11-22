@@ -1,0 +1,348 @@
+{
+ "capture": 106.2,
+ "look": 1840.1,
+ "decide": 52.7,
+ "engine": 24.1,
+ "tap": 36.1,
+ "loop": 2027.9,
+ "moments": 120,
+ "worst_loop_ms": 6969,
+ "plays": 27,
+ "screen_by": "live",
+ "big_model_ms": 1203,
+ "engine_on": true,
+ "version": "6.9.14",
+ "seconds": 266,
+ "full_elixir_s": 9,
+ "engine_dropped": 18,
+ "ai": true,
+ "slow": [
+  {
+   "ms": 2594,
+   "capture": 1188,
+   "look": 1406,
+   "decide": 0,
+   "engine": 0,
+   "t": 3
+  },
+  {
+   "ms": 1594,
+   "capture": 16,
+   "look": 1390,
+   "decide": 157,
+   "engine": 31,
+   "t": 6
+  },
+  {
+   "ms": 1937,
+   "capture": 15,
+   "look": 1813,
+   "decide": 78,
+   "engine": 31,
+   "t": 8
+  },
+  {
+   "ms": 2313,
+   "capture": 0,
+   "look": 2172,
+   "decide": 78,
+   "engine": 63,
+   "t": 10
+  },
+  {
+   "ms": 2375,
+   "capture": 0,
+   "look": 2250,
+   "decide": 62,
+   "engine": 63,
+   "t": 13
+  },
+  {
+   "ms": 2375,
+   "capture": 0,
+   "look": 2281,
+   "decide": 47,
+   "engine": 47,
+   "t": 15
+  }
+ ],
+ "plays_list": [
+  {
+   "t": 5.6,
+   "card": "goblin_gang",
+   "tile": [
+    3,
+    14
+   ],
+   "why": "engine: goblin_gang best at (3, 14) (-0.6 vs waiting, 4 spots, 30 ms)",
+   "el": 9.0
+  },
+  {
+   "t": 7.8,
+   "card": "witch",
+   "tile": [
+    6,
+    1
+   ],
+   "why": "AI model: witch (31%, 83% play now) | engine: witch best at (6, 1) (+0.0 vs waiting, 6 spo",
+   "el": 10.0
+  },
+  {
+   "t": 10.3,
+   "card": "cannon",
+   "tile": [
+    8,
+    10
+   ],
+   "why": "AI model: cannon (40%, 88% play now)",
+   "el": 7.0
+  },
+  {
+   "t": 18.1,
+   "card": "valkyrie",
+   "tile": [
+    13,
+    3
+   ],
+   "why": "engine: valkyrie at (13, 3) is +1.9 elixir vs waiting (15 moves thought through, 84 ms)",
+   "el": 4.0
+  },
+  {
+   "t": 31.2,
+   "card": "the_log",
+   "tile": [
+    14,
+    13
+   ],
+   "why": "AI model: the_log (100%, 54% play now)",
+   "el": 3.0
+  },
+  {
+   "t": 37.5,
+   "card": "skeleton_barrel",
+   "tile": [
+    1,
+    14
+   ],
+   "why": "engine: skeleton_barrel best at (1, 14) (+0.0 vs waiting, 4 spots, 80 ms)",
+   "el": 3.0
+  },
+  {
+   "t": 53.4,
+   "card": "valkyrie",
+   "tile": [
+    3,
+    3
+   ],
+   "why": "engine: valkyrie best at (3, 4) (+1.4 vs waiting, 5 spots, 35 ms)",
+   "el": 4.0
+  },
+  {
+   "t": 68.8,
+   "card": "goblin_gang",
+   "tile": [
+    3,
+    3
+   ],
+   "why": "engine: goblin_gang best at (3, 4) (+0.7 vs waiting, 6 spots, 32 ms)",
+   "el": 5.0
+  },
+  {
+   "t": 70.4,
+   "card": "witch",
+   "tile": [
+    9,
+    7
+   ],
+   "why": "AI model: witch (49%, defending)",
+   "el": 5.0
+  },
+  {
+   "t": 86.6,
+   "card": "valkyrie",
+   "tile": [
+    3,
+    14
+   ],
+   "why": "engine: valkyrie best at (3, 14) (+3.7 vs waiting, 5 spots, 16 ms)",
+   "el": 4.0
+  },
+  {
+   "t": 106.2,
+   "card": "cannon",
+   "tile": [
+    9,
+    10
+   ],
+   "why": "AI model: cannon (51%, 76% play now)",
+   "el": 5.0
+  },
+  {
+   "t": 120.4,
+   "card": "skeleton_barrel",
+   "tile": [
+    15,
+    13
+   ],
+   "why": "AI model: skeleton_barrel (43%, 92% play now)",
+   "el": 7.0
+  },
+  {
+   "t": 127.5,
+   "card": "witch",
+   "tile": [
+    11,
+    14
+   ],
+   "why": "engine: witch at (11, 14) is +0.7 elixir vs waiting (21 moves thought through, 23 ms)",
+   "el": 5.0
+  },
+  {
+   "t": 132.3,
+   "card": "goblin_gang",
+   "tile": [
+    14,
+    3
+   ],
+   "why": "engine: goblin_gang best at (14, 4) (+1.4 vs waiting, 5 spots, 65 ms)",
+   "el": 5.0
+  },
+  {
+   "t": 141.2,
+   "card": "valkyrie",
+   "tile": [
+    14,
+    13
+   ],
+   "why": "AI model: valkyrie (34%, 78% play now) | engine: valkyrie best at (14, 13) (+0.0 vs waitin",
+   "el": 4.0
+  },
+  {
+   "t": 144.0,
+   "card": "witch",
+   "tile": [
+    9,
+    6
+   ],
+   "why": "AI model: witch (5%, 95% play now)",
+   "el": 6.0
+  },
+  {
+   "t": 155.1,
+   "card": "witch",
+   "tile": [
+    9,
+    7
+   ],
+   "why": "AI model: witch (4%, 53% play now) | engine: witch best at (9, 7) (+0.0 vs waiting, 5 spot",
+   "el": 5.0
+  },
+  {
+   "t": 162.1,
+   "card": "witch",
+   "tile": [
+    9,
+    9
+   ],
+   "why": "AI model: witch (9%, 76% play now) | engine: witch best at (9, 9) (+0.0 vs waiting, 7 spot",
+   "el": 5.0
+  },
+  {
+   "t": 163.9,
+   "card": "cannon",
+   "tile": [
+    9,
+    9
+   ],
+   "why": "AI model: cannon (85%, 99% play now)",
+   "el": 6.0
+  },
+  {
+   "t": 167.3,
+   "card": "the_log",
+   "tile": [
+    14,
+    13
+   ],
+   "why": "AI model: the_log (100%, 81% play now)",
+   "el": 4.0
+  },
+  {
+   "t": 173.4,
+   "card": "valkyrie",
+   "tile": [
+    14,
+    3
+   ],
+   "why": "engine: valkyrie best at (14, 4) (-0.5 vs waiting, 4 spots, 40 ms)",
+   "el": 4.0
+  },
+  {
+   "t": 202.0,
+   "card": "goblin_gang",
+   "tile": [
+    14,
+    14
+   ],
+   "why": "engine: goblin_gang best at (14, 14) (-0.9 vs waiting, 4 spots, 80 ms)",
+   "el": 10.0
+  },
+  {
+   "t": 204.6,
+   "card": "witch",
+   "tile": [
+    11,
+    1
+   ],
+   "why": "AI model: witch (100%, 95% play now)",
+   "el": 10.0
+  },
+  {
+   "t": 218.9,
+   "card": "skeleton_barrel",
+   "tile": [
+    14,
+    14
+   ],
+   "why": "engine: skeleton_barrel best at (14, 14) (+0.0 vs waiting, 8 spots, 66 ms)",
+   "el": 4.0
+  },
+  {
+   "t": 239.9,
+   "card": "cannon",
+   "tile": [
+    9,
+    9
+   ],
+   "why": "engine: cannon at (9, 9) is +0.4 elixir vs waiting (3 moves thought through, 84 ms)",
+   "el": 10.0
+  },
+  {
+   "t": 242.8,
+   "card": "valkyrie",
+   "tile": [
+    14,
+    13
+   ],
+   "why": "AI model: valkyrie (97%, 92% play now)",
+   "el": 5.0
+  },
+  {
+   "t": 248.3,
+   "card": "goblin_gang",
+   "tile": [
+    14,
+    13
+   ],
+   "why": "AI model: goblin_gang (12%, 72% play now)",
+   "el": 3.0
+  }
+ ],
+ "eyes_gpu": false,
+ "eyes_same_moment": false,
+ "one_detector_looks": 0,
+ "engine_why": {
+  "thought": 71,
+  "no card ready": 40
+ }
+}
