@@ -1,0 +1,245 @@
+{
+ "capture": 8.4,
+ "look": 84.4,
+ "decide": 5.7,
+ "engine": 0.9,
+ "tap": 2.3,
+ "loop": 100.3,
+ "moments": 1231,
+ "worst_loop_ms": 1734,
+ "plays": 20,
+ "screen_by": "live",
+ "big_model_ms": 78,
+ "engine_on": true,
+ "version": "5.98.0",
+ "seconds": 177,
+ "full_elixir_s": 0,
+ "engine_dropped": 7,
+ "ai": true,
+ "slow": [
+  {
+   "ms": 1734,
+   "capture": 0,
+   "look": 1718,
+   "decide": 16,
+   "engine": 0,
+   "t": 21
+  },
+  {
+   "ms": 1704,
+   "capture": 16,
+   "look": 1688,
+   "decide": 0,
+   "engine": 0,
+   "t": 79
+  }
+ ],
+ "plays_list": [
+  {
+   "t": 0.5,
+   "card": "valkyrie",
+   "tile": [
+    14,
+    12
+   ],
+   "why": "AI model: valkyrie (52%, 85% play now)",
+   "el": 7.0
+  },
+  {
+   "t": 3.1,
+   "card": "cannon",
+   "tile": [
+    9,
+    10
+   ],
+   "why": "AI model: cannon (100%, 76% play now)",
+   "el": 4.0
+  },
+  {
+   "t": 15.3,
+   "card": "goblin_gang",
+   "tile": [
+    9,
+    6
+   ],
+   "why": "AI model: goblin_gang (100%, 92% play now)",
+   "el": 3.0
+  },
+  {
+   "t": 23.0,
+   "card": "the_log",
+   "tile": [
+    14,
+    13
+   ],
+   "why": "AI model: the_log (100%, 77% play now)",
+   "el": 2.0
+  },
+  {
+   "t": 33.1,
+   "card": "cannon",
+   "tile": [
+    8,
+    6
+   ],
+   "why": "engine: cannon at (8, 6) is +1.3 elixir vs waiting (16 moves thought through, 25 ms)",
+   "el": 3.0
+  },
+  {
+   "t": 49.5,
+   "card": "valkyrie",
+   "tile": [
+    15,
+    13
+   ],
+   "why": "AI model: valkyrie (100%, 85% play now) | engine: valkyrie at (15, 13) is +0.5 elixir vs w",
+   "el": 4.0
+  },
+  {
+   "t": 65.5,
+   "card": "cannon",
+   "tile": [
+    9,
+    9
+   ],
+   "why": "AI model: cannon (100%, 66% play now)",
+   "el": 4.0
+  },
+  {
+   "t": 77.0,
+   "card": "cannon",
+   "tile": [
+    10,
+    9
+   ],
+   "why": "AI model: cannon (100%, 98% play now)",
+   "el": 3.0
+  },
+  {
+   "t": 85.9,
+   "card": "the_log",
+   "tile": [
+    14,
+    13
+   ],
+   "why": "AI model: the_log (100%, 70% play now)",
+   "el": 2.0
+  },
+  {
+   "t": 97.1,
+   "card": "cannon",
+   "tile": [
+    9,
+    9
+   ],
+   "why": "engine: cannon at (9, 9) is +0.5 elixir vs waiting (13 moves thought through, 26 ms)",
+   "el": 3.0
+  },
+  {
+   "t": 113.1,
+   "card": "valkyrie",
+   "tile": [
+    7,
+    11
+   ],
+   "why": "engine: valkyrie at (7, 11) is +2.0 elixir vs waiting (17 moves thought through, 26 ms)",
+   "el": 4.0
+  },
+  {
+   "t": 121.9,
+   "card": "cannon",
+   "tile": [
+    8,
+    9
+   ],
+   "why": "engine: cannon at (8, 9) is +0.4 elixir vs waiting (15 moves thought through, 26 ms)",
+   "el": 4.0
+  },
+  {
+   "t": 129.1,
+   "card": "valkyrie",
+   "tile": [
+    8,
+    6
+   ],
+   "why": "engine: valkyrie at (8, 6) is +2.1 elixir vs waiting (22 moves thought through, 40 ms)",
+   "el": 4.0
+  },
+  {
+   "t": 137.6,
+   "card": "goblin_gang",
+   "tile": [
+    16,
+    5
+   ],
+   "why": "AI model: goblin_gang (3%, 92% play now)",
+   "el": 5.0
+  },
+  {
+   "t": 142.1,
+   "card": "the_log",
+   "tile": [
+    14,
+    13
+   ],
+   "why": "AI model: the_log (100%, 65% play now)",
+   "el": 2.0
+  },
+  {
+   "t": 147.2,
+   "card": "skeleton_barrel",
+   "tile": [
+    15,
+    13
+   ],
+   "why": "AI model: skeleton_barrel (100%, 95% play now)",
+   "el": 3.0
+  },
+  {
+   "t": 155.1,
+   "card": "valkyrie",
+   "tile": [
+    15,
+    13
+   ],
+   "why": "AI model: valkyrie (100%, 96% play now)",
+   "el": 4.0
+  },
+  {
+   "t": 163.1,
+   "card": "cannon",
+   "tile": [
+    9,
+    9
+   ],
+   "why": "engine: cannon at (9, 9) is +3.9 elixir vs waiting (11 moves thought through, 25 ms)",
+   "el": 3.0
+  },
+  {
+   "t": 170.2,
+   "card": "goblin_gang",
+   "tile": [
+    14,
+    0
+   ],
+   "why": "engine: goblin_gang at (14, 0) is +3.6 elixir vs waiting (18 moves thought through, 43 ms)",
+   "el": 3.0
+  },
+  {
+   "t": 173.1,
+   "card": "valkyrie",
+   "tile": [
+    15,
+    13
+   ],
+   "why": "AI model: valkyrie (100%, 97% play now)",
+   "el": 10.0
+  }
+ ],
+ "eyes_gpu": true,
+ "eyes_same_moment": false,
+ "engine_why": {
+  "no card ready": 313,
+  "thought": 48
+ }
+}
