@@ -1,0 +1,81 @@
+{
+ "t": 1795389177.696464,
+ "time": "2026-11-22 15:12:57",
+ "ok": true,
+ "items": [
+  {
+   "name": "onnxruntime",
+   "state": "ok",
+   "value": "1.24.4 · DirectML folder",
+   "fix_ar": "",
+   "detail": "DmlExecutionProvider, CPUExecutionProvider"
+  },
+  {
+   "name": "eyes_device",
+   "state": "ok",
+   "value": "graphics card: Dml",
+   "fix_ar": "",
+   "detail": ""
+  },
+  {
+   "name": "big_eyes",
+   "state": "ok",
+   "value": "13 ms a picture on dml · accuracy 91.8%",
+   "fix_ar": "",
+   "detail": ""
+  },
+  {
+   "name": "small_eyes",
+   "state": "ok",
+   "value": "5 ms a picture on dml",
+   "fix_ar": "",
+   "detail": ""
+  },
+  {
+   "name": "hand_model",
+   "state": "ok",
+   "value": "accuracy 99.5% · 2 ms for 5 cards",
+   "fix_ar": "",
+   "detail": ""
+  },
+  {
+   "name": "one_look",
+   "state": "ok",
+   "value": "115 ms a moment (8.7 looks a second)",
+   "fix_ar": "",
+   "detail": ""
+  },
+  {
+   "name": "tensorrt",
+   "state": "warn",
+   "value": "being set up / not yet",
+   "fix_ar": "TensorRT بيتجهّز في الخلفية (تحميل كبير) — مش لازم تعمل حاجة",
+   "detail": ""
+  },
+  {
+   "name": "card",
+   "state": "ok",
+   "value": "busy 66% · memory 3485/8188 MB · 70°C",
+   "fix_ar": "",
+   "detail": ""
+  },
+  {
+   "name": "stream",
+   "state": "ok",
+   "value": "32 pictures a second arriving (asked 120)",
+   "fix_ar": "",
+   "detail": ""
+  },
+  {
+   "name": "disk",
+   "state": "ok",
+   "value": "423 GB free",
+   "fix_ar": "",
+   "detail": ""
+  }
+ ],
+ "big_ms": 13.28765000016574,
+ "look_ms": 115.40991000001668,
+ "summary_ar": "⚠ شغال، بس: TensorRT بيتجهّز في الخلفية (تحميل كبير) — مش لازم تعمل حاجة",
+ "bot_version": "6.9.16"
+}
