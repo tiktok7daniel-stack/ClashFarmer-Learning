@@ -1,0 +1,291 @@
+{
+ "capture": 30.6,
+ "look": 87.4,
+ "decide": 7.1,
+ "engine": 2.2,
+ "tap": 2.8,
+ "loop": 128.3,
+ "moments": 1177,
+ "worst_loop_ms": 24640,
+ "plays": 23,
+ "screen_by": "?",
+ "big_model_ms": 62,
+ "engine_on": true,
+ "version": "5.98.0",
+ "seconds": 203,
+ "full_elixir_s": 0,
+ "engine_dropped": 46,
+ "ai": true,
+ "slow": [
+  {
+   "ms": 24640,
+   "capture": 24312,
+   "look": 125,
+   "decide": 110,
+   "engine": 93,
+   "t": 32
+  },
+  {
+   "ms": 1640,
+   "capture": 0,
+   "look": 1640,
+   "decide": 0,
+   "engine": 0,
+   "t": 69
+  },
+  {
+   "ms": 1688,
+   "capture": 0,
+   "look": 1688,
+   "decide": 0,
+   "engine": 0,
+   "t": 129
+  },
+  {
+   "ms": 1719,
+   "capture": 0,
+   "look": 1719,
+   "decide": 0,
+   "engine": 0,
+   "t": 189
+  }
+ ],
+ "plays_list": [
+  {
+   "t": 0.4,
+   "card": "witch",
+   "tile": [
+    6,
+    1
+   ],
+   "why": "AI model: witch (100%, 86% play now)",
+   "el": 7.0
+  },
+  {
+   "t": 2.1,
+   "card": "cannon",
+   "tile": [
+    8,
+    9
+   ],
+   "why": "AI model: cannon (49%, 68% play now)",
+   "el": 7.0
+  },
+  {
+   "t": 31.7,
+   "card": "cannon",
+   "tile": [
+    7,
+    9
+   ],
+   "why": "engine: cannon at (11, 14) is +0.6 elixir vs waiting (31 moves thought through, 80 ms) | c",
+   "el": 8.0
+  },
+  {
+   "t": 33.1,
+   "card": "valkyrie",
+   "tile": [
+    8,
+    10
+   ],
+   "why": "AI model: valkyrie (73%, 77% play now)",
+   "el": 6.0
+  },
+  {
+   "t": 37.2,
+   "card": "the_log",
+   "tile": [
+    4,
+    6
+   ],
+   "why": "AI model: the_log (100%, 89% play now)",
+   "el": 3.0
+  },
+  {
+   "t": 46.1,
+   "card": "valkyrie",
+   "tile": [
+    7,
+    14
+   ],
+   "why": "engine: valkyrie at (7, 14) is +6.3 elixir vs waiting (18 moves thought through, 32 ms)",
+   "el": 4.0
+  },
+  {
+   "t": 59.8,
+   "card": "cannon",
+   "tile": [
+    7,
+    9
+   ],
+   "why": "engine: cannon at (9, 14) is +4.0 elixir vs waiting (18 moves thought through, 41 ms) | ca",
+   "el": 4.0
+  },
+  {
+   "t": 70.2,
+   "card": "cannon",
+   "tile": [
+    9,
+    9
+   ],
+   "why": "AI model: cannon (100%, 92% play now)",
+   "el": 3.0
+  },
+  {
+   "t": 86.2,
+   "card": "valkyrie",
+   "tile": [
+    3,
+    9
+   ],
+   "why": "engine: valkyrie at (3, 13) is +0.9 elixir vs waiting (19 moves thought through, 35 ms)",
+   "el": 4.0
+  },
+  {
+   "t": 102.6,
+   "card": "the_log",
+   "tile": [
+    3,
+    13
+   ],
+   "why": "AI model: the_log (100%, 86% play now)",
+   "el": 4.0
+  },
+  {
+   "t": 106.2,
+   "card": "skeleton_barrel",
+   "tile": [
+    2,
+    10
+   ],
+   "why": "engine: skeleton_barrel best at (2, 12) (-0.6 vs waiting, 7 spots, 18 ms)",
+   "el": 3.0
+  },
+  {
+   "t": 118.5,
+   "card": "cannon",
+   "tile": [
+    9,
+    6
+   ],
+   "why": "engine: cannon at (9, 6) is +1.1 elixir vs waiting (21 moves thought through, 32 ms)",
+   "el": 4.0
+  },
+  {
+   "t": 126.3,
+   "card": "skeleton_barrel",
+   "tile": [
+    2,
+    13
+   ],
+   "why": "AI model: skeleton_barrel (100%, 95% play now)",
+   "el": 4.0
+  },
+  {
+   "t": 132.2,
+   "card": "valkyrie",
+   "tile": [
+    14,
+    9
+   ],
+   "why": "engine: valkyrie at (14, 9) is +2.4 elixir vs waiting (18 moves thought through, 33 ms)",
+   "el": 4.0
+  },
+  {
+   "t": 141.6,
+   "card": "the_log",
+   "tile": [
+    3,
+    13
+   ],
+   "why": "AI model: the_log (100%, 81% play now)",
+   "el": 4.0
+  },
+  {
+   "t": 144.1,
+   "card": "skeleton_barrel",
+   "tile": [
+    2,
+    10
+   ],
+   "why": "AI model: skeleton_barrel (100%, 89% play now)",
+   "el": 3.0
+  },
+  {
+   "t": 150.2,
+   "card": "cannon",
+   "tile": [
+    2,
+    10
+   ],
+   "why": "engine: cannon at (2, 10) is +2.7 elixir vs waiting (19 moves thought through, 49 ms)",
+   "el": 3.0
+  },
+  {
+   "t": 157.1,
+   "card": "goblin_gang",
+   "tile": [
+    6,
+    1
+   ],
+   "why": "AI model: goblin_gang (100%, 92% play now)",
+   "el": 3.0
+  },
+  {
+   "t": 164.2,
+   "card": "valkyrie",
+   "tile": [
+    4,
+    13
+   ],
+   "why": "AI model: valkyrie (100%, 86% play now)",
+   "el": 4.0
+  },
+  {
+   "t": 169.5,
+   "card": "the_log",
+   "tile": [
+    3,
+    13
+   ],
+   "why": "AI model: the_log (100%, 96% play now)",
+   "el": 2.0
+  },
+  {
+   "t": 174.2,
+   "card": "skeleton_barrel",
+   "tile": [
+    2,
+    11
+   ],
+   "why": "AI model: skeleton_barrel (100%, 79% play now)",
+   "el": 3.0
+  },
+  {
+   "t": 186.7,
+   "card": "the_log",
+   "tile": [
+    3,
+    6
+   ],
+   "why": "AI model: the_log (73%, 96% play now)",
+   "el": 6.0
+  },
+  {
+   "t": 198.6,
+   "card": "cannon",
+   "tile": [
+    9,
+    10
+   ],
+   "why": "AI model: cannon (72%, 87% play now)",
+   "el": 6.0
+  }
+ ],
+ "eyes_gpu": true,
+ "eyes_same_moment": false,
+ "engine_why": {
+  "no card ready": 278,
+  "thought": 118
+ }
+}
