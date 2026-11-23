@@ -1,7 +1,7 @@
 {
- "t": 1795435826.5691504,
- "time": "2026-11-23 04:10:26",
- "ok": false,
+ "t": 1795435949.5041595,
+ "time": "2026-11-23 04:12:29",
+ "ok": true,
  "items": [
   {
    "name": "onnxruntime",
@@ -20,28 +20,28 @@
   {
    "name": "big_eyes",
    "state": "ok",
-   "value": "23 ms a picture on dml · accuracy 91.8%",
+   "value": "42 ms a picture on dml · accuracy 91.8%",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "small_eyes",
-   "state": "bad",
-   "value": "347 ms a picture on dml",
+   "state": "ok",
+   "value": "6 ms a picture on dml",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "hand_model",
-   "state": "ok",
-   "value": "accuracy 99.5% · 7 ms for 5 cards",
-   "fix_ar": "",
+   "state": "warn",
+   "value": "not trained / not loaded",
+   "fix_ar": "موديل قراءة الكروت مش موجود — صفحة التدريب ← «درّب العيون»",
    "detail": ""
   },
   {
    "name": "one_look",
    "state": "warn",
-   "value": "166 ms a moment (6.0 looks a second)",
+   "value": "200 ms a moment (5.0 looks a second)",
    "fix_ar": "النظرة الكاملة بطيئة — السبب غالبًا العيون على المعالج أو الكارت مشغول بحاجة تانية (تدريب / برنامج تاني)",
    "detail": ""
   },
@@ -55,15 +55,15 @@
   {
    "name": "card",
    "state": "ok",
-   "value": "busy 31% · memory 2768/8188 MB · 52°C",
+   "value": "busy 29% · memory 3898/8188 MB · 53°C",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "stream",
-   "state": "bad",
-   "value": "0 pictures a second arriving (asked 120)",
-   "fix_ar": "صورة المحاكي بتوصل بطيء — اتأكد إن LDPlayer شغال ومش متصغّر",
+   "state": "ok",
+   "value": "58 pictures a second arriving (asked 120)",
+   "fix_ar": "",
    "detail": ""
   },
   {
@@ -74,8 +74,8 @@
    "detail": ""
   }
  ],
- "big_ms": 23.49652500015509,
- "look_ms": 165.98362000004272,
- "summary_ar": "❌ فيه مشكلة: small_eyes · صورة المحاكي بتوصل بطيء — اتأكد إن LDPlayer شغال ومش متصغّر",
+ "big_ms": 41.55129999981,
+ "look_ms": 199.6795499995642,
+ "summary_ar": "⚠ شغال، بس: موديل قراءة الكروت مش موجود — صفحة التدريب ← «درّب العيون» · النظرة الكاملة بطيئة — السبب غالبًا العيون على المعالج أو الكارت مشغول بحاجة تانية (تدريب / برنامج تاني)",
  "bot_version": "6.9.17"
 }
