@@ -1,7 +1,7 @@
 {
- "t": 1795435949.5041595,
- "time": "2026-11-23 04:12:29",
- "ok": true,
+ "t": 1795436295.3855586,
+ "time": "2026-11-23 04:18:15",
+ "ok": false,
  "items": [
   {
    "name": "onnxruntime",
@@ -19,29 +19,29 @@
   },
   {
    "name": "big_eyes",
-   "state": "ok",
-   "value": "42 ms a picture on dml · accuracy 91.8%",
-   "fix_ar": "",
-   "detail": ""
+   "state": "bad",
+   "value": "error",
+   "fix_ar": "حصل خطأ في العيون الكبيرة",
+   "detail": "[ONNXRuntimeError] : 1 : FAIL : E:\\_work\\1\\s\\onnxruntime\\core\\providers\\dml\\DmlExecutionProvider\\src\\ExecutionProvider.cpp(952)\\onnxruntime_pybind11_state.pyd!00007FF97E25BF06: (caller: 00007FF97E25C930) Exception(22) tid(6124) 887A0005 The GPU device instance has been suspended. Use GetDeviceRemove"
   },
   {
    "name": "small_eyes",
-   "state": "ok",
-   "value": "6 ms a picture on dml",
+   "state": "bad",
+   "value": "798 ms a picture on cpu",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "hand_model",
-   "state": "warn",
-   "value": "not trained / not loaded",
-   "fix_ar": "موديل قراءة الكروت مش موجود — صفحة التدريب ← «درّب العيون»",
+   "state": "ok",
+   "value": "accuracy 99.5% · 95 ms for 5 cards",
+   "fix_ar": "",
    "detail": ""
   },
   {
    "name": "one_look",
-   "state": "warn",
-   "value": "200 ms a moment (5.0 looks a second)",
+   "state": "bad",
+   "value": "3339 ms a moment (0.3 looks a second)",
    "fix_ar": "النظرة الكاملة بطيئة — السبب غالبًا العيون على المعالج أو الكارت مشغول بحاجة تانية (تدريب / برنامج تاني)",
    "detail": ""
   },
@@ -55,14 +55,7 @@
   {
    "name": "card",
    "state": "ok",
-   "value": "busy 29% · memory 3898/8188 MB · 53°C",
-   "fix_ar": "",
-   "detail": ""
-  },
-  {
-   "name": "stream",
-   "state": "ok",
-   "value": "58 pictures a second arriving (asked 120)",
+   "value": "busy 19% · memory 1482/8188 MB · 45°C",
    "fix_ar": "",
    "detail": ""
   },
@@ -74,8 +67,8 @@
    "detail": ""
   }
  ],
- "big_ms": 41.55129999981,
- "look_ms": 199.6795499995642,
- "summary_ar": "⚠ شغال، بس: موديل قراءة الكروت مش موجود — صفحة التدريب ← «درّب العيون» · النظرة الكاملة بطيئة — السبب غالبًا العيون على المعالج أو الكارت مشغول بحاجة تانية (تدريب / برنامج تاني)",
+ "big_ms": null,
+ "look_ms": 3338.7410800001817,
+ "summary_ar": "❌ فيه مشكلة: حصل خطأ في العيون الكبيرة · small_eyes · النظرة الكاملة بطيئة — السبب غالبًا العيون على المعالج أو الكارت مشغول بحاجة تانية (تدريب / برنامج تاني)",
  "bot_version": "6.9.17"
 }
