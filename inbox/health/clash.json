@@ -1,6 +1,6 @@
 {
- "t": 1795440882.4997842,
- "time": "2026-11-23 05:34:42",
+ "t": 1795441146.9931362,
+ "time": "2026-11-23 05:39:06",
  "ok": false,
  "items": [
   {
@@ -22,26 +22,26 @@
    "state": "bad",
    "value": "error",
    "fix_ar": "حصل خطأ في العيون الكبيرة",
-   "detail": "[ONNXRuntimeError] : 1 : FAIL : E:\\_work\\1\\s\\onnxruntime\\core\\providers\\dml\\DmlExecutionProvider\\src\\ExecutionProvider.cpp(952)\\onnxruntime_pybind11_state.pyd!00007FF97E25BF06: (caller: 00007FF97E25C930) Exception(634) tid(6124) 887A0005 The GPU device instance has been suspended. Use GetDeviceRemov"
+   "detail": "[ONNXRuntimeError] : 1 : FAIL : E:\\_work\\1\\s\\onnxruntime\\core\\providers\\dml\\DmlExecutionProvider\\src\\ExecutionProvider.cpp(952)\\onnxruntime_pybind11_state.pyd!00007FF97E25BF06: (caller: 00007FF97E25C930) Exception(670) tid(6124) 887A0005 The GPU device instance has been suspended. Use GetDeviceRemov"
   },
   {
    "name": "small_eyes",
    "state": "bad",
-   "value": "667 ms a picture on cpu",
+   "value": "608 ms a picture on cpu",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "hand_model",
    "state": "ok",
-   "value": "accuracy 99.5% · 70 ms for 5 cards",
+   "value": "accuracy 99.5% · 72 ms for 5 cards",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "one_look",
    "state": "bad",
-   "value": "1449 ms a moment (0.7 looks a second)",
+   "value": "1471 ms a moment (0.7 looks a second)",
    "fix_ar": "النظرة الكاملة بطيئة — السبب غالبًا العيون على المعالج أو الكارت مشغول بحاجة تانية (تدريب / برنامج تاني)",
    "detail": ""
   },
@@ -55,7 +55,7 @@
   {
    "name": "card",
    "state": "ok",
-   "value": "busy 8% · memory 1731/8188 MB · 38°C",
+   "value": "busy 0% · memory 1731/8188 MB · 36°C",
    "fix_ar": "",
    "detail": ""
   },
@@ -68,7 +68,7 @@
   }
  ],
  "big_ms": null,
- "look_ms": 1449.1139999998268,
+ "look_ms": 1470.5567900004098,
  "summary_ar": "❌ فيه مشكلة: حصل خطأ في العيون الكبيرة · small_eyes · النظرة الكاملة بطيئة — السبب غالبًا العيون على المعالج أو الكارت مشغول بحاجة تانية (تدريب / برنامج تاني)",
  "bot_version": "6.9.17"
 }
