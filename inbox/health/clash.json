@@ -1,6 +1,6 @@
 {
- "t": 1795389988.695484,
- "time": "2026-11-22 15:26:28",
+ "t": 1795435747.9808624,
+ "time": "2026-11-23 04:09:07",
  "ok": false,
  "items": [
   {
@@ -20,7 +20,7 @@
   {
    "name": "big_eyes",
    "state": "ok",
-   "value": "32 ms a picture on dml · accuracy 91.8%",
+   "value": "31 ms a picture on dml · accuracy 91.8%",
    "fix_ar": "",
    "detail": ""
   },
@@ -34,28 +34,28 @@
   {
    "name": "hand_model",
    "state": "ok",
-   "value": "accuracy 99.5% · 3 ms for 5 cards",
+   "value": "accuracy 99.5% · 5 ms for 5 cards",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "one_look",
-   "state": "ok",
-   "value": "87 ms a moment (11.4 looks a second)",
-   "fix_ar": "",
+   "state": "bad",
+   "value": "1463 ms a moment (0.7 looks a second)",
+   "fix_ar": "النظرة الكاملة بطيئة — السبب غالبًا العيون على المعالج أو الكارت مشغول بحاجة تانية (تدريب / برنامج تاني)",
    "detail": ""
   },
   {
    "name": "tensorrt",
-   "state": "warn",
-   "value": "being set up / not yet",
-   "fix_ar": "TensorRT بيتجهّز في الخلفية (تحميل كبير) — مش لازم تعمل حاجة",
+   "state": "ok",
+   "value": "ready (trt)",
+   "fix_ar": "",
    "detail": ""
   },
   {
    "name": "card",
    "state": "ok",
-   "value": "busy 12% · memory 1338/8188 MB · 44°C",
+   "value": "busy 5% · memory 1824/8188 MB · 49°C",
    "fix_ar": "",
    "detail": ""
   },
@@ -69,13 +69,13 @@
   {
    "name": "disk",
    "state": "ok",
-   "value": "428 GB free",
+   "value": "432 GB free",
    "fix_ar": "",
    "detail": ""
   }
  ],
- "big_ms": 31.800962499801244,
- "look_ms": 87.36413000005996,
- "summary_ar": "❌ فيه مشكلة: صورة المحاكي بتوصل بطيء — اتأكد إن LDPlayer شغال ومش متصغّر",
+ "big_ms": 31.287499999962165,
+ "look_ms": 1463.4539600003336,
+ "summary_ar": "❌ فيه مشكلة: النظرة الكاملة بطيئة — السبب غالبًا العيون على المعالج أو الكارت مشغول بحاجة تانية (تدريب / برنامج تاني) · صورة المحاكي بتوصل بطيء — اتأكد إن LDPlayer شغال ومش متصغّر",
  "bot_version": "6.9.17"
 }
