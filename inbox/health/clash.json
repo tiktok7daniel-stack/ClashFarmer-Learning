@@ -1,6 +1,6 @@
 {
- "t": 1795435747.9808624,
- "time": "2026-11-23 04:09:07",
+ "t": 1795435826.5691504,
+ "time": "2026-11-23 04:10:26",
  "ok": false,
  "items": [
   {
@@ -20,28 +20,28 @@
   {
    "name": "big_eyes",
    "state": "ok",
-   "value": "31 ms a picture on dml · accuracy 91.8%",
+   "value": "23 ms a picture on dml · accuracy 91.8%",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "small_eyes",
-   "state": "ok",
-   "value": "4 ms a picture on dml",
+   "state": "bad",
+   "value": "347 ms a picture on dml",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "hand_model",
    "state": "ok",
-   "value": "accuracy 99.5% · 5 ms for 5 cards",
+   "value": "accuracy 99.5% · 7 ms for 5 cards",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "one_look",
-   "state": "bad",
-   "value": "1463 ms a moment (0.7 looks a second)",
+   "state": "warn",
+   "value": "166 ms a moment (6.0 looks a second)",
    "fix_ar": "النظرة الكاملة بطيئة — السبب غالبًا العيون على المعالج أو الكارت مشغول بحاجة تانية (تدريب / برنامج تاني)",
    "detail": ""
   },
@@ -55,7 +55,7 @@
   {
    "name": "card",
    "state": "ok",
-   "value": "busy 5% · memory 1824/8188 MB · 49°C",
+   "value": "busy 31% · memory 2768/8188 MB · 52°C",
    "fix_ar": "",
    "detail": ""
   },
@@ -74,8 +74,8 @@
    "detail": ""
   }
  ],
- "big_ms": 31.287499999962165,
- "look_ms": 1463.4539600003336,
- "summary_ar": "❌ فيه مشكلة: النظرة الكاملة بطيئة — السبب غالبًا العيون على المعالج أو الكارت مشغول بحاجة تانية (تدريب / برنامج تاني) · صورة المحاكي بتوصل بطيء — اتأكد إن LDPlayer شغال ومش متصغّر",
+ "big_ms": 23.49652500015509,
+ "look_ms": 165.98362000004272,
+ "summary_ar": "❌ فيه مشكلة: small_eyes · صورة المحاكي بتوصل بطيء — اتأكد إن LDPlayer شغال ومش متصغّر",
  "bot_version": "6.9.17"
 }
