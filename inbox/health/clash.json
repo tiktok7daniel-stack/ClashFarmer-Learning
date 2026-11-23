@@ -1,6 +1,6 @@
 {
- "t": 1795461641.5327446,
- "time": "2026-11-23 11:20:41",
+ "t": 1795461906.4811513,
+ "time": "2026-11-23 11:25:06",
  "ok": false,
  "items": [
   {
@@ -22,26 +22,26 @@
    "state": "bad",
    "value": "error",
    "fix_ar": "حصل خطأ في العيون الكبيرة",
-   "detail": "[ONNXRuntimeError] : 1 : FAIL : E:\\_work\\1\\s\\onnxruntime\\core\\providers\\dml\\DmlExecutionProvider\\src\\ExecutionProvider.cpp(952)\\onnxruntime_pybind11_state.pyd!00007FF97E25BF06: (caller: 00007FF97E25C930) Exception(3442) tid(6124) 887A0005 The GPU device instance has been suspended. Use GetDeviceRemo"
+   "detail": "[ONNXRuntimeError] : 1 : FAIL : E:\\_work\\1\\s\\onnxruntime\\core\\providers\\dml\\DmlExecutionProvider\\src\\ExecutionProvider.cpp(952)\\onnxruntime_pybind11_state.pyd!00007FF97E25BF06: (caller: 00007FF97E25C930) Exception(3478) tid(6124) 887A0005 The GPU device instance has been suspended. Use GetDeviceRemo"
   },
   {
    "name": "small_eyes",
    "state": "bad",
-   "value": "606 ms a picture on cpu",
+   "value": "599 ms a picture on cpu",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "hand_model",
    "state": "ok",
-   "value": "accuracy 99.5% · 80 ms for 5 cards",
+   "value": "accuracy 99.5% · 74 ms for 5 cards",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "one_look",
    "state": "bad",
-   "value": "1452 ms a moment (0.7 looks a second)",
+   "value": "1450 ms a moment (0.7 looks a second)",
    "fix_ar": "النظرة الكاملة بطيئة — السبب غالبًا العيون على المعالج أو الكارت مشغول بحاجة تانية (تدريب / برنامج تاني)",
    "detail": ""
   },
@@ -55,20 +55,20 @@
   {
    "name": "card",
    "state": "ok",
-   "value": "busy 2% · memory 1725/8188 MB · 37°C",
+   "value": "busy 0% · memory 1725/8188 MB · 39°C",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "disk",
    "state": "ok",
-   "value": "447 GB free",
+   "value": "446 GB free",
    "fix_ar": "",
    "detail": ""
   }
  ],
  "big_ms": null,
- "look_ms": 1452.2910600004252,
+ "look_ms": 1450.3898599999957,
  "summary_ar": "❌ فيه مشكلة: حصل خطأ في العيون الكبيرة · small_eyes · النظرة الكاملة بطيئة — السبب غالبًا العيون على المعالج أو الكارت مشغول بحاجة تانية (تدريب / برنامج تاني)",
  "bot_version": "6.9.17"
 }
