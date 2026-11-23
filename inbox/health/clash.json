@@ -1,6 +1,6 @@
 {
- "t": 1795442203.048757,
- "time": "2026-11-23 05:56:43",
+ "t": 1795442468.2905798,
+ "time": "2026-11-23 06:01:08",
  "ok": false,
  "items": [
   {
@@ -22,26 +22,26 @@
    "state": "bad",
    "value": "error",
    "fix_ar": "حصل خطأ في العيون الكبيرة",
-   "detail": "[ONNXRuntimeError] : 1 : FAIL : E:\\_work\\1\\s\\onnxruntime\\core\\providers\\dml\\DmlExecutionProvider\\src\\ExecutionProvider.cpp(952)\\onnxruntime_pybind11_state.pyd!00007FF97E25BF06: (caller: 00007FF97E25C930) Exception(814) tid(6124) 887A0005 The GPU device instance has been suspended. Use GetDeviceRemov"
+   "detail": "[ONNXRuntimeError] : 1 : FAIL : E:\\_work\\1\\s\\onnxruntime\\core\\providers\\dml\\DmlExecutionProvider\\src\\ExecutionProvider.cpp(952)\\onnxruntime_pybind11_state.pyd!00007FF97E25BF06: (caller: 00007FF97E25C930) Exception(850) tid(6124) 887A0005 The GPU device instance has been suspended. Use GetDeviceRemov"
   },
   {
    "name": "small_eyes",
    "state": "bad",
-   "value": "651 ms a picture on cpu",
+   "value": "589 ms a picture on cpu",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "hand_model",
    "state": "ok",
-   "value": "accuracy 99.5% · 84 ms for 5 cards",
+   "value": "accuracy 99.5% · 80 ms for 5 cards",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "one_look",
    "state": "bad",
-   "value": "1392 ms a moment (0.7 looks a second)",
+   "value": "1590 ms a moment (0.6 looks a second)",
    "fix_ar": "النظرة الكاملة بطيئة — السبب غالبًا العيون على المعالج أو الكارت مشغول بحاجة تانية (تدريب / برنامج تاني)",
    "detail": ""
   },
@@ -68,7 +68,7 @@
   }
  ],
  "big_ms": null,
- "look_ms": 1391.671540000243,
+ "look_ms": 1590.4114999997546,
  "summary_ar": "❌ فيه مشكلة: حصل خطأ في العيون الكبيرة · small_eyes · النظرة الكاملة بطيئة — السبب غالبًا العيون على المعالج أو الكارت مشغول بحاجة تانية (تدريب / برنامج تاني)",
  "bot_version": "6.9.17"
 }
