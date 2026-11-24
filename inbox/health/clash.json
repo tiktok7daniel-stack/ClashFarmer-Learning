@@ -1,6 +1,6 @@
 {
- "t": 1795533199.7180362,
- "time": "2026-11-24 07:13:19",
+ "t": 1795533467.693335,
+ "time": "2026-11-24 07:17:47",
  "ok": false,
  "items": [
   {
@@ -22,26 +22,26 @@
    "state": "bad",
    "value": "error",
    "fix_ar": "حصل خطأ في العيون الكبيرة",
-   "detail": "[ONNXRuntimeError] : 1 : FAIL : E:\\_work\\1\\s\\onnxruntime\\core\\providers\\dml\\DmlExecutionProvider\\src\\ExecutionProvider.cpp(952)\\onnxruntime_pybind11_state.pyd!00007FF97E25BF06: (caller: 00007FF97E25C930) Exception(8410) tid(6124) 887A0005 The GPU device instance has been suspended. Use GetDeviceRemo"
+   "detail": "[ONNXRuntimeError] : 1 : FAIL : E:\\_work\\1\\s\\onnxruntime\\core\\providers\\dml\\DmlExecutionProvider\\src\\ExecutionProvider.cpp(952)\\onnxruntime_pybind11_state.pyd!00007FF97E25BF06: (caller: 00007FF97E25C930) Exception(8446) tid(6124) 887A0005 The GPU device instance has been suspended. Use GetDeviceRemo"
   },
   {
    "name": "small_eyes",
    "state": "bad",
-   "value": "588 ms a picture on cpu",
+   "value": "633 ms a picture on cpu",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "hand_model",
    "state": "ok",
-   "value": "accuracy 99.5% · 71 ms for 5 cards",
+   "value": "accuracy 99.5% · 70 ms for 5 cards",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "one_look",
    "state": "bad",
-   "value": "1580 ms a moment (0.6 looks a second)",
+   "value": "1591 ms a moment (0.6 looks a second)",
    "fix_ar": "النظرة الكاملة بطيئة — السبب غالبًا العيون على المعالج أو الكارت مشغول بحاجة تانية (تدريب / برنامج تاني)",
    "detail": ""
   },
@@ -55,7 +55,7 @@
   {
    "name": "card",
    "state": "ok",
-   "value": "busy 0% · memory 543/8188 MB · 39°C",
+   "value": "busy 0% · memory 543/8188 MB · 36°C",
    "fix_ar": "",
    "detail": ""
   },
@@ -68,7 +68,7 @@
   }
  ],
  "big_ms": null,
- "look_ms": 1580.4673600010574,
+ "look_ms": 1590.8853300003102,
  "summary_ar": "❌ فيه مشكلة: حصل خطأ في العيون الكبيرة · small_eyes · النظرة الكاملة بطيئة — السبب غالبًا العيون على المعالج أو الكارت مشغول بحاجة تانية (تدريب / برنامج تاني)",
  "bot_version": "6.9.17"
 }
