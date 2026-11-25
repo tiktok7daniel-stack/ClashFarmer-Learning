@@ -1,0 +1,127 @@
+{
+ "capture": 8.8,
+ "look": 93.3,
+ "decide": 2.7,
+ "engine": 0.5,
+ "tap": 4.1,
+ "loop": 106.5,
+ "moments": 552,
+ "worst_loop_ms": 1703,
+ "plays": 9,
+ "screen_by": "live",
+ "big_model_ms": 63,
+ "engine_on": true,
+ "version": "6.9.34",
+ "seconds": 77,
+ "full_elixir_s": 0,
+ "engine_dropped": 1,
+ "ai": true,
+ "slow": [
+  {
+   "ms": 1703,
+   "capture": 0,
+   "look": 1672,
+   "decide": 31,
+   "engine": 0,
+   "t": 15
+  }
+ ],
+ "plays_list": [
+  {
+   "t": 4.1,
+   "card": "valkyrie",
+   "tile": [
+    14,
+    13
+   ],
+   "why": "AI model: valkyrie (67%, 62% play now) | engine: valkyrie best at (14, 13) (+1.0 vs waitin",
+   "el": 7.0
+  },
+  {
+   "t": 6.1,
+   "card": "skeleton_army",
+   "tile": [
+    3,
+    13
+   ],
+   "why": "AI model: skeleton_army (100%, 95% play now) | engine: skeleton_army best at (3, 13) (-0.3",
+   "el": 3.0
+  },
+  {
+   "t": 9.3,
+   "card": "hog_rider",
+   "tile": [
+    15,
+    13
+   ],
+   "why": "AI model: hog_rider (45%, 56% play now)",
+   "el": 4.0
+  },
+  {
+   "t": 16.5,
+   "card": "the_log",
+   "tile": [
+    14,
+    13
+   ],
+   "why": "AI model: the_log (100%, 68% play now) | engine: the_log best at (14, 13) (+2.4 vs waiting",
+   "el": 2.0
+  },
+  {
+   "t": 42.7,
+   "card": "the_log",
+   "tile": [
+    14,
+    13
+   ],
+   "why": "AI model: the_log (100%, 59% play now)",
+   "el": 2.0
+  },
+  {
+   "t": 51.6,
+   "card": "valkyrie",
+   "tile": [
+    11,
+    5
+   ],
+   "why": "AI model: valkyrie (83%, 86% play now) | engine: valkyrie at (11, 5) is +2.6 elixir vs wai",
+   "el": 4.0
+  },
+  {
+   "t": 59.9,
+   "card": "skeleton_army",
+   "tile": [
+    4,
+    13
+   ],
+   "why": "AI model: skeleton_army (100%, 79% play now) | engine: skeleton_army at (4, 13) is +0.8 el",
+   "el": 3.0
+  },
+  {
+   "t": 62.7,
+   "card": "skeleton_army",
+   "tile": [
+    4,
+    13
+   ],
+   "why": "AI model: skeleton_army (100%, 50% play now) | engine: skeleton_army at (4, 13) is +2.3 el",
+   "el": 3.0
+  },
+  {
+   "t": 68.2,
+   "card": "hog_rider",
+   "tile": [
+    15,
+    13
+   ],
+   "why": "AI model: hog_rider (100%, 95% play now)",
+   "el": 4.0
+  }
+ ],
+ "eyes_gpu": true,
+ "eyes_same_moment": false,
+ "one_detector_looks": 0,
+ "engine_why": {
+  "thought": 10
+ }
+}
