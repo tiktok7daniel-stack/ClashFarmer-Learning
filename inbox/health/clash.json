@@ -1,7 +1,7 @@
 {
- "t": 1795637382.2101004,
- "time": "2026-11-25 12:09:42",
- "ok": false,
+ "t": 1795640906.9798903,
+ "time": "2026-11-25 13:08:26",
+ "ok": true,
  "items": [
   {
    "name": "onnxruntime",
@@ -20,7 +20,7 @@
   {
    "name": "big_eyes",
    "state": "ok",
-   "value": "4 ms a picture on trt · mAP50 91.8%",
+   "value": "11 ms a picture on trt · mAP50 91.8%",
    "fix_ar": "",
    "detail": ""
   },
@@ -34,23 +34,23 @@
   {
    "name": "small_eyes",
    "state": "ok",
-   "value": "5 ms a picture on trt",
+   "value": "13 ms a picture on trt",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "hand_model",
    "state": "ok",
-   "value": "accuracy 99.5% · 7 ms for 5 cards",
+   "value": "accuracy 99.5% · 10 ms for 5 cards",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "one_look",
    "state": "ok",
-   "value": "50 ms a moment (20.1 looks a second)",
+   "value": "136 ms a moment (7.4 looks a second)",
    "fix_ar": "",
-   "detail": "prep 6.2 ms · big 0.1 ms · models 38.3 ms · hand 0.1 ms · track 1.4 ms · total 46.1 ms"
+   "detail": "prep 26.5 ms · big 1.1 ms · models 86 ms · hand 0.2 ms · track 18 ms · total 131.7 ms"
   },
   {
    "name": "tensorrt",
@@ -62,15 +62,15 @@
   {
    "name": "card",
    "state": "ok",
-   "value": "busy 57% · memory 2197/8188 MB · 48°C",
+   "value": "busy 33% · memory 3767/8188 MB · 49°C",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "stream",
-   "state": "bad",
-   "value": "0 pictures a second arriving (asked 120)",
-   "fix_ar": "صورة المحاكي بتوصل بطيء — اتأكد إن LDPlayer شغال ومش متصغّر",
+   "state": "ok",
+   "value": "60 pictures a second arriving (asked 120)",
+   "fix_ar": "",
    "detail": ""
   },
   {
@@ -81,8 +81,8 @@
    "detail": ""
   }
  ],
- "big_ms": 4.033487499782495,
- "look_ms": 49.709620000066934,
- "summary_ar": "❌ فيه مشكلة: صورة المحاكي بتوصل بطيء — اتأكد إن LDPlayer شغال ومش متصغّر",
- "bot_version": "6.9.30"
+ "big_ms": 11.000812500242318,
+ "look_ms": 135.89847999974154,
+ "summary_ar": "⚠ شغال، بس: العيون السريعة (YOLO26) لسه ما اتدربتش — صفحة التدريب ← «درّب العيون» (بيكمّل من مكانه)",
+ "bot_version": "6.9.31"
 }
