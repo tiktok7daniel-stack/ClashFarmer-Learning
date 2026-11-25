@@ -1,7 +1,7 @@
 {
- "t": 1795613278.6742487,
- "time": "2026-11-25 05:27:58",
- "ok": true,
+ "t": 1795616784.6571915,
+ "time": "2026-11-25 06:26:24",
+ "ok": false,
  "items": [
   {
    "name": "onnxruntime",
@@ -20,7 +20,7 @@
   {
    "name": "big_eyes",
    "state": "ok",
-   "value": "22 ms a picture on trt · accuracy 91.8%",
+   "value": "35 ms a picture on cuda · mAP50 91.8%",
    "fix_ar": "",
    "detail": ""
   },
@@ -34,23 +34,23 @@
   {
    "name": "small_eyes",
    "state": "ok",
-   "value": "11 ms a picture on trt",
+   "value": "28 ms a picture on trt",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "hand_model",
    "state": "ok",
-   "value": "accuracy 99.5% · 11 ms for 5 cards",
+   "value": "accuracy 99.5% · 4 ms for 5 cards",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "one_look",
-   "state": "warn",
-   "value": "210 ms a moment (4.8 looks a second)",
-   "fix_ar": "النظرة الكاملة بطيئة — السبب غالبًا العيون على المعالج أو الكارت مشغول بحاجة تانية (تدريب / برنامج تاني)",
-   "detail": ""
+   "state": "ok",
+   "value": "73 ms a moment (13.7 looks a second)",
+   "fix_ar": "",
+   "detail": "prep 11.7 ms · big 0.2 ms · models 61.7 ms · hand 0.1 ms · track 2.4 ms · total 76 ms"
   },
   {
    "name": "tensorrt",
@@ -62,20 +62,27 @@
   {
    "name": "card",
    "state": "ok",
-   "value": "busy 33% · memory 4170/8188 MB · 45°C",
+   "value": "busy 45% · memory 2478/8188 MB · 48°C",
    "fix_ar": "",
+   "detail": ""
+  },
+  {
+   "name": "stream",
+   "state": "bad",
+   "value": "0 pictures a second arriving (asked 120)",
+   "fix_ar": "صورة المحاكي بتوصل بطيء — اتأكد إن LDPlayer شغال ومش متصغّر",
    "detail": ""
   },
   {
    "name": "disk",
    "state": "ok",
-   "value": "441 GB free",
+   "value": "423 GB free",
    "fix_ar": "",
    "detail": ""
   }
  ],
- "big_ms": 22.481062499991822,
- "look_ms": 209.77944999995088,
- "summary_ar": "⚠ شغال، بس: العيون السريعة (YOLO26) لسه ما اتدربتش — صفحة التدريب ← «درّب العيون» (بيكمّل من مكانه) · النظرة الكاملة بطيئة — السبب غالبًا العيون على المعالج أو الكارت مشغول بحاجة تانية (تدريب / برنامج تاني)",
- "bot_version": "6.9.23"
+ "big_ms": 34.76243749992136,
+ "look_ms": 73.05993999980274,
+ "summary_ar": "❌ فيه مشكلة: صورة المحاكي بتوصل بطيء — اتأكد إن LDPlayer شغال ومش متصغّر",
+ "bot_version": "6.9.25"
 }
