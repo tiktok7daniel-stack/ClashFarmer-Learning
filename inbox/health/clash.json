@@ -1,6 +1,6 @@
 {
- "t": 1795645000.476811,
- "time": "2026-11-25 14:16:40",
+ "t": 1795647439.5749104,
+ "time": "2026-11-25 14:57:19",
  "ok": true,
  "items": [
   {
@@ -20,7 +20,7 @@
   {
    "name": "big_eyes",
    "state": "ok",
-   "value": "11 ms a picture on trt · mAP50 91.8%",
+   "value": "36 ms a picture on trt · mAP50 91.8%",
    "fix_ar": "",
    "detail": ""
   },
@@ -34,23 +34,23 @@
   {
    "name": "small_eyes",
    "state": "ok",
-   "value": "13 ms a picture on trt",
+   "value": "11 ms a picture on trt",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "hand_model",
    "state": "ok",
-   "value": "accuracy 99.5% · 13 ms for 5 cards",
+   "value": "accuracy 99.5% · 6 ms for 5 cards",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "one_look",
-   "state": "warn",
-   "value": "173 ms a moment (5.8 looks a second)",
-   "fix_ar": "النظرة الكاملة بطيئة — السبب غالبًا العيون على المعالج أو الكارت مشغول بحاجة تانية (تدريب / برنامج تاني)",
-   "detail": "prep 34.7 ms · big 3 ms · models 140.5 ms · hand 20.2 ms · track 25.4 ms · total 223.8 ms"
+   "state": "ok",
+   "value": "62 ms a moment (16.2 looks a second)",
+   "fix_ar": "",
+   "detail": "prep 16.5 ms · big 0.4 ms · models 43.7 ms · hand 0.2 ms · track 4.3 ms · total 65.1 ms"
   },
   {
    "name": "tensorrt",
@@ -62,20 +62,27 @@
   {
    "name": "card",
    "state": "ok",
-   "value": "busy 6% · memory 4746/8188 MB · 43°C",
+   "value": "busy 31% · memory 3468/8188 MB · 49°C",
+   "fix_ar": "",
+   "detail": ""
+  },
+  {
+   "name": "stream",
+   "state": "ok",
+   "value": "96 pictures a second arriving (asked 120)",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "disk",
    "state": "ok",
-   "value": "423 GB free",
+   "value": "421 GB free",
    "fix_ar": "",
    "detail": ""
   }
  ],
- "big_ms": 10.682399999950576,
- "look_ms": 172.90819000008923,
- "summary_ar": "⚠ شغال، بس: العيون السريعة (YOLO26) لسه ما اتدربتش — صفحة التدريب ← «درّب العيون» (بيكمّل من مكانه) · النظرة الكاملة بطيئة — السبب غالبًا العيون على المعالج أو الكارت مشغول بحاجة تانية (تدريب / برنامج تاني)",
+ "big_ms": 36.357425000005605,
+ "look_ms": 61.757980000038515,
+ "summary_ar": "⚠ شغال، بس: العيون السريعة (YOLO26) لسه ما اتدربتش — صفحة التدريب ← «درّب العيون» (بيكمّل من مكانه)",
  "bot_version": "6.9.34"
 }
