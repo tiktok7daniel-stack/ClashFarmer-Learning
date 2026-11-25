@@ -1,7 +1,7 @@
 {
- "t": 1795616784.6571915,
- "time": "2026-11-25 06:26:24",
- "ok": false,
+ "t": 1795617518.63627,
+ "time": "2026-11-25 06:38:38",
+ "ok": true,
  "items": [
   {
    "name": "onnxruntime",
@@ -20,7 +20,7 @@
   {
    "name": "big_eyes",
    "state": "ok",
-   "value": "35 ms a picture on cuda · mAP50 91.8%",
+   "value": "33 ms a picture on trt · mAP50 91.8%",
    "fix_ar": "",
    "detail": ""
   },
@@ -34,23 +34,23 @@
   {
    "name": "small_eyes",
    "state": "ok",
-   "value": "28 ms a picture on trt",
+   "value": "6 ms a picture on trt",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "hand_model",
    "state": "ok",
-   "value": "accuracy 99.5% · 4 ms for 5 cards",
+   "value": "accuracy 99.5% · 5 ms for 5 cards",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "one_look",
    "state": "ok",
-   "value": "73 ms a moment (13.7 looks a second)",
+   "value": "71 ms a moment (14.2 looks a second)",
    "fix_ar": "",
-   "detail": "prep 11.7 ms · big 0.2 ms · models 61.7 ms · hand 0.1 ms · track 2.4 ms · total 76 ms"
+   "detail": "prep 16.8 ms · big 34 ms · models 10.6 ms · hand 8.7 ms · track 4.2 ms · total 74.4 ms"
   },
   {
    "name": "tensorrt",
@@ -62,15 +62,8 @@
   {
    "name": "card",
    "state": "ok",
-   "value": "busy 45% · memory 2478/8188 MB · 48°C",
+   "value": "busy 8% · memory 2913/8188 MB · 46°C",
    "fix_ar": "",
-   "detail": ""
-  },
-  {
-   "name": "stream",
-   "state": "bad",
-   "value": "0 pictures a second arriving (asked 120)",
-   "fix_ar": "صورة المحاكي بتوصل بطيء — اتأكد إن LDPlayer شغال ومش متصغّر",
    "detail": ""
   },
   {
@@ -81,8 +74,8 @@
    "detail": ""
   }
  ],
- "big_ms": 34.76243749992136,
- "look_ms": 73.05993999980274,
- "summary_ar": "❌ فيه مشكلة: صورة المحاكي بتوصل بطيء — اتأكد إن LDPlayer شغال ومش متصغّر",
+ "big_ms": 33.22840000009819,
+ "look_ms": 70.59482999975444,
+ "summary_ar": "⚠ شغال، بس: العيون السريعة (YOLO26) لسه ما اتدربتش — صفحة التدريب ← «درّب العيون» (بيكمّل من مكانه)",
  "bot_version": "6.9.25"
 }
