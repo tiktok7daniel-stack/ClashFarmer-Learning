@@ -1,0 +1,218 @@
+{
+ "capture": 2.8,
+ "look": 34.7,
+ "decide": 2.9,
+ "engine": 0.5,
+ "tap": 1.6,
+ "loop": 41.5,
+ "moments": 1690,
+ "worst_loop_ms": 109,
+ "plays": 19,
+ "screen_by": "live",
+ "big_model_ms": 18,
+ "engine_on": true,
+ "version": "6.9.29",
+ "seconds": 154,
+ "full_elixir_s": 35,
+ "engine_dropped": 811,
+ "ai": true,
+ "slow": [],
+ "plays_list": [
+  {
+   "t": 4.0,
+   "card": "hog_rider",
+   "tile": [
+    2,
+    13
+   ],
+   "why": "AI model: hog_rider (86%, 51% play now) | engine: hog_rider best at (2, 13) (+0.4 vs waiti",
+   "el": 8.0
+  },
+  {
+   "t": 4.6,
+   "card": "valkyrie",
+   "tile": [
+    3,
+    13
+   ],
+   "why": "AI model: valkyrie (94%, 78% play now) | engine: valkyrie best at (3, 13) (-0.5 vs waiting",
+   "el": 5.0
+  },
+  {
+   "t": 6.2,
+   "card": "skeleton_army",
+   "tile": [
+    3,
+    13
+   ],
+   "why": "AI model: skeleton_army (76%, 68% play now) | engine: skeleton_army best at (3, 13) (-0.7 ",
+   "el": 4.0
+  },
+  {
+   "t": 7.7,
+   "card": "hog_rider",
+   "tile": [
+    2,
+    13
+   ],
+   "why": "AI model: hog_rider (91%, 85% play now) | engine: hog_rider best at (2, 13) (+0.4 vs waiti",
+   "el": 4.0
+  },
+  {
+   "t": 15.4,
+   "card": "valkyrie",
+   "tile": [
+    3,
+    13
+   ],
+   "why": "AI model: valkyrie (65%, 65% play now) | engine: valkyrie best at (3, 13) (-0.5 vs waiting",
+   "el": 4.0
+  },
+  {
+   "t": 26.5,
+   "card": "hog_rider",
+   "tile": [
+    2,
+    13
+   ],
+   "why": "AI model: hog_rider (74%, 61% play now) | engine: hog_rider best at (2, 13) (+0.4 vs waiti",
+   "el": 4.0
+  },
+  {
+   "t": 41.1,
+   "card": "wizard",
+   "tile": [
+    9,
+    9
+   ],
+   "why": "AI model: wizard (38%, 60% play now) | engine: wizard best at (9, 9) (+0.0 vs waiting, 1 s",
+   "el": 5.0
+  },
+  {
+   "t": 50.5,
+   "card": "valkyrie",
+   "tile": [
+    3,
+    13
+   ],
+   "why": "AI model: valkyrie (80%, 74% play now) | engine: valkyrie at (3, 13) is +1.1 elixir vs wai",
+   "el": 6.0
+  },
+  {
+   "t": 52.8,
+   "card": "witch",
+   "tile": [
+    8,
+    10
+   ],
+   "why": "AI model: witch (48%, 77% play now)",
+   "el": 6.0
+  },
+  {
+   "t": 55.0,
+   "card": "skeleton_army",
+   "tile": [
+    4,
+    13
+   ],
+   "why": "AI model: skeleton_army (91%, 78% play now)",
+   "el": 3.0
+  },
+  {
+   "t": 60.4,
+   "card": "hog_rider",
+   "tile": [
+    2,
+    13
+   ],
+   "why": "AI model: hog_rider (97%, 76% play now)",
+   "el": 4.0
+  },
+  {
+   "t": 84.4,
+   "card": "wizard",
+   "tile": [
+    6,
+    1
+   ],
+   "why": "AI model: wizard (43%, 50% play now) | engine: wizard best at (6, 1) (+0.0 vs waiting, 1 s",
+   "el": 8.0
+  },
+  {
+   "t": 128.5,
+   "card": "valkyrie",
+   "tile": [
+    6,
+    1
+   ],
+   "why": "AI model: valkyrie (41%, 97% play now) | engine: valkyrie best at (6, 1) (+0.0 vs waiting,",
+   "el": 10.0
+  },
+  {
+   "t": 134.6,
+   "card": "hog_rider",
+   "tile": [
+    2,
+    13
+   ],
+   "why": "AI model: hog_rider (59%, 96% play now)",
+   "el": 9.0
+  },
+  {
+   "t": 136.1,
+   "card": "witch",
+   "tile": [
+    11,
+    1
+   ],
+   "why": "AI model: witch (18%, 66% play now) | engine: witch best at (11, 1) (+0.0 vs waiting, 1 sp",
+   "el": 7.0
+  },
+  {
+   "t": 137.7,
+   "card": "witch",
+   "tile": [
+    6,
+    1
+   ],
+   "why": "AI model: witch (51%, 73% play now) | engine: witch best at (6, 1) (+0.0 vs waiting, 1 spo",
+   "el": 7.0
+  },
+  {
+   "t": 139.1,
+   "card": "skeleton_army",
+   "tile": [
+    3,
+    8
+   ],
+   "why": "AI model: skeleton_army (64%, 75% play now) | engine: skeleton_army best at (3, 8) (-0.8 v",
+   "el": 4.0
+  },
+  {
+   "t": 142.9,
+   "card": "hog_rider",
+   "tile": [
+    2,
+    13
+   ],
+   "why": "AI model: hog_rider (69%, 71% play now)",
+   "el": 5.0
+  },
+  {
+   "t": 148.9,
+   "card": "wizard",
+   "tile": [
+    9,
+    9
+   ],
+   "why": "AI model: wizard (45%, 62% play now)",
+   "el": 6.0
+  }
+ ],
+ "eyes_gpu": true,
+ "eyes_same_moment": true,
+ "one_detector_looks": 4477,
+ "engine_why": {
+  "thought": 830
+ }
+}
