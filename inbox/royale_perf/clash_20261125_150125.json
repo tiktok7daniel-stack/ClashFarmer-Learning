@@ -1,0 +1,118 @@
+{
+ "capture": 4.7,
+ "look": 85.0,
+ "decide": 3.8,
+ "engine": 0.4,
+ "tap": 1.4,
+ "loop": 95.2,
+ "moments": 908,
+ "worst_loop_ms": 812,
+ "plays": 9,
+ "screen_by": "?",
+ "big_model_ms": 31,
+ "engine_on": true,
+ "version": "6.9.34",
+ "seconds": 112,
+ "full_elixir_s": 0,
+ "engine_dropped": 77,
+ "ai": true,
+ "slow": [],
+ "plays_list": [
+  {
+   "t": 3.3,
+   "card": "valkyrie",
+   "tile": [
+    6,
+    1
+   ],
+   "why": "AI model: valkyrie (85%, 87% play now)",
+   "el": 8.0
+  },
+  {
+   "t": 9.3,
+   "card": "the_log",
+   "tile": [
+    13,
+    13
+   ],
+   "why": "AI model: the_log (100%, 87% play now) | engine: the_log at (13, 13) is +2.3 elixir vs wai",
+   "el": 2.0
+  },
+  {
+   "t": 23.5,
+   "card": "skeleton_army",
+   "tile": [
+    14,
+    13
+   ],
+   "why": "AI model: skeleton_army (100%, 98% play now) | engine: skeleton_army at (14, 13) is +1.0 e",
+   "el": 3.0
+  },
+  {
+   "t": 26.5,
+   "card": "skeleton_army",
+   "tile": [
+    3,
+    13
+   ],
+   "why": "AI model: skeleton_army (100%, defending)",
+   "el": 3.0
+  },
+  {
+   "t": 42.4,
+   "card": "valkyrie",
+   "tile": [
+    14,
+    13
+   ],
+   "why": "AI model: valkyrie (96%, 60% play now) | engine: valkyrie at (14, 13) is +2.0 elixir vs wa",
+   "el": 7.0
+  },
+  {
+   "t": 96.4,
+   "card": "skeleton_army",
+   "tile": [
+    5,
+    3
+   ],
+   "why": "AI model: skeleton_army (100%, 68% play now) | engine: skeleton_army at (5, 3) is +3.7 eli",
+   "el": 3.0
+  },
+  {
+   "t": 98.2,
+   "card": "skeleton_army",
+   "tile": [
+    3,
+    13
+   ],
+   "why": "AI model: skeleton_army (100%, 68% play now) | engine: skeleton_army at (3, 13) is +0.4 el",
+   "el": 3.0
+  },
+  {
+   "t": 100.8,
+   "card": "skeleton_army",
+   "tile": [
+    14,
+    12
+   ],
+   "why": "AI model: skeleton_army (59%, defending) | engine: skeleton_army at (14, 12) is +1.2 elixi",
+   "el": 4.0
+  },
+  {
+   "t": 105.0,
+   "card": "valkyrie",
+   "tile": [
+    12,
+    7
+   ],
+   "why": "AI model: valkyrie (59%, 59% play now)",
+   "el": 4.0
+  }
+ ],
+ "eyes_gpu": true,
+ "eyes_same_moment": false,
+ "one_detector_looks": 0,
+ "engine_why": {
+  "thought": 86
+ }
+}
