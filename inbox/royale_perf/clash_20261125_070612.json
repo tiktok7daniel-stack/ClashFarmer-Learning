@@ -1,0 +1,158 @@
+{
+ "capture": 10.8,
+ "look": 99.7,
+ "decide": 4.7,
+ "engine": 1.1,
+ "tap": 4.0,
+ "loop": 118.2,
+ "moments": 435,
+ "worst_loop_ms": 1562,
+ "plays": 12,
+ "screen_by": "live",
+ "big_model_ms": 47,
+ "engine_on": true,
+ "version": "6.9.27",
+ "seconds": 71,
+ "full_elixir_s": 0,
+ "engine_dropped": 0,
+ "ai": true,
+ "slow": [
+  {
+   "ms": 1562,
+   "capture": 0,
+   "look": 1562,
+   "decide": 0,
+   "engine": 0,
+   "t": 17
+  }
+ ],
+ "plays_list": [
+  {
+   "t": 4.8,
+   "card": "valkyrie",
+   "tile": [
+    14,
+    13
+   ],
+   "why": "AI model: valkyrie (65%, 89% play now) | engine: valkyrie best at (14, 13) (+0.0 vs waitin",
+   "el": 9.0
+  },
+  {
+   "t": 5.4,
+   "card": "witch",
+   "tile": [
+    8,
+    6
+   ],
+   "why": "engine: witch at (8, 6) is +0.5 elixir vs waiting (20 moves thought through, 35 ms)",
+   "el": 6.0
+  },
+  {
+   "t": 6.9,
+   "card": "wizard",
+   "tile": [
+    3,
+    3
+   ],
+   "why": "engine: wizard best at (3, 4) (+0.0 vs waiting, 6 spots, 14 ms)",
+   "el": 5.0
+  },
+  {
+   "t": 8.6,
+   "card": "skeleton_army",
+   "tile": [
+    3,
+    3
+   ],
+   "why": "engine: skeleton_army best at (3, 4) (+0.0 vs waiting, 6 spots, 17 ms)",
+   "el": 3.0
+  },
+  {
+   "t": 11.8,
+   "card": "hog_rider",
+   "tile": [
+    3,
+    13
+   ],
+   "why": "engine: hog_rider best at (3, 4) (+0.0 vs waiting, 8 spots, 20 ms) | hog_rider: attack at ",
+   "el": 4.0
+  },
+  {
+   "t": 23.2,
+   "card": "hog_rider",
+   "tile": [
+    3,
+    13
+   ],
+   "why": "engine: hog_rider best at (3, 4) (+0.0 vs waiting, 8 spots, 28 ms) | hog_rider: attack at ",
+   "el": 4.0
+  },
+  {
+   "t": 28.9,
+   "card": "skeleton_army",
+   "tile": [
+    3,
+    3
+   ],
+   "why": "engine: skeleton_army best at (3, 4) (+0.0 vs waiting, 6 spots, 42 ms)",
+   "el": 3.0
+  },
+  {
+   "t": 34.5,
+   "card": "valkyrie",
+   "tile": [
+    3,
+    3
+   ],
+   "why": "engine: valkyrie best at (3, 4) (+0.0 vs waiting, 6 spots, 19 ms)",
+   "el": 4.0
+  },
+  {
+   "t": 43.0,
+   "card": "skeleton_army",
+   "tile": [
+    3,
+    3
+   ],
+   "why": "engine: skeleton_army best at (3, 4) (+0.0 vs waiting, 6 spots, 27 ms)",
+   "el": 3.0
+  },
+  {
+   "t": 48.6,
+   "card": "hog_rider",
+   "tile": [
+    3,
+    13
+   ],
+   "why": "engine: hog_rider best at (3, 4) (+0.0 vs waiting, 8 spots, 19 ms) | hog_rider: attack at ",
+   "el": 4.0
+  },
+  {
+   "t": 59.7,
+   "card": "hog_rider",
+   "tile": [
+    3,
+    13
+   ],
+   "why": "engine: hog_rider best at (3, 4) (+0.0 vs waiting, 8 spots, 20 ms) | hog_rider: attack at ",
+   "el": 4.0
+  },
+  {
+   "t": 65.2,
+   "card": "skeleton_army",
+   "tile": [
+    14,
+    13
+   ],
+   "why": "AI model: skeleton_army (43%, 53% play now) | engine: skeleton_army best at (14, 13) (+0.0",
+   "el": 3.0
+  }
+ ],
+ "eyes_gpu": true,
+ "eyes_same_moment": false,
+ "one_detector_looks": 0,
+ "engine_why": {
+  "thought": 15,
+  "no card ready": 19
+ }
+}
