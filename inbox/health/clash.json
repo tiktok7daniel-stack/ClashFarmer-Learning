@@ -1,61 +1,75 @@
 {
- "t": 1795585726.739725,
- "time": "2026-11-24 21:48:46",
- "ok": false,
+ "t": 1795605266.265475,
+ "time": "2026-11-25 03:14:26",
+ "ok": true,
  "items": [
   {
    "name": "onnxruntime",
    "state": "ok",
-   "value": "1.24.4 · DirectML folder",
+   "value": "1.22.0 · TensorRT folder",
    "fix_ar": "",
-   "detail": "DmlExecutionProvider, CPUExecutionProvider"
+   "detail": "TensorrtExecutionProvider, CUDAExecutionProvider, CPUExecutionProvider"
   },
   {
    "name": "eyes_device",
    "state": "ok",
-   "value": "graphics card: Dml",
+   "value": "graphics card: Tensorrt, CUDA",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "big_eyes",
-   "state": "bad",
-   "value": "error",
-   "fix_ar": "حصل خطأ في العيون الكبيرة",
-   "detail": "[ONNXRuntimeError] : 1 : FAIL : E:\\_work\\1\\s\\onnxruntime\\core\\providers\\dml\\DmlExecutionProvider\\src\\ExecutionProvider.cpp(952)\\onnxruntime_pybind11_state.pyd!00007FF97E25BF06: (caller: 00007FF97E25C930) Exception(11146) tid(6124) 887A0005 The GPU device instance has been suspended. Use GetDeviceRem"
+   "state": "ok",
+   "value": "40 ms a picture on trt · accuracy 91.8%",
+   "fix_ar": "",
+   "detail": ""
+  },
+  {
+   "name": "fast_eyes",
+   "state": "warn",
+   "value": "not trained yet",
+   "fix_ar": "العيون السريعة (YOLO26) لسه ما اتدربتش — صفحة التدريب ← «درّب العيون» (بيكمّل من مكانه)",
+   "detail": ""
   },
   {
    "name": "small_eyes",
-   "state": "bad",
-   "value": "381 ms a picture on cpu",
+   "state": "ok",
+   "value": "13 ms a picture on trt",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "hand_model",
    "state": "ok",
-   "value": "accuracy 99.5% · 26 ms for 5 cards",
+   "value": "accuracy 99.5% · 9 ms for 5 cards",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "one_look",
-   "state": "bad",
-   "value": "1393 ms a moment (0.7 looks a second)",
-   "fix_ar": "النظرة الكاملة بطيئة — السبب غالبًا العيون على المعالج أو الكارت مشغول بحاجة تانية (تدريب / برنامج تاني)",
+   "state": "ok",
+   "value": "71 ms a moment (14.2 looks a second)",
+   "fix_ar": "",
    "detail": ""
   },
   {
    "name": "tensorrt",
    "state": "ok",
-   "value": "ready (trt)",
+   "value": "ready (trt) — in use",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "card",
    "state": "ok",
-   "value": "busy 0% · memory 454/8188 MB · 29°C",
+   "value": "busy 33% · memory 2645/8188 MB · 53°C",
+   "fix_ar": "",
+   "detail": ""
+  },
+  {
+   "name": "stream",
+   "state": "ok",
+   "value": "24 pictures a second arriving (asked 120)",
    "fix_ar": "",
    "detail": ""
   },
@@ -67,8 +81,8 @@
    "detail": ""
   }
  ],
- "big_ms": null,
- "look_ms": 1393.2555000006687,
- "summary_ar": "❌ فيه مشكلة: حصل خطأ في العيون الكبيرة · small_eyes · النظرة الكاملة بطيئة — السبب غالبًا العيون على المعالج أو الكارت مشغول بحاجة تانية (تدريب / برنامج تاني)",
- "bot_version": "6.9.17"
+ "big_ms": 40.41868749993682,
+ "look_ms": 70.53530000002866,
+ "summary_ar": "⚠ شغال، بس: العيون السريعة (YOLO26) لسه ما اتدربتش — صفحة التدريب ← «درّب العيون» (بيكمّل من مكانه)",
+ "bot_version": "6.9.21"
 }
