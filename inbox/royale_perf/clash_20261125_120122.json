@@ -1,0 +1,108 @@
+{
+ "capture": 2.6,
+ "look": 35.4,
+ "decide": 2.5,
+ "engine": 0.4,
+ "tap": 1.5,
+ "loop": 41.2,
+ "moments": 735,
+ "worst_loop_ms": 63,
+ "plays": 8,
+ "screen_by": "live",
+ "big_model_ms": 22,
+ "engine_on": true,
+ "version": "6.9.29",
+ "seconds": 69,
+ "full_elixir_s": 3,
+ "engine_dropped": 301,
+ "ai": true,
+ "slow": [],
+ "plays_list": [
+  {
+   "t": 4.3,
+   "card": "hog_rider",
+   "tile": [
+    2,
+    13
+   ],
+   "why": "AI model: hog_rider (49%, 63% play now) | engine: hog_rider best at (2, 13) (+0.8 vs waiti",
+   "el": 9.0
+  },
+  {
+   "t": 4.9,
+   "card": "wizard",
+   "tile": [
+    3,
+    13
+   ],
+   "why": "AI model: wizard (70%, 57% play now) | engine: wizard best at (3, 13) (+0.0 vs waiting, 1 ",
+   "el": 5.0
+  },
+  {
+   "t": 6.5,
+   "card": "skeleton_army",
+   "tile": [
+    3,
+    13
+   ],
+   "why": "AI model: skeleton_army (100%, 79% play now) | engine: skeleton_army best at (3, 13) (+0.0",
+   "el": 3.0
+  },
+  {
+   "t": 8.0,
+   "card": "skeleton_army",
+   "tile": [
+    3,
+    13
+   ],
+   "why": "AI model: skeleton_army (100%, 83% play now) | engine: skeleton_army best at (3, 13) (+0.0",
+   "el": 3.0
+  },
+  {
+   "t": 13.1,
+   "card": "valkyrie",
+   "tile": [
+    3,
+    13
+   ],
+   "why": "AI model: valkyrie (88%, 71% play now) | engine: valkyrie best at (3, 13) (+0.0 vs waiting",
+   "el": 4.0
+  },
+  {
+   "t": 26.9,
+   "card": "witch",
+   "tile": [
+    11,
+    6
+   ],
+   "why": "AI model: witch (50%, 72% play now) | engine: witch best at (11, 6) (+0.0 vs waiting, 1 sp",
+   "el": 5.0
+  },
+  {
+   "t": 54.7,
+   "card": "hog_rider",
+   "tile": [
+    15,
+    13
+   ],
+   "why": "AI model: hog_rider (67%, 92% play now)",
+   "el": 10.0
+  },
+  {
+   "t": 57.8,
+   "card": "wizard",
+   "tile": [
+    16,
+    10
+   ],
+   "why": "AI model: wizard (45%, 52% play now) | engine: wizard best at (16, 10) (+0.0 vs waiting, 1",
+   "el": 6.0
+  }
+ ],
+ "eyes_gpu": true,
+ "eyes_same_moment": true,
+ "one_detector_looks": 5168,
+ "engine_why": {
+  "thought": 309
+ }
+}
