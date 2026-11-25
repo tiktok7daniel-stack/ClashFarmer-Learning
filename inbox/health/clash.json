@@ -1,6 +1,6 @@
 {
- "t": 1795617518.63627,
- "time": "2026-11-25 06:38:38",
+ "t": 1795617996.9956374,
+ "time": "2026-11-25 06:46:36",
  "ok": true,
  "items": [
   {
@@ -20,7 +20,7 @@
   {
    "name": "big_eyes",
    "state": "ok",
-   "value": "33 ms a picture on trt · mAP50 91.8%",
+   "value": "17 ms a picture on trt · mAP50 91.8%",
    "fix_ar": "",
    "detail": ""
   },
@@ -34,23 +34,23 @@
   {
    "name": "small_eyes",
    "state": "ok",
-   "value": "6 ms a picture on trt",
+   "value": "7 ms a picture on trt",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "hand_model",
    "state": "ok",
-   "value": "accuracy 99.5% · 5 ms for 5 cards",
+   "value": "accuracy 99.5% · 4 ms for 5 cards",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "one_look",
    "state": "ok",
-   "value": "71 ms a moment (14.2 looks a second)",
+   "value": "71 ms a moment (14.0 looks a second)",
    "fix_ar": "",
-   "detail": "prep 16.8 ms · big 34 ms · models 10.6 ms · hand 8.7 ms · track 4.2 ms · total 74.4 ms"
+   "detail": "prep 17.9 ms · big 0.4 ms · models 50.4 ms · hand 3.9 ms · track 5.3 ms · total 77.9 ms"
   },
   {
    "name": "tensorrt",
@@ -62,7 +62,7 @@
   {
    "name": "card",
    "state": "ok",
-   "value": "busy 8% · memory 2913/8188 MB · 46°C",
+   "value": "busy 16% · memory 2819/8188 MB · 46°C",
    "fix_ar": "",
    "detail": ""
   },
@@ -74,8 +74,8 @@
    "detail": ""
   }
  ],
- "big_ms": 33.22840000009819,
- "look_ms": 70.59482999975444,
+ "big_ms": 17.1452374997898,
+ "look_ms": 71.496660000048,
  "summary_ar": "⚠ شغال، بس: العيون السريعة (YOLO26) لسه ما اتدربتش — صفحة التدريب ← «درّب العيون» (بيكمّل من مكانه)",
  "bot_version": "6.9.25"
 }
