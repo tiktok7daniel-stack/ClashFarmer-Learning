@@ -1,0 +1,81 @@
+{
+ "t": 1795605255.7854142,
+ "time": "2026-11-25 03:14:15",
+ "ok": true,
+ "items": [
+  {
+   "name": "onnxruntime",
+   "state": "ok",
+   "value": "1.22.0 · TensorRT folder",
+   "fix_ar": "",
+   "detail": "TensorrtExecutionProvider, CUDAExecutionProvider, CPUExecutionProvider"
+  },
+  {
+   "name": "eyes_device",
+   "state": "ok",
+   "value": "graphics card: Tensorrt, CUDA",
+   "fix_ar": "",
+   "detail": ""
+  },
+  {
+   "name": "big_eyes",
+   "state": "ok",
+   "value": "33 ms a picture on trt · accuracy 91.8%",
+   "fix_ar": "",
+   "detail": ""
+  },
+  {
+   "name": "fast_eyes",
+   "state": "warn",
+   "value": "not trained yet",
+   "fix_ar": "العيون السريعة (YOLO26) لسه ما اتدربتش — صفحة التدريب ← «درّب العيون» (بيكمّل من مكانه)",
+   "detail": ""
+  },
+  {
+   "name": "small_eyes",
+   "state": "ok",
+   "value": "4 ms a picture on trt",
+   "fix_ar": "",
+   "detail": ""
+  },
+  {
+   "name": "hand_model",
+   "state": "ok",
+   "value": "accuracy 99.5% · 2 ms for 5 cards",
+   "fix_ar": "",
+   "detail": ""
+  },
+  {
+   "name": "one_look",
+   "state": "ok",
+   "value": "31 ms a moment (31.8 looks a second)",
+   "fix_ar": "",
+   "detail": ""
+  },
+  {
+   "name": "tensorrt",
+   "state": "ok",
+   "value": "ready (trt) — in use",
+   "fix_ar": "",
+   "detail": ""
+  },
+  {
+   "name": "card",
+   "state": "ok",
+   "value": "busy 28% · memory 2936/8188 MB · 53°C",
+   "fix_ar": "",
+   "detail": ""
+  },
+  {
+   "name": "disk",
+   "state": "ok",
+   "value": "444 GB free",
+   "fix_ar": "",
+   "detail": ""
+  }
+ ],
+ "big_ms": 33.0104875000643,
+ "look_ms": 31.44017000004169,
+ "summary_ar": "⚠ شغال، بس: العيون السريعة (YOLO26) لسه ما اتدربتش — صفحة التدريب ← «درّب العيون» (بيكمّل من مكانه)",
+ "bot_version": "6.9.21"
+}
