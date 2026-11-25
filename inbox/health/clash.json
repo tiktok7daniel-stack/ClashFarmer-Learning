@@ -1,7 +1,7 @@
 {
- "t": 1795640906.9798903,
- "time": "2026-11-25 13:08:26",
- "ok": true,
+ "t": 1795644549.773515,
+ "time": "2026-11-25 14:09:09",
+ "ok": false,
  "items": [
   {
    "name": "onnxruntime",
@@ -20,7 +20,7 @@
   {
    "name": "big_eyes",
    "state": "ok",
-   "value": "11 ms a picture on trt · mAP50 91.8%",
+   "value": "53 ms a picture on trt · mAP50 91.8%",
    "fix_ar": "",
    "detail": ""
   },
@@ -34,23 +34,23 @@
   {
    "name": "small_eyes",
    "state": "ok",
-   "value": "13 ms a picture on trt",
+   "value": "14 ms a picture on trt",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "hand_model",
    "state": "ok",
-   "value": "accuracy 99.5% · 10 ms for 5 cards",
+   "value": "accuracy 99.5% · 22 ms for 5 cards",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "one_look",
    "state": "ok",
-   "value": "136 ms a moment (7.4 looks a second)",
+   "value": "113 ms a moment (8.8 looks a second)",
    "fix_ar": "",
-   "detail": "prep 26.5 ms · big 1.1 ms · models 86 ms · hand 0.2 ms · track 18 ms · total 131.7 ms"
+   "detail": "prep 25.6 ms · big 0.5 ms · models 78.7 ms · hand 0.2 ms · track 7.5 ms · total 112.6 ms"
   },
   {
    "name": "tensorrt",
@@ -62,27 +62,27 @@
   {
    "name": "card",
    "state": "ok",
-   "value": "busy 33% · memory 3767/8188 MB · 49°C",
+   "value": "busy 22% · memory 2841/8188 MB · 46°C",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "stream",
-   "state": "ok",
-   "value": "60 pictures a second arriving (asked 120)",
-   "fix_ar": "",
+   "state": "bad",
+   "value": "0 pictures a second arriving (asked 120)",
+   "fix_ar": "صورة المحاكي بتوصل بطيء — اتأكد إن LDPlayer شغال ومش متصغّر",
    "detail": ""
   },
   {
    "name": "disk",
    "state": "ok",
-   "value": "424 GB free",
+   "value": "423 GB free",
    "fix_ar": "",
    "detail": ""
   }
  ],
- "big_ms": 11.000812500242318,
- "look_ms": 135.89847999974154,
- "summary_ar": "⚠ شغال، بس: العيون السريعة (YOLO26) لسه ما اتدربتش — صفحة التدريب ← «درّب العيون» (بيكمّل من مكانه)",
- "bot_version": "6.9.31"
+ "big_ms": 52.70701249992271,
+ "look_ms": 113.3550099999411,
+ "summary_ar": "❌ فيه مشكلة: صورة المحاكي بتوصل بطيء — اتأكد إن LDPlayer شغال ومش متصغّر",
+ "bot_version": "6.9.34"
 }
