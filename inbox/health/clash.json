@@ -1,7 +1,7 @@
 {
- "t": 1795612247.041241,
- "time": "2026-11-25 05:10:47",
- "ok": false,
+ "t": 1795612693.0587678,
+ "time": "2026-11-25 05:18:13",
+ "ok": true,
  "items": [
   {
    "name": "onnxruntime",
@@ -20,7 +20,7 @@
   {
    "name": "big_eyes",
    "state": "ok",
-   "value": "51 ms a picture on trt · accuracy 91.8%",
+   "value": "37 ms a picture on trt · accuracy 91.8%",
    "fix_ar": "",
    "detail": ""
   },
@@ -33,22 +33,22 @@
   },
   {
    "name": "small_eyes",
-   "state": "warn",
-   "value": "45 ms a picture on trt",
+   "state": "ok",
+   "value": "13 ms a picture on trt",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "hand_model",
    "state": "ok",
-   "value": "accuracy 99.5% · 11 ms for 5 cards",
+   "value": "accuracy 99.5% · 9 ms for 5 cards",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "one_look",
    "state": "warn",
-   "value": "153 ms a moment (6.5 looks a second)",
+   "value": "174 ms a moment (5.7 looks a second)",
    "fix_ar": "النظرة الكاملة بطيئة — السبب غالبًا العيون على المعالج أو الكارت مشغول بحاجة تانية (تدريب / برنامج تاني)",
    "detail": ""
   },
@@ -62,15 +62,8 @@
   {
    "name": "card",
    "state": "ok",
-   "value": "busy 33% · memory 2608/8188 MB · 45°C",
+   "value": "busy 19% · memory 4071/8188 MB · 47°C",
    "fix_ar": "",
-   "detail": ""
-  },
-  {
-   "name": "stream",
-   "state": "bad",
-   "value": "0 pictures a second arriving (asked 120)",
-   "fix_ar": "صورة المحاكي بتوصل بطيء — اتأكد إن LDPlayer شغال ومش متصغّر",
    "detail": ""
   },
   {
@@ -81,8 +74,8 @@
    "detail": ""
   }
  ],
- "big_ms": 50.80835000012485,
- "look_ms": 153.00962000001164,
- "summary_ar": "❌ فيه مشكلة: صورة المحاكي بتوصل بطيء — اتأكد إن LDPlayer شغال ومش متصغّر",
+ "big_ms": 37.41492499989363,
+ "look_ms": 174.46737999998732,
+ "summary_ar": "⚠ شغال، بس: العيون السريعة (YOLO26) لسه ما اتدربتش — صفحة التدريب ← «درّب العيون» (بيكمّل من مكانه) · النظرة الكاملة بطيئة — السبب غالبًا العيون على المعالج أو الكارت مشغول بحاجة تانية (تدريب / برنامج تاني)",
  "bot_version": "6.9.23"
 }
