@@ -1,6 +1,6 @@
 {
- "t": 1795612693.0587678,
- "time": "2026-11-25 05:18:13",
+ "t": 1795613278.6742487,
+ "time": "2026-11-25 05:27:58",
  "ok": true,
  "items": [
   {
@@ -20,7 +20,7 @@
   {
    "name": "big_eyes",
    "state": "ok",
-   "value": "37 ms a picture on trt · accuracy 91.8%",
+   "value": "22 ms a picture on trt · accuracy 91.8%",
    "fix_ar": "",
    "detail": ""
   },
@@ -34,21 +34,21 @@
   {
    "name": "small_eyes",
    "state": "ok",
-   "value": "13 ms a picture on trt",
+   "value": "11 ms a picture on trt",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "hand_model",
    "state": "ok",
-   "value": "accuracy 99.5% · 9 ms for 5 cards",
+   "value": "accuracy 99.5% · 11 ms for 5 cards",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "one_look",
    "state": "warn",
-   "value": "174 ms a moment (5.7 looks a second)",
+   "value": "210 ms a moment (4.8 looks a second)",
    "fix_ar": "النظرة الكاملة بطيئة — السبب غالبًا العيون على المعالج أو الكارت مشغول بحاجة تانية (تدريب / برنامج تاني)",
    "detail": ""
   },
@@ -62,7 +62,7 @@
   {
    "name": "card",
    "state": "ok",
-   "value": "busy 19% · memory 4071/8188 MB · 47°C",
+   "value": "busy 33% · memory 4170/8188 MB · 45°C",
    "fix_ar": "",
    "detail": ""
   },
@@ -74,8 +74,8 @@
    "detail": ""
   }
  ],
- "big_ms": 37.41492499989363,
- "look_ms": 174.46737999998732,
+ "big_ms": 22.481062499991822,
+ "look_ms": 209.77944999995088,
  "summary_ar": "⚠ شغال، بس: العيون السريعة (YOLO26) لسه ما اتدربتش — صفحة التدريب ← «درّب العيون» (بيكمّل من مكانه) · النظرة الكاملة بطيئة — السبب غالبًا العيون على المعالج أو الكارت مشغول بحاجة تانية (تدريب / برنامج تاني)",
  "bot_version": "6.9.23"
 }
