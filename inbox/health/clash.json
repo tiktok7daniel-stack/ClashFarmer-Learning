@@ -1,6 +1,6 @@
 {
- "t": 1795728601.627697,
- "time": "2026-11-26 13:30:01",
+ "t": 1795729842.636308,
+ "time": "2026-11-26 13:50:42",
  "ok": true,
  "items": [
   {
@@ -20,7 +20,7 @@
   {
    "name": "big_eyes",
    "state": "ok",
-   "value": "21 ms a picture on trt · mAP50 91.8%",
+   "value": "8 ms a picture on trt · mAP50 91.8%",
    "fix_ar": "",
    "detail": ""
   },
@@ -33,24 +33,24 @@
   },
   {
    "name": "small_eyes",
-   "state": "ok",
-   "value": "13 ms a picture on trt",
+   "state": "warn",
+   "value": "47 ms a picture on trt",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "hand_model",
    "state": "ok",
-   "value": "accuracy 99.5% · 13 ms for 5 cards",
+   "value": "accuracy 99.5% · 8 ms for 5 cards",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "one_look",
-   "state": "ok",
-   "value": "83 ms a moment (12.0 looks a second)",
-   "fix_ar": "",
-   "detail": "prep 5.9 ms · big 0.4 ms · models 55.5 ms · hand 0.2 ms · track 13.3 ms · total 75.4 ms"
+   "state": "warn",
+   "value": "159 ms a moment (6.3 looks a second)",
+   "fix_ar": "النظرة الكاملة بطيئة — السبب غالبًا العيون على المعالج أو الكارت مشغول بحاجة تانية (تدريب / برنامج تاني)",
+   "detail": "prep 5.7 ms · big 0.3 ms · models 49.8 ms · hand 11.2 ms · track 9.8 ms · total 76.7 ms"
   },
   {
    "name": "tensorrt",
@@ -62,27 +62,20 @@
   {
    "name": "card",
    "state": "ok",
-   "value": "busy 25% · memory 3053/8188 MB · 49°C",
-   "fix_ar": "",
-   "detail": ""
-  },
-  {
-   "name": "stream",
-   "state": "ok",
-   "value": "60 pictures a second arriving (asked 120)",
+   "value": "busy 67% · memory 4534/8188 MB · 45°C",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "disk",
    "state": "ok",
-   "value": "414 GB free",
+   "value": "417 GB free",
    "fix_ar": "",
    "detail": ""
   }
  ],
- "big_ms": 20.568249999996624,
- "look_ms": 83.4809899999982,
- "summary_ar": "⚠ شغال، بس: العيون السريعة (YOLO26) لسه ما اتدربتش — صفحة التدريب ← «درّب العيون» (بيكمّل من مكانه)",
+ "big_ms": 8.032174999982544,
+ "look_ms": 159.4546900000296,
+ "summary_ar": "⚠ شغال، بس: العيون السريعة (YOLO26) لسه ما اتدربتش — صفحة التدريب ← «درّب العيون» (بيكمّل من مكانه) · small_eyes · النظرة الكاملة بطيئة — السبب غالبًا العيون على المعالج أو الكارت مشغول بحاجة تانية (تدريب / برنامج تاني)",
  "bot_version": "6.9.37"
 }
