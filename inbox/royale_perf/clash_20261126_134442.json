@@ -1,0 +1,148 @@
+{
+ "capture": 5.8,
+ "look": 90.0,
+ "decide": 3.2,
+ "engine": 0.2,
+ "tap": 3.4,
+ "loop": 101.1,
+ "moments": 494,
+ "worst_loop_ms": 218,
+ "plays": 12,
+ "screen_by": "live",
+ "big_model_ms": 38,
+ "engine_on": true,
+ "version": "6.9.37",
+ "seconds": 68,
+ "full_elixir_s": 0,
+ "engine_dropped": 1,
+ "ai": true,
+ "slow": [],
+ "plays_list": [
+  {
+   "t": 4.1,
+   "card": "hog_rider",
+   "tile": [
+    15,
+    13
+   ],
+   "why": "AI model: hog_rider (55%, 78% play now) | engine: hog_rider best at (15, 13) (+0.4 vs wait",
+   "el": 9.0
+  },
+  {
+   "t": 5.7,
+   "card": "hog_rider",
+   "tile": [
+    15,
+    13
+   ],
+   "why": "AI model: hog_rider (83%, 87% play now) | engine: hog_rider best at (15, 13) (+1.4 vs wait",
+   "el": 5.0
+  },
+  {
+   "t": 7.8,
+   "card": "skeleton_army",
+   "tile": [
+    3,
+    13
+   ],
+   "why": "AI model: skeleton_army (11%, 72% play now) | engine: skeleton_army at (3, 13) is +3.8 eli",
+   "el": 3.0
+  },
+  {
+   "t": 9.7,
+   "card": "skeleton_army",
+   "tile": [
+    2,
+    13
+   ],
+   "why": "AI model: skeleton_army (9%, 53% play now) | engine: skeleton_army at (2, 13) is +1.0 elix",
+   "el": 3.0
+  },
+  {
+   "t": 16.0,
+   "card": "valkyrie",
+   "tile": [
+    14,
+    13
+   ],
+   "why": "AI model: valkyrie (36%, 60% play now) | engine: valkyrie best at (14, 13) (-0.5 vs waitin",
+   "el": 4.0
+  },
+  {
+   "t": 21.0,
+   "card": "the_log",
+   "tile": [
+    14,
+    6
+   ],
+   "why": "AI model: the_log (100%, defending)",
+   "el": 2.0
+  },
+  {
+   "t": 32.2,
+   "card": "hog_rider",
+   "tile": [
+    15,
+    13
+   ],
+   "why": "AI model: hog_rider (66%, 83% play now)",
+   "el": 4.0
+  },
+  {
+   "t": 43.5,
+   "card": "valkyrie",
+   "tile": [
+    14,
+    13
+   ],
+   "why": "AI model: valkyrie (75%, 67% play now) | engine: valkyrie at (14, 13) is +2.3 elixir vs wa",
+   "el": 4.0
+  },
+  {
+   "t": 45.2,
+   "card": "skeleton_army",
+   "tile": [
+    14,
+    13
+   ],
+   "why": "AI model: skeleton_army (100%, 67% play now) | engine: skeleton_army at (14, 13) is +2.1 e",
+   "el": 3.0
+  },
+  {
+   "t": 49.0,
+   "card": "valkyrie",
+   "tile": [
+    13,
+    1
+   ],
+   "why": "AI model: valkyrie (98%, 87% play now)",
+   "el": 4.0
+  },
+  {
+   "t": 58.9,
+   "card": "skeleton_army",
+   "tile": [
+    3,
+    13
+   ],
+   "why": "AI model: skeleton_army (18%, defending)",
+   "el": 5.0
+  },
+  {
+   "t": 61.5,
+   "card": "hog_rider",
+   "tile": [
+    2,
+    13
+   ],
+   "why": "AI model: hog_rider (66%, 51% play now)",
+   "el": 4.0
+  }
+ ],
+ "eyes_gpu": true,
+ "eyes_same_moment": true,
+ "one_detector_looks": 3937,
+ "engine_why": {
+  "thought": 13
+ }
+}
