@@ -1,0 +1,118 @@
+{
+ "capture": 5.5,
+ "look": 71.5,
+ "decide": 4.2,
+ "engine": 0.3,
+ "tap": 3.0,
+ "loop": 82.8,
+ "moments": 438,
+ "worst_loop_ms": 344,
+ "plays": 9,
+ "screen_by": "live",
+ "big_model_ms": 30,
+ "engine_on": true,
+ "version": "6.9.37",
+ "seconds": 54,
+ "full_elixir_s": 0,
+ "engine_dropped": 9,
+ "ai": true,
+ "slow": [],
+ "plays_list": [
+  {
+   "t": 4.0,
+   "card": "valkyrie",
+   "tile": [
+    3,
+    13
+   ],
+   "why": "AI model: valkyrie (52%, 61% play now) | engine: valkyrie best at (3, 13) (+0.0 vs waiting",
+   "el": 9.0
+  },
+  {
+   "t": 5.7,
+   "card": "skeleton_army",
+   "tile": [
+    3,
+    13
+   ],
+   "why": "AI model: skeleton_army (50%, 61% play now) | engine: skeleton_army best at (3, 13) (+0.0 ",
+   "el": 5.0
+  },
+  {
+   "t": 7.3,
+   "card": "hog_rider",
+   "tile": [
+    3,
+    13
+   ],
+   "why": "AI model: hog_rider (90%, 94% play now) | engine: hog_rider best at (3, 13) (+0.2 vs waiti",
+   "el": 5.0
+  },
+  {
+   "t": 16.3,
+   "card": "hog_rider",
+   "tile": [
+    2,
+    13
+   ],
+   "why": "AI model: hog_rider (18%, 65% play now) | engine: hog_rider best at (2, 13) (+1.4 vs waiti",
+   "el": 4.0
+  },
+  {
+   "t": 21.0,
+   "card": "skeleton_army",
+   "tile": [
+    3,
+    13
+   ],
+   "why": "AI model: skeleton_army (3%, 69% play now)",
+   "el": 3.0
+  },
+  {
+   "t": 27.1,
+   "card": "valkyrie",
+   "tile": [
+    1,
+    5
+   ],
+   "why": "AI model: valkyrie (51%, 80% play now) | engine: valkyrie best at (1, 5) (+0.0 vs waiting,",
+   "el": 4.0
+  },
+  {
+   "t": 35.1,
+   "card": "skeleton_army",
+   "tile": [
+    3,
+    13
+   ],
+   "why": "AI model: skeleton_army (37%, 56% play now) | engine: skeleton_army best at (3, 13) (+0.0 ",
+   "el": 3.0
+  },
+  {
+   "t": 39.1,
+   "card": "the_log",
+   "tile": [
+    3,
+    17
+   ],
+   "why": "AI model: the_log (100%, 52% play now)",
+   "el": 3.0
+  },
+  {
+   "t": 46.4,
+   "card": "hog_rider",
+   "tile": [
+    2,
+    13
+   ],
+   "why": "AI model: hog_rider (21%, 54% play now) | engine: hog_rider best at (2, 13) (+0.1 vs waiti",
+   "el": 4.0
+  }
+ ],
+ "eyes_gpu": true,
+ "eyes_same_moment": true,
+ "one_detector_looks": 4262,
+ "engine_why": {
+  "thought": 18
+ }
+}
