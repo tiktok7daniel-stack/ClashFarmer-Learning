@@ -1,6 +1,6 @@
 {
- "t": 1795729842.636308,
- "time": "2026-11-26 13:50:42",
+ "t": 1795772154.892684,
+ "time": "2026-11-27 10:35:54",
  "ok": true,
  "items": [
   {
@@ -20,7 +20,7 @@
   {
    "name": "big_eyes",
    "state": "ok",
-   "value": "8 ms a picture on trt · mAP50 91.8%",
+   "value": "11 ms a picture on trt · mAP50 91.8%",
    "fix_ar": "",
    "detail": ""
   },
@@ -33,24 +33,24 @@
   },
   {
    "name": "small_eyes",
-   "state": "warn",
-   "value": "47 ms a picture on trt",
+   "state": "ok",
+   "value": "29 ms a picture on trt",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "hand_model",
    "state": "ok",
-   "value": "accuracy 99.5% · 8 ms for 5 cards",
+   "value": "accuracy 99.5% · 10 ms for 5 cards",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "one_look",
-   "state": "warn",
-   "value": "159 ms a moment (6.3 looks a second)",
-   "fix_ar": "النظرة الكاملة بطيئة — السبب غالبًا العيون على المعالج أو الكارت مشغول بحاجة تانية (تدريب / برنامج تاني)",
-   "detail": "prep 5.7 ms · big 0.3 ms · models 49.8 ms · hand 11.2 ms · track 9.8 ms · total 76.7 ms"
+   "state": "ok",
+   "value": "76 ms a moment (13.2 looks a second)",
+   "fix_ar": "",
+   "detail": "prep 5.9 ms · big 30.7 ms · models 11.7 ms · hand 0.1 ms · track 4.7 ms · total 53.2 ms"
   },
   {
    "name": "tensorrt",
@@ -62,20 +62,27 @@
   {
    "name": "card",
    "state": "ok",
-   "value": "busy 67% · memory 4534/8188 MB · 45°C",
+   "value": "busy 30% · memory 3619/8188 MB · 52°C",
+   "fix_ar": "",
+   "detail": ""
+  },
+  {
+   "name": "stream",
+   "state": "ok",
+   "value": "60 pictures a second arriving (asked 120)",
    "fix_ar": "",
    "detail": ""
   },
   {
    "name": "disk",
    "state": "ok",
-   "value": "417 GB free",
+   "value": "416 GB free",
    "fix_ar": "",
    "detail": ""
   }
  ],
- "big_ms": 8.032174999982544,
- "look_ms": 159.4546900000296,
- "summary_ar": "⚠ شغال، بس: العيون السريعة (YOLO26) لسه ما اتدربتش — صفحة التدريب ← «درّب العيون» (بيكمّل من مكانه) · small_eyes · النظرة الكاملة بطيئة — السبب غالبًا العيون على المعالج أو الكارت مشغول بحاجة تانية (تدريب / برنامج تاني)",
- "bot_version": "6.9.37"
+ "big_ms": 10.508737500003917,
+ "look_ms": 76.030560000072,
+ "summary_ar": "⚠ شغال، بس: العيون السريعة (YOLO26) لسه ما اتدربتش — صفحة التدريب ← «درّب العيون» (بيكمّل من مكانه)",
+ "bot_version": "6.9.45"
 }
