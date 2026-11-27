@@ -1,0 +1,338 @@
+{
+ "capture": 6.1,
+ "look": 77.1,
+ "decide": 4.3,
+ "engine": 0.2,
+ "tap": 3.2,
+ "loop": 89.4,
+ "moments": 1384,
+ "worst_loop_ms": 187,
+ "plays": 31,
+ "screen_by": "live",
+ "big_model_ms": 17,
+ "engine_on": true,
+ "version": "6.9.45",
+ "seconds": 168,
+ "full_elixir_s": 0,
+ "engine_dropped": 23,
+ "ai": true,
+ "slow": [],
+ "plays_list": [
+  {
+   "t": 4.3,
+   "card": "witch",
+   "tile": [
+    6,
+    1
+   ],
+   "why": "AI model: witch (44%, 56% play now) | engine: witch best at (6, 1) (+0.0 vs waiting, 1 spo",
+   "el": 9.0
+  },
+  {
+   "t": 4.9,
+   "card": "hog_rider",
+   "tile": [
+    2,
+    13
+   ],
+   "why": "AI model: hog_rider (96%, 96% play now) | engine: hog_rider at (2, 13) is +0.8 elixir vs w",
+   "el": 5.0
+  },
+  {
+   "t": 10.8,
+   "card": "skeleton_army",
+   "tile": [
+    4,
+    13
+   ],
+   "why": "AI model: skeleton_army (100%, 94% play now) | engine: skeleton_army best at (4, 13) (-0.5",
+   "el": 3.0
+  },
+  {
+   "t": 15.7,
+   "card": "hog_rider",
+   "tile": [
+    2,
+    13
+   ],
+   "why": "AI model: hog_rider (13%, 54% play now) | engine: hog_rider best at (2, 13) (-0.0 vs waiti",
+   "el": 4.0
+  },
+  {
+   "t": 21.2,
+   "card": "skeleton_army",
+   "tile": [
+    3,
+    13
+   ],
+   "why": "AI model: skeleton_army (17%, 71% play now) | engine: skeleton_army at (3, 13) is +0.8 eli",
+   "el": 3.0
+  },
+  {
+   "t": 28.7,
+   "card": "valkyrie",
+   "tile": [
+    3,
+    9
+   ],
+   "why": "AI model: valkyrie (59%, 79% play now) | engine: valkyrie best at (3, 9) (+0.0 vs waiting,",
+   "el": 4.0
+  },
+  {
+   "t": 38.1,
+   "card": "hog_rider",
+   "tile": [
+    15,
+    13
+   ],
+   "why": "AI model: hog_rider (5%, 56% play now) | engine: hog_rider at (15, 13) is +0.8 elixir vs w",
+   "el": 4.0
+  },
+  {
+   "t": 46.5,
+   "card": "skeleton_army",
+   "tile": [
+    14,
+    9
+   ],
+   "why": "AI model: skeleton_army (29%, defending) | engine: skeleton_army best at (14, 9) (+0.0 vs ",
+   "el": 3.0
+  },
+  {
+   "t": 52.2,
+   "card": "hog_rider",
+   "tile": [
+    15,
+    13
+   ],
+   "why": "AI model: hog_rider (25%, 66% play now) | engine: hog_rider at (15, 13) is +1.3 elixir vs ",
+   "el": 4.0
+  },
+  {
+   "t": 57.7,
+   "card": "skeleton_army",
+   "tile": [
+    13,
+    13
+   ],
+   "why": "AI model: skeleton_army (47%, 59% play now)",
+   "el": 3.0
+  },
+  {
+   "t": 63.3,
+   "card": "valkyrie",
+   "tile": [
+    14,
+    3
+   ],
+   "why": "AI model: valkyrie (51%, 70% play now) | engine: valkyrie best at (14, 3) (-0.0 vs waiting",
+   "el": 4.0
+  },
+  {
+   "t": 75.4,
+   "card": "hog_rider",
+   "tile": [
+    15,
+    13
+   ],
+   "why": "AI model: hog_rider (36%, 68% play now) | engine: hog_rider at (15, 13) is +0.8 elixir vs ",
+   "el": 4.0
+  },
+  {
+   "t": 83.0,
+   "card": "skeleton_army",
+   "tile": [
+    14,
+    13
+   ],
+   "why": "AI model: skeleton_army (57%, 56% play now) | engine: skeleton_army best at (14, 13) (+0.0",
+   "el": 3.0
+  },
+  {
+   "t": 91.5,
+   "card": "wizard",
+   "tile": [
+    15,
+    11
+   ],
+   "why": "AI model: wizard (24%, 75% play now) | engine: wizard best at (15, 11) (-0.0 vs waiting, 1",
+   "el": 5.0
+  },
+  {
+   "t": 94.0,
+   "card": "skeleton_army",
+   "tile": [
+    14,
+    11
+   ],
+   "why": "AI model: skeleton_army (6%, 72% play now) | engine: skeleton_army best at (14, 11) (+0.0 ",
+   "el": 3.0
+  },
+  {
+   "t": 97.1,
+   "card": "valkyrie",
+   "tile": [
+    14,
+    11
+   ],
+   "why": "AI model: valkyrie (60%, 60% play now) | engine: valkyrie best at (14, 11) (+0.0 vs waitin",
+   "el": 4.0
+  },
+  {
+   "t": 103.2,
+   "card": "the_log",
+   "tile": [
+    3,
+    13
+   ],
+   "why": "AI model: the_log (100%, 58% play now) | engine: the_log at (3, 13) is +0.7 elixir vs wait",
+   "el": 2.0
+  },
+  {
+   "t": 111.1,
+   "card": "skeleton_army",
+   "tile": [
+    5,
+    6
+   ],
+   "why": "AI model: skeleton_army (100%, 93% play now)",
+   "el": 3.0
+  },
+  {
+   "t": 116.3,
+   "card": "hog_rider",
+   "tile": [
+    3,
+    7
+   ],
+   "why": "AI model: hog_rider (100%, 95% play now)",
+   "el": 4.0
+  },
+  {
+   "t": 120.5,
+   "card": "skeleton_army",
+   "tile": [
+    14,
+    12
+   ],
+   "why": "AI model: skeleton_army (100%, 95% play now) | engine: skeleton_army best at (14, 12) (+0.",
+   "el": 3.0
+  },
+  {
+   "t": 123.5,
+   "card": "valkyrie",
+   "tile": [
+    14,
+    13
+   ],
+   "why": "AI model: valkyrie (100%, 86% play now) | engine: valkyrie at (14, 13) is +1.1 elixir vs w",
+   "el": 4.0
+  },
+  {
+   "t": 129.1,
+   "card": "skeleton_army",
+   "tile": [
+    14,
+    7
+   ],
+   "why": "AI model: skeleton_army (57%, defending) | engine: skeleton_army at (14, 7) is +1.2 elixir",
+   "el": 4.0
+  },
+  {
+   "t": 133.2,
+   "card": "skeleton_army",
+   "tile": [
+    15,
+    13
+   ],
+   "why": "AI model: skeleton_army (54%, defending)",
+   "el": 3.0
+  },
+  {
+   "t": 136.0,
+   "card": "hog_rider",
+   "tile": [
+    15,
+    13
+   ],
+   "why": "AI model: hog_rider (58%, 70% play now) | engine: hog_rider at (15, 13) is +0.6 elixir vs ",
+   "el": 4.0
+  },
+  {
+   "t": 140.2,
+   "card": "skeleton_army",
+   "tile": [
+    15,
+    7
+   ],
+   "why": "AI model: skeleton_army (53%, 57% play now) | engine: skeleton_army at (15, 7) is +3.0 eli",
+   "el": 3.0
+  },
+  {
+   "t": 143.0,
+   "card": "valkyrie",
+   "tile": [
+    15,
+    13
+   ],
+   "why": "AI model: valkyrie (63%, 91% play now) | engine: valkyrie at (15, 13) is +6.4 elixir vs wa",
+   "el": 4.0
+  },
+  {
+   "t": 147.8,
+   "card": "the_log",
+   "tile": [
+    14,
+    13
+   ],
+   "why": "AI model: the_log (100%, defending) | engine: the_log at (14, 13) is +1.4 elixir vs waitin",
+   "el": 3.0
+  },
+  {
+   "t": 150.0,
+   "card": "skeleton_army",
+   "tile": [
+    3,
+    9
+   ],
+   "why": "AI model: skeleton_army (100%, 89% play now) | engine: skeleton_army at (3, 9) is +4.3 eli",
+   "el": 3.0
+  },
+  {
+   "t": 152.8,
+   "card": "hog_rider",
+   "tile": [
+    3,
+    13
+   ],
+   "why": "AI model: hog_rider (100%, 96% play now) | hog_rider: attack at the left bridge | engine: ",
+   "el": 4.0
+  },
+  {
+   "t": 157.0,
+   "card": "skeleton_army",
+   "tile": [
+    4,
+    8
+   ],
+   "why": "AI model: skeleton_army (100%, 88% play now) | engine: skeleton_army at (4, 8) is +5.2 eli",
+   "el": 3.0
+  },
+  {
+   "t": 160.2,
+   "card": "valkyrie",
+   "tile": [
+    14,
+    13
+   ],
+   "why": "AI model: valkyrie (100%, 98% play now) | engine: valkyrie at (14, 13) is +1.5 elixir vs w",
+   "el": 4.0
+  }
+ ],
+ "eyes_gpu": true,
+ "eyes_same_moment": true,
+ "one_detector_looks": 1958,
+ "engine_why": {
+  "thought": 54
+ }
+}
